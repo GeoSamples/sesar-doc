@@ -1,3 +1,24 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/earthchem/sesar-doc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
