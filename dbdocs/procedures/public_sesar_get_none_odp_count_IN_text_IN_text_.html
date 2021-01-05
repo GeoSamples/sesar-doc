@@ -1,0 +1,68 @@
+<HTML>
+<Header>
+<Title>sesar_get_none_odp_count(IN  text, IN  text) - Procedure</Title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<Link href="../css/doc.css" rel="stylesheet" type="text/css">
+</Header>
+<Body>
+<table class="logo">
+<tr>
+<td class="logo">sesardb</td>
+</tr>
+</table>
+<table class="horzMenu">
+<tr>
+<td class="horzMenu"><a class="horzMenu" href="../index.html"> Home</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../tables/index.html">Tables</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../schemas/index.html">Schemas</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../diagrams/index.html">Diagrams</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../foreignKeys/index.html">Foreign Keys</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../indexes/index.html">Indexes</a></td><td class="horzMenuFiller"></td>
+</tr>
+</table>
+<hr>
+<table class="flat">
+<tr class="banner">
+<td class="title_nm">sesar_get_none_odp_count(IN  text, IN  text)</td><td class="watermark_right">(Procedure)</td>
+</tr>
+<tr>
+<td class="key">Name</td><td class="value">sesar_get_none_odp_count(IN  text, IN  text)</td>
+</tr>
+<tr>
+<td class="key">Comment</td><td class="value"> </td>
+</tr>
+<tr>
+<td class="key">Src</td><td class="value">
+<pre>CREATE OR REPLACE FUNCTION sesar_get_none_odp_count(IN "" text, IN "" text) 
+  RETURNS TABLE(t_column_name text, t_count bigint) AS 
+$$
+DECLARE
+p_schema        TEXT := $1;
+p_tabname       TEXT := $2;
+v_sql_statement TEXT;
+
+BEGIN
+
+SELECT STRING_AGG( 'SELECT ''' 
+       || column_name 
+       || ''' as column_name,' 
+       || ' count(' 
+       || column_name 
+       || ')  FROM ' 
+       || table_schema 
+       || '.' 
+       || table_name 
+       || ' where igsn_prefix != ''ODP'' ' 
+         ,' UNION ALL ' ) INTO v_sql_statement
+FROM   information_schema.columns 
+WHERE  table_schema   = p_schema 
+       AND table_name = p_tabname; 
+
+    IF v_sql_statement IS NOT NULL THEN
+     RETURN QUERY EXECUTE   v_sql_statement;
+    END IF;
+END
+$$
+  LANGUAGE plpgsql VOLATILE 
+  COST 100
+  ROWS 1000;</pre>
+</td>
+</tr>
+</table>
+</Body>
+</HTML>
