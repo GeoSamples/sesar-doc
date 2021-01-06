@@ -1,0 +1,11 @@
+# SESAR v.7.4.2 (November 24, 2020)
+1. Enhancement: Clarified instructions for transfer of sample ownership.
+2. Enhancement: Added validations for ‘Relation to Parent’ fields
+3. Enhancement: Updated security features to support https instead of http (including a SSL certificate) for pages which display maps.
+4. Enhancement: Updated validations in administrative tools.
+5. Bug Fix: Web services credentials now support LATIN1 encoding.
+6. Bug Fix: Edit page now allows users to remove parent IGSN from record.
+7. Bug Fix: Corrected error which allowed users to set release date more than 2 years in the future.
+8. Bug Fix: Removed outdated syntax information from error message when resolving an invalid IGSN.
+9. Bug Fix: Removed limitation which prevented acceptance of large scale transfer of samples.
+10. Bug Fix: Resolved issue where resetting password in GeoPass was not propagating to web services.
