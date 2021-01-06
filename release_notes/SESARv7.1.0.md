@@ -1,0 +1,9 @@
+# SESAR v.7.1.0 (January 18, 2018)
+1. New Feature: Users may now set release dates for samples through individual sample registration, batch registration, and through the registration web service.
+2. New Feature: Users may now update release dates for samples by editing individual sample profiles in MySESAR, using the MySESAR batch update functionality, or using the update web service.
+3. New Feature: A new batch registration template can now be downloaded from MySESAR. This new template allows users to specify different release dates for each sample in the template, rather than setting a single release date for all samples in the template. If no release dates are specified, sample metadata will be publicly accessible immediately (recommended).
+4. New Feature: An email notification will now be sent to SESAR users one month before their sample metadata release dates. This email will notify users of the upcoming release dates and recommend steps for editing release dates if desired.
+5. Improvement: The is_private field was deprecated. Previously, metadata accessibility was controlled by both is_private flag and the release date (called publish_date). Now, metadata accessibility is controlled solely by release date.
+6. Improvement: Formatting for dates (e.g., collection date) in batch registration templates has been relaxed. Acceptable date formats now include YYYY-MM-DD and MM/DD/YYYY. Date cells no longer have to be formatted as text.
+7. Improvement: Added documentation to each PHP script.
+8. Bug Fix: Added validation to ensure that collection end date is after collection start date.
