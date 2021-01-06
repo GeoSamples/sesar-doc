@@ -1,0 +1,11 @@
+# SESAR v.6.0 (November 25, 2014)
+1. Improvement of system for added protection against SQL injection attacks.
+2. Improved database to separate uploads from the source tree.
+3. Improved security through added accounts for separate database access.
+4. Improved display of image paths.
+5. Improved admin site messages when registering IGSNs with IGSN handle service.
+6. Bug fix: fixed incorrect display of information in printable label update options and print all labels.
+7. Bug fix: fixed geographic region search failure.
+8. Bug fix: fixed bug in MySESAR search by registration date filter.
+9. Bug fix: fixed missing QR code images in printable labels.
+10. Created scripts for exporting certain information (e.g., in the Person table) to graph databases.
