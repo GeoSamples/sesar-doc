@@ -1,0 +1,21 @@
+# SESAR v.7.4.0 (February 6, 2020)
+1. New Feature: File upload feature implemented. Users may now upload files at one click. Files are limited to the size of 4Mbs. Only three files per IGSN are allowed. Each user code is limited to 1000 files. The feature supports uploading: one file associated with multiple IGSNs; multiple files associated with one IGSN; and multiple files associated with multiple IGSNs
+2. New Feature: Users may now export SESAR sample data for the EarthChem Library templates using the ‘My Sample Group’ feature. Users can export four different groups of sample data: a combined export for Bulk Elemental Analyses/In Situ Mineral or Glass Analyses (EMP)/Bulk Isotope Analyses/In Situ Melt Inclusion Analyses, and individual files for Soil Analyses, Vent Fluids, and Volcanic Gases.
+3. New Feature: Users may now update which image is the primary image from the associated files for an IGSN.
+4. New Feature: Metadata completeness indicators have been added to the sample profile page and the search results page. Icons include Geolocation, Geological Age, Collection Method, Classification, and an indicator for primary image. Icons will be visible when associated metadata fields have been completed.
+5. New Feature: Web services now support publication URL deletion and retrieving an IGSN by sample name for a specific user code.
+6. New Feature: Added a ‘View on Map’ feature which allows users to view catalog search results on a map.
+7. Enhancement: ‘My Sample Group’ page now generates a URL for sharing groups. Users may export sample data for IGSNs in a group to ECL templates.
+8. Enhancement: Extended downloads of large files from the My Samples/Shared Samples pages will now be broken up into multiple CSV files with 5000 samples per file which are then downloaded as a zip file.
+9. Enhancement: Provide recommended archive organization names in search, individual sample registration, and on sample edit page. Search for archive name now case insensitive.
+10. Enhancement: The SESAR Quick Guide has been updated (SESAR Quick Guide v7).
+11. Enhancement: Standardized IGSN landing page URLs in exports, display, printable labels, and in QR Code image.
+12. Enhancement: Added a validation which prevents users from registering a sample name as only a space.
+13. Enhancement: Allow users to edit sample metadata on the same day as the publish date.
+14. Enhancement: Allow users to enter collection dates formatted as YYYY or YYYY-MM in addition to YYYY-MM-DD.
+15. Enhancement: Search queries now ignore space, /, >, -, _ in the ‘Field Program / Cruise’ field.
+16. Bug Fix: Fixed bugs in the primary image thumbnail and URL.
+17. Bug Fix: Fixed a bug where the user requested deletion of a file associated with an IGSN but the file was not removed from the server.
+18. Bug Fix: Fixed a bug in the Search download, My Group export, and My Samples download where downloaded files did not reflect precision information in collection start/end.
+19. Bug Fix: Fixed a bug that when a user changed their password on the GeoPass server, the credential check for the Web Services failed.
+20. Bug Fix: Fixed a bug in the release date validation during the batch upload process.
