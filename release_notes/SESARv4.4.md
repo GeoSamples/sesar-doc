@@ -1,0 +1,8 @@
+# SESAR v4.4 (October 15, 2013)
+1. Filter by IGSN in MySESAR for better sample management.
+2. Customize columns displayed in the MySESAR list view: In MySESAR, a new link for "Add Column(s)" allows users to display additional fields for better sample management.
+3. Customized Label printing: The label printing has been customized so that you can choose which fields to display on the label, including Sample Other Name, Depth (min) and Depth (max), and Collection Date.
+4. Direct links to Sample profile pages in the Downloaded file: Metadata downloads from SESAR now include a hyperlink that leads directly to the sample profile.
+5. Batch Registration improvements: Several improvements include: reformatting of the batch registration template for better readability, improved error checking upon Batch Registration, improved instructions for fixing batch registration template errors, and case insensitivity of controlled vocabularies.
+6. New Developer's Document posted: SESAR webservices API documentation is posted on the IEDA webservices page.
+7. Fixed a bug that did not display or allow editing of Depth (min) and Depth (max) for certain object types.
