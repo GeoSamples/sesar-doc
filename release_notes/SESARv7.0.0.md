@@ -1,0 +1,12 @@
+# SESAR v.7.0.0 (July 26, 2017)
+1. New Feature: Users may now update sample metadata for existing samples in bulk by uploading a batch template, a method that is very similar to the initial batch registration mechanism. Check out this tutorial about the new functionality.
+2. New Feature: Users can now assign IGSNs of up to 32 characters in length (A-Z, 0-9, '-', '.'). The new syntax follows recommendations of the IGSN e.V. at http://igsn.github.io/syntax/. The extended syntax is primarily intended for use by large repositories, where it may be necessary to use hierarchical syntax conventions. However, in consideration of human readability as well as the fact that the IGSN will appear on-line and in print, the IGSN e.V. recommends that the IGSN should be as concise as possible. If you are considering assigning IGSNs to your samples that are longer than 9 characters, please contact info@geosamples.org to discuss.
+3. New Feature: Users can now specify Elevation Unit when registering samples (must be either feet, meters, miles, or kilometers).
+4. New Feature: A Help button has been added to the top row of tabs in MySESAR.
+5. Improvement: A 'Go Back' button has been added to each sample profile page.
+6. Improvement: The initial page users see when they log into MySESAR for the first time was restructured and enhanced with additional help text.
+7. Improvement: On the batch template creator page in MySESAR, selecting either Northing, Easting, or Zone will automatically select the other two choices for inclusion in the downloaded template.
+8. Improvement: The My Account tab in MySESAR has been enhanced to include additional help text and functionalities for user code management.
+9. Bug fix: Parent IGSN validation bug fixed for individual sample registration.
+10. Bug fix: Sample XML schema bug fixed for material validation.
+11. Bug fix: Sample ownership transfer bug fixed for when Geopass ID does not match with the email address specified by the user in the My Account tab of MySESAR.
