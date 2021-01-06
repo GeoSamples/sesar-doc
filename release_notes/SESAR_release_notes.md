@@ -1,14 +1,14 @@
 # SESAR - Release Notes
 Version | Release Date | Summary
 --------|--------------|--------
-[v 3.0.0](https://github.com/earthchem/sesar-doc/new/gh-pages/release_notes.md#version-300) | 2010 | Customizable submission templates, Supplemental files for samples, GeoPass introduction |
-[v 3.8.0](https://github.com/earthchem/sesar-doc/new/gh-pages/release_notes.md#version-380) | February 2012 | Improved Search Interface, QR code introduction, Help with sample registration
-[v 4.1.0](https://github.com/earthchem/sesar-doc/new/gh-pages/release_notes.md#version-410) | January 2013 | Time zone in UTC, Label Printing |
-[v 4.2.0](https://github.com/earthchem/sesar-doc/new/gh-pages/release_notes.md#version-420) | March 2013 | Batch Registration Updates, Enhanced Classification |
-[v 4.3.0](https://github.com/earthchem/sesar-doc/new/gh-pages/release_notes.md#version-430) | July 2013 | Sample Grouping, Batch upload improvements | 
-[v 4.4.0](https://github.com/earthchem/sesar-doc/new/gh-pages/release_notes.md#version-440) | October 2013 | MySESAR updates, Custom label printing |
-[v 4.5.0](https://github.com/earthchem/sesar-doc/new/gh-pages/release_notes.md#version-450) | February 2014 | IGSN deactiviation, Improvements to supplemental file uploads |
-[v 4.6.0](https://github.com/earthchem/sesar-doc/new/gh-pages/release_notes.md#version-460) | May 2014 | New sub-object types available, Bug fixes | 
+[v 3.0.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-300) | 2010 | Customizable submission templates, Supplemental files for samples, GeoPass introduction |
+[v 3.8.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-380) | February 2012 | Improved Search Interface, QR code introduction, Help with sample registration
+[v 4.1.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-410) | January 2013 | Time zone in UTC, Label Printing |
+[v 4.2.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-420) | March 2013 | Batch Registration Updates, Enhanced Classification |
+[v 4.3.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-430) | July 2013 | Sample Grouping, Batch upload improvements | 
+[v 4.4.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-440) | October 2013 | MySESAR updates, Custom label printing |
+[v 4.5.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-450) | February 2014 | IGSN deactiviation, Improvements to supplemental file uploads |
+[v 4.6.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-460) | May 2014 | New sub-object types available, Bug fixes | 
 
 
 ### Version 4.6.0
