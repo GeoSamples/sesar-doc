@@ -1,0 +1,8 @@
+# SESAR v3 (2010)
+1. Create customized templates for submitting metadata of multiple samples.
+2. Register multiple samples online by uploading templates.
+3. Add up to 5 images and other documents to a sample profile.
+4. Add publications to a sample profile.
+5. Control public access to sample metadata (set a 'release' date for samples to become public in the SESAR Sample Catalog).
+6. Transfer samples to a different SESAR user.
+7. Use of GeoPass, a single sign-on authentication system that gives account holders access to multiple data systems (e.g. the Geochemical Resource Library).
