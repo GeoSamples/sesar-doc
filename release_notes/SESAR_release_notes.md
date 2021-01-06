@@ -1,7 +1,7 @@
 # SESAR - Release Notes
 Version | Release Date | Summary
 --------|--------------|--------
-[v 3.0.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-300) | 2010 | Customizable submission templates, Supplemental files for samples, GeoPass introduction |
+[v 3.0.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-300) | 2010 | Customizable submission templates, Supplemental files for samples, GeoPass introduction |
 [v 3.8.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-380) | February 2012 | Improved Search Interface, QR code introduction, Help with sample registration
 [v 4.1.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-410) | January 2013 | Time zone in UTC, Label Printing |
 [v 4.2.0](https://github.com/earthchem/sesar-doc/edit/gh-pages/release_notes/SESAR_release_notes.md#version-420) | March 2013 | Batch Registration Updates, Enhanced Classification |
