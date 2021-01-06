@@ -1,0 +1,3 @@
+# SESAR v.6.4.1 (April 28, 2016)
+1. New Feature: If others have shared permissions with you to view, edit, and/or register sample metadata on their behalf in SESAR, you can now view what permissions you have on the My Account tab in MySESAR.
+2. Improvement: error messages for all SESAR web services were clarified and standardized.
