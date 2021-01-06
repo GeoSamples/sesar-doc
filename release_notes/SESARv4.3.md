@@ -1,0 +1,7 @@
+# SESAR v4.3 (July 22, 2013) 
+1. Sample Grouping: Create, edit, and view customized groups of SESAR samples. There is a new tab in MySESAR called My Groups. Create groups for projects, loan groups, field programs, or funding awards. You can add samples both from your own namespace or from other namespaces. These groups will be saved in your SESAR workspace. To help us guide future development, use the orange feedback tab on the right side of this page to let us know how you intend to use SESAR groups.
+2. Automatic notification of new batch registrations: When you successfully submit a new batch registration template, our data managers are notified immediately. This has improved response time for registration of SESAR batches.
+3. A fix for the Chrome browser now allows negative numbers to be entered into the latitude, longitude, and elevation fields during Individual sample registration.
+4. When entering Geologic Age and Geologic Unit in individual sample registration, non-numeric entries are now allowed.
+5. Sample profiles with release dates in the future can no longer be accessed by the Search IGSN box on the front web page or by direct URL query. A message is displayed that indicates the information is not yet public. Previously, these samples were only excluded from the catalog search.
+6. Batch registrations will not be be uploaded if error messages still exist. The errors must be corrected before the batch can be uploaded.
