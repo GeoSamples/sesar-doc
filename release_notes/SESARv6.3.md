@@ -1,0 +1,11 @@
+# SESAR v.6.3 (July 30, 2015)
+1. New feature: User can set sample metadata to public or private from their MySESAR sample list.
+2. New feature improvement: UTM Zone has been updated to a more popular user syntax - using the zones A-Z instead of N or S.
+3. New feature: The sample profile page is now a RESTful webservice, returning xml or json.
+4. New feature: There is now a webservice to return IGSNs given a latitude-longitude defined polygon.
+5. New feature: There is now a webservice to return IGSNs according to Field Program (e.g., Susquehanna Shale Hills Critical Zone Observatory (CZO))
+6. Improvement: Batch registration template headers are now case insensitive. Although we recommend using the provided template and not editing the column headers, templates that differ only in header capitalization will work.
+7. Improvement: Web service for a given sample now returns a tree structure for parents, siblings, or children samples.
+9. Improvement: Increased the efficiency of IGSN registrations with the GFZ handle registration service. This improves the efficiency of IGSNs being resolvable by URI.
+10. Improvement: Missing metadata about cruise and ship filled in for many ODP samples. 
+11. Bug fix: Printable labels now update fields correctly, 0 depths show up, and blank fields are blank instead of "Not Provided"
