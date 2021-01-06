@@ -1,0 +1,7 @@
+# SESAR v.7.2.2 (November 16, 2018)
+1. Enhancement: Improved validations and error messages related to the fields of Sub-Object Type and Classification. 
+2. Enhancement: Sub-Object Type is now displayed alongside Object Type on all lists, pages, and search results.
+3. Enhancement: Implemeneted a new version (4.0) of web service schema. All related web services such as sample upload, update, and profile retrieve are updated to support the new schema.
+4. Bug Fix: Fixed a bug that caused "Material" or "Classification" fields to be overwritten when not specified in a batch update template or update web service XML file, and backfilled missing values. 
+5. Bug Fix: Fixed a bug that displayed incorrect sample numbers when using the polygon search. 
+6. Bug Fix: Updated JQuery library to use https to avoid sometimes occuring blank pages. 
