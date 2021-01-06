@@ -1,0 +1,8 @@
+# SESAR v4.5 (February 10, 2014)
+1. IGSN deactivation: An IGSN can be deactivated (a.k.a. deleted) by request to the SESAR Admin, when approved, the IGSN no longer shows up in the public search or in the user's MySESAR environment.
+2. Improvements to related file upload: More formats are allowed to upload and be attached to sample profiles: .xls, xlsx, .doc, .docx, .txt, .rtf, .pdf, .ps, .zip, .gz.
+3. Improvement to batch registration template: the template now has alternately colored lines to aid data entry.
+4. Individual Sample Registration form improvement: better validation on latitude/longitude/elevation.
+5. Special characters such as åäö displaying correctly on the Sample profiles now.
+6. Batch registration validation: A recent bug caused by javascript functions or package failure on the Mac Chrome or Safari has been fixed. IGSNs that are not 9 digits are no longer allowed to be uploaded via batch uploader.
+7. Sample deletion request bug fixed and the feature is functional again.
