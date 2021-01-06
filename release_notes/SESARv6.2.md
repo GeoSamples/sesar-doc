@@ -1,0 +1,11 @@
+# SESAR v.6.2 (March 31, 2015)
+1. New feature: additional metadata fields in response to feedback from the Critical Zone Observatory community. New object type "site", fields for UTM coordinates: Easting, Northing, Zone. Vertical datum.
+2. New feature: created classification XML schema file.
+3. New feature: XML Sample Upload Web Service
+4. Improvement: rewrote the xml sample upload service, the new URL is http://app.geosamples.org/webservices/upload.php. New service includes robust validation, definitions, improved error messages, and ISO 8601 date time format.
+5. Improvements: sample edit page URL uses the IGSN instead of internal sample id, improved error messages, robust validation.
+6. Bug fix: individual registration material pull-down menu now properly refreshes upon a change in material to Biology.
+7. Bug fix: several places where "help text" in the entry form would be read in as typed characters has been fixed.
+8. Bug fix: bug related to navigation type and launch platform name not being saved is fixed.
+9. Bug fix: sample edit page, sample subtypes now can be chosen from a pickable list in a popup.
+10. Bug fix: fixed bug when updating classification
