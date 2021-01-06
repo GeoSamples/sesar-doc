@@ -1,0 +1,5 @@
+# SESAR v.5.1 (October 9, 2014)
+1. Improved credentials web service. Improved documentation for the service, including examples.
+2. Improved search by registrant.
+3. Bug fix: fixed empty return result for advanced search by registrant.
+4. Bug fix: fixed display of special symbols in the description field.
