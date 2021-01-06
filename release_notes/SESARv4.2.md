@@ -1,0 +1,10 @@
+# SESAR v4.2 (March 26, 2013)
+1. Collection Time is read in from the batch registration sheet in the format HH:MM:SS UTC. See the SESAR Quick Guide for more information.
+2. Classification search is enhanced to now return all hierarchically-lower categories in addition to the category itself. e.g. A search for "Igneous>Volcanic" will return "Igneous>Volcanic>Mafic", "Igneous>Volcanic>Intermediate" and "Igneous>Volcanic>Felsic" as well.
+3. More information (Material and Classification) is shown in the list view of MySESAR and search results.
+4. The Map Search has been updated to correctly return results by both map polygon and user-entered N-S-E-W bounding values.
+5. Private samples are now linked correctly to the detailed sample profile from MySESAR.
+6. Individual batch registration hover-over definitions are properly aligned.
+7. Individual batch registration "Ready?" button at the bottom of the webform directs to the correct sample profile display instead of a blank page.
+8. The primary image thumbnail of a sample correctly displays at the top of the sample profile.
+9. IGSN case insensitivity is correctly deployed to more features in SESAR. (If you previously had any lowercase IGSNs, please contact info@geosamples.org if you have questions.)
