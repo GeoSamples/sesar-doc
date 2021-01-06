@@ -1,0 +1,8 @@
+# SESAR v3.8 (February, 2012)
+1. Improved Search Interface: The Advanced Settings panel now auto-completes searches for Registrant, Collector, Archive, Field Program/Cruise, Platform Name, and Collection Method. In addition, by clicking View list, the user can view all possible entries that exist in SESAR. There is a new option to search by registration date of the sample.
+2. QR code has replaced the barcode: On the sample profile, the barcode has been replaced with a 2-D QR (quick response) code. This QR code, if snapped with a QR reader (for example, on smartphones), will resolve to the URL of the sample profile.
+3. New metadata fields: New metadata fields, have been added to the Sample Profile: Launch, Launch Type, Launch ID, Navigation Type, Purpose. See their definitions on the vocabulary page.
+4. Download complete metadata option: You can now download the complete metadata list from MySESAR and search results. Just click “Download extended list”
+5. More help with sample registration: More information has been added to help you to register samples, suggested and controlled vocabulary lists are posted on the help page. Please visit: http://www.geosamples.org/help.
+6. The IGSN Search box on the upper-right hand corner of the SESAR home page returns existing samples only, not empty profiles.
+7. The Download Sample List option in MySESAR and on search result pages can now download more than 100 samples.
