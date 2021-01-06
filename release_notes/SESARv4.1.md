@@ -1,0 +1,5 @@
+# SESAR v4.1 (January 14, 2013)
+1. Time zone display is now in UTC (Universal Time Coordinated). The display on sample profile pages follows ISO-8601.
+2. Label printing is implemented in MySESAR. Users have the option to select certain samples and print labels for them. More information here.
+3. Batch registration template Quick Guide instructions are now included with each new download of a Batch Registration Template.
+4. The sample delete button at the bottom of a user's sample profiles now leads to the correct page for requesting sample delete.
