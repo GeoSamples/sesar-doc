@@ -1,0 +1,18 @@
+# SESAR v.6.4 beta (March 11, 2016)
+1. New Feature: If they own more than one namespace, SESAR users can now choose which namespace to use as prefix for IGSNs when they upload a batch registration template.
+2. New Feature: a new field for users to specify sample other names has been added.
+3. New Feature: users may now specify ORCID numbers in their account profile.
+4. New Feature: there is now the option to contact the owner of a sample at the bottom of each public sample metadata profile.
+5. New Feature: users can now filter samples by user code in MySESAR.
+6. New Feature: SESAR users can now assign permissions to others to view, edit, and/or register sample metadata on their behalf. This substantial new functionality is described in more detail here.
+7. New feature: a new sample metadata update web service now exists for updating sample metadata in bulk programmatically.
+8. New Feature: a new web feature service provides access to the core metadata for top level samples.
+9. New Feature: a new web map service provides the distribution map of top level samples in SESAR.
+10. Improvement: error messages in single sample registration are now more clear and specific.
+11. Improvement: the performance of the sample upload web service has been improved, greatly reducing the time necessary to register samples.
+12. Improvement: the date string on printed labels and in sample profiles now reflects precision as indicated in the collection date precision field.
+13. Improvement: the speed of page loading in MySESAR has been improved.
+14. Improvement: downloading large amounts of sample metadata has now been streamlined. Metadata are now written out into CSV files with metadata for 5000 samples each.
+15. Improvement: SESAR users can now run multiple searches of the SESAR catalog concurrently in multiple tabs.
+16. Improvement: SESAR samples can now be discovered through the IEDA Data Browser. Once a user selects samples of interest, he/she can click "Explore", which will take the user to the SESAR catalog to further define search criteria.
+17. Bug Fix: pagination for samples from a particular cruise has been improved. By default, 25 samples will be shown per page, with the option to show less or all per page.
