@@ -1,0 +1,9 @@
+# SESAR v.4.6 (May 27, 2014)
+1. New sub-object types available nested under Individual Sample including bead, chemical fraction, cube, culture, cylinder, mechanical fraction, powder, slab, smear, specimen, squeeze cake, thin section, toothpick, U-channel and wedge.
+2. Support for a new printable label format, (Cryotags from Electron Microscopy Sciences, 77565-W).
+3. In batch registration, users may assign IGSNs with any of their namespaces (previously, only the primary namespace was allowed).
+4. Bug fix: Latitude end and longitude end now show up on the Edit page for dredge samples.
+5. Bug fix: Special symbols for Sample Type and Classification validation fixed, now allowing "Liquid>aqueous" in batch registration.
+6. Batch registration upload and preview functions have improved performance.
+7. Improvement: Data model now allows different URL link types including DOI.
+8. Transition to new IGSN architecture: new checking procedures ensure that user codes and IGSNs are not duplicated in the growing number of IGSN allocating agents.
