@@ -1,0 +1,11 @@
+# SESAR v.7.4.1 (July 27, 2020)
+1. New Feature: Added JSON-LD (a format for machine to machine communication) into the HTML header for SESAR sample profile pages. You can read about the role of JSON-LD in the IGSN ecosystem here.
+2. New Feature: Created sitemaps for SESAR’s top level IGSNs. To be used in conjunction with the JSON-LD.
+3. New Feature: A REST API endpoint has been deployed to support the registration of IGSNs in SESAR. Documentation can be found here.
+4. Enhancement: A latitude and longitude display has been added to our map search feature. As your mouse moves over the map, the latitude and longitude of the location you hover above is displayed at the bottom of the map.
+5. Enhancement: The confirmation message displayed to users after submitting a batch registration has been updated.
+6. Bug Fix: Fixed a bug in the batch registration process which caused a failure based on the cell formatting of the date fields in EXCEL.
+7. Bug Fix: Fixed a bug in the map projection.
+8. Bug Fix: Fixed a bug in the web services. The URL validation was failing if there were multiple redirects for a DOI.
+9. Bug Fix: Fixed a bug in the image upload tool that allowed uploads of files which exceed our storage limits. Clarifications were made to the text associated with the tool.
+10. Database Improvements: the SESAR database was migrated to a new server.
