@@ -1,0 +1,20 @@
+# SESAR v.6.1 (February 20, 2015)
+1. Added option for users to toggle samples as public or private from the Sample Edit page.
+2. Improved the SESAR upload XML schema file to have more comments.
+3. Improved the map projection for better display in the polar regions.
+4. Improved the collection date precision validation.
+5. Improved the notification of data managers when new namespaces are used for the first time.
+6. Improved the label generation: blank spaces allowed on the labels for writing in information instead of "Not Provided"
+7. Improved the SESAR API search to handle 5-digit namespaces.
+8. Improved the display of cruise information for linked cruises.
+9. Improved instructions for deleting multiple samples.
+10. Improved downloaded spreadsheets to all have URL links to the sample profiles.
+11. Standardized the IGSN sample link URLs within SESAR.
+12. Added new materials - Ice and Synthetic.
+13. Added new classification: Macrobiology>Coral.
+14. Bug fix: Web Services, fixed bug where whitespace before IGSN would create error. 
+15. Bug fix: Web Services, fixed bug of incorrect error message when IGSN already exists.
+16. Bug fix: Web Services, improved the error message when no login or password was entered.
+17. Bug fix: Web Services, improvement so that the "less than" symbol no longer causes an XML Parsing Error.
+18. Bug fix: validation of data in batch registrations now checks the entire batch.
+19. Bug fix: reimplemented the generation of PostGIS location information upon batch registration.
