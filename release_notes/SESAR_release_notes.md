@@ -1,6 +1,6 @@
 # SESAR - Release Notes
-Version | Release Date | Summary
---------|--------------|--------
+Version | Release Date | Summary | 
+--------|--------------|-------- | 
 [v 7.4.2](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-742) | November 2020 | Update of security features, Bug fixes | 
 [v 7.4.1](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-741) | July 2020 | Implementation of JSON-D, Bug fixes | 
 [v 7.4.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-740) | February 2020 | Many new features, Bug fixes | 
