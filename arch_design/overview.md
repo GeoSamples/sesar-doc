@@ -10,6 +10,7 @@
 
 ## Sample metadata curation process
 The detail document below outlines the sample metadata curation process.
+
 [SESAR Data Curation Workflow](https://docs.google.com/document/d/1-3yU1fKq2T2wX3WkrrJ8lv6Wmrzhpi4-3fz2WvxntrQ).
 
 ## SESAR Sample Registration Web Application
