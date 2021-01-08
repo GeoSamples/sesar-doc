@@ -1,7 +1,8 @@
 # SESAR server architecture
+## SESAR Infrastructure Architecture
 ![SESAR Server Architecture Diagram](https://github.com/earthchem/sesar-doc/blob/gh-pages/arch_design/SESARServerArchitectureDesign.png)
 
-## SESAR Data Flow
+## SESAR System Data Flow
 ![SESAR Data Flow Diagram](https://github.com/iedadata/sesar/blob/master/htmldocs/SESARRegistrationDataFlowDiagram0.png)
 ![SESAR Data Flow Diagram](https://github.com/iedadata/sesar/blob/master/htmldocs/SESARRegistrationDataFlowDiagram.png)
 
