@@ -1,0 +1,26 @@
+- page: index
+  title: Home
+
+- page: 
+  title: System Requirements
+
+- page: arch_design/overview
+  title: Architecture Design
+
+- page: 
+  title: PHP Web Services API
+
+- page: https://api.geosamples.org/swagger-ui.html#
+  title: REST API (Beta 1)
+
+- page: web_services/overview
+  title: Web Services User Communities
+
+- page: ogc_wxs
+  title: GeoServer WMS and WFS
+  
+- page: release_notes
+  title: Release Notes
+
+- page: contact
+  title: Contact
