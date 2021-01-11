@@ -1,26 +1,26 @@
-- page: index
+- page: /sesar-doc/index
   title: Home
 
-- page: 
+- page: /sesar-doc/
   title: System Requirements
 
-- page: /arch_design/overview
+- page: /sesar-doc/arch_design/overview
   title: Architecture Design
 
-- page: 
+- page: /sesar-doc/
   title: PHP Web Services API
 
 - page: https://api.geosamples.org/swagger-ui.html#
   title: REST API (Beta 1)
 
-- page: /web_services/overview
+- page: /sesar-doc/web_services/overview
   title: Web Services User Communities
 
-- page: /ogc_wxs
+- page: /sesar-doc/ogc_wxs/
   title: GeoServer WMS and WFS
   
-- page: /release_notes/SESAR_release_notes
+- page: /sesar-doc/release_notes/SESAR_release_notes
   title: Release Notes
 
-- page: contact
+- page: /sesar-doc/
   title: Contact
