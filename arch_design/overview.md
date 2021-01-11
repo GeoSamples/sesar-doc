@@ -3,7 +3,7 @@
 ![SESAR Server Architecture Diagram](https://github.com/earthchem/sesar-doc/blob/gh-pages/arch_design/SESARServerArchitectureDesign.png)
 
 ## SESAR System Data Flow
-![SESAR Data Flow Diagram](https://github.com/iedadata/sesar/blob/master/htmldocs/SESARRegistrationDataFlowDiagram0.png)
+![SESAR Data Flow Diagram](https://github.com/iedadata/sesar/blob/master/htmldocs/SESARRegistrationDataFlowDiagram0.png?raw=true)
 ![SESAR Data Flow Diagram](https://github.com/iedadata/sesar/blob/master/htmldocs/SESARRegistrationDataFlowDiagram.png)
 
 ## SESAR Sample Registration Work Flow
