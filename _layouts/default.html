@@ -65,7 +65,15 @@ body {
           <div class="row">
             <div class="col-sm-3">
               <section id="sidebar" class="">
-              [ Sidebar ]
+                <ul>
+                {% for link in site.data.sidebar %}
+                  <li>
+                    <a href="{{ site.github.repository_url }}/{{ link.page }}">
+                      {{ link.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+                </ul>
               </section>
             </div>
             <div class="col-sm-9">
