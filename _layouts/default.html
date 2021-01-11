@@ -67,7 +67,7 @@ body {
               <section id="sidebar" class="">
                 <div id="main_left_sidebar" class="list-group">
                 {% for link in site.data.sidebar.left_sidebar %}
-                    <a href="/sesar-doc/{{ link.page }}" class="list-group-item list-group-item-action">
+                    <a href="{{ link.page }}" class="list-group-item list-group-item-action">
                       {{ link.title }}
                     </a>
                 {% endfor %}
