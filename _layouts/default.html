@@ -66,7 +66,7 @@ body {
             <div class="col-sm-3">
               <section id="sidebar" class="">
                 <ul>
-                {% for link in site.data.sidebar %}
+                {% for link in site.data.sidebar.left_sidebar %}
                   <li>
                     <a href="{{ site.github.repository_url }}/{{ link.page }}">
                       {{ link.title }}
