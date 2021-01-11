@@ -65,10 +65,10 @@ body {
           <div class="row">
             <div class="col-sm-3">
               <section id="sidebar" class="">
-                <ul>
+                <ul class="list-group">
                 {% for link in site.data.sidebar.left_sidebar %}
-                  <li>
-                    <a href="{{ site.github.repository_url }}/{{ link.page }}">
+                  <li class="list-group-item">
+                    <a href="/{{ link.page }}">
                       {{ link.title }}
                     </a>
                   </li>
