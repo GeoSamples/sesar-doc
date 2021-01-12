@@ -1,3 +1,9 @@
+---
+name: sample_profile_for_specific_IGSN
+title: Sample Profile for specific IGSN
+date: 01/12/2020
+---
+
 # Sample Profile for specific IGSN
 - The end point is https://app.geosamples.org/sample/igsn or The old end point is https://app.geosamples.org/webservices/display.php
 - Usage: https://app.geosamples.org/sample/igsn/XXXXXXXXX

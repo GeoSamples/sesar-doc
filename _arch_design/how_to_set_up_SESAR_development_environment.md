@@ -1,5 +1,10 @@
-This document describes how to set up SESAR on a developer's local system (Ubuntu 11.10 to 14.01 LTE) for development purpose.
+---
+name: how_to_set_up_SESAR_development_environment
+title: How to Set Up SESAR Development Environment
+date: 01/12/2020
+---
 
+This document describes how to set up SESAR on a developer's local system (Ubuntu 11.10 to 14.01 LTE) for development purpose.
 
 ## 1.SESAR requires PHP5 installed. Several extensions are also required.
 * sudo yum install apt-get
@@ -21,7 +26,6 @@ This document describes how to set up SESAR on a developer's local system (Ubunt
 * sudo apt-get install libapache2-mod-php5
 * sudo /etc/init.d/apache2 restart
 
-
 ## 3. If the system clock is not update right, do the following.
 
 * usermod \-a \-G apache nobody
@@ -42,7 +46,6 @@ date.timezone = "America/New_York"
 ```
 
 ## 5. Check out SESAR source code at $HOME directory.
-
 
 * -svn co- -[http://svn.geoinfogeochem.org/svn/prod/sesarv3/trunk/]- -sesar3-
 * At your home directory, 

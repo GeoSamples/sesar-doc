@@ -1,3 +1,9 @@
+---
+name: delete_a_related_url_for_a_specific_igsn
+title: Delete a related URL for a specific IGSN (NEW)
+date: 01/12/2020
+---
+
 # Delete a related URL for a specific IGSN (NEW)
 - The web service https://app.geosamples.org/webservices/deletePutURL.php allows the client program to delete a URL that is associated with an IGSN.
 - It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.

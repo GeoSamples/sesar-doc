@@ -1,3 +1,9 @@
+---
+name: igsn_list_for_geospatial_polygon
+title: IGSN list for a geospatial polygon
+date: 01/12/2020
+---
+
 # IGSN list for a geospatial polygon
 - The end point is https://app.geosamples.org/samples/polygon
 - Usage: https://app.geosamples.org/samples/polygon/[lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1,lat1].

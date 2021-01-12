@@ -1,3 +1,10 @@
+---
+name: igsn_for_specific_field_program
+title: IGSN list for a specific field program
+date: 01/12/2020
+---
+
+
 # IGSN list for a specific field program
 - The end point is https://app.geosamples.org/samples/field_program
   - Usage: https://app.geosamples.org/samples/field_program/[field program name].

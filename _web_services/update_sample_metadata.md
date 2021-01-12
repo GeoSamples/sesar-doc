@@ -1,3 +1,9 @@
+---
+name: update_sample_metadata
+title: Update Sample Metadata
+date: 01/12/2020
+---
+
 # Update Sample Metadata
 - The web service https://app.geosamples.org/webservices/update.php allows the client program to update registered sample(s) metadata profile(s).
 - It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.

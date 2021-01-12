@@ -64,15 +64,15 @@ body {
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
-              <section id="sidebar" class="">
+              <aside id="sidebar" class="">
                 <div id="main_left_sidebar" class="list-group">
                 {% for link in site.data.sidebar.left_sidebar %}
-                    <a href="{{ link.page }}" class="list-group-item list-group-item-action">
-                      {{ link.title }}
-                    </a>
+                  <a href="{{ link.page }}" class="list-group-item list-group-item-action">
+                    {{ link.title }}
+                  </a>
                 {% endfor %}
                 </div>
-              </section>
+              </aside>
             </div>
             <div class="col-sm-9">
               <section id="main_content" class="inner">
@@ -87,16 +87,24 @@ body {
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <ul class="list-group list-group-horizontal">
-          {% for post in site.posts %}
-            <li class="list-group-item">
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-          {% for page in site.pages %}            
-            {{ page.url | split:'/' | join:'+'}}
-          {% endfor %}
-        </ul>
+          
+        <!-- {% for page in site.pages %}            
+          {{ page.url | split:'/' | join:'+'}}
+        {% endfor %} -->
+
+        {% for collection in site.collections %}
+          <ul class="list-group list-group-horizontal">
+            <h2>Items from {{ collection.label }}</h2>
+            
+              {% for item in site[collection.label] %}
+                <a href="{{ item.url }}" class="list-group-item text-white">
+                  {{ item.title }}
+                </a>
+              {% endfor %}
+            </div>
+          </ul>
+        {% endfor %}
+
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}

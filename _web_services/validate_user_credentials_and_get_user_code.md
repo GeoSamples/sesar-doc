@@ -1,3 +1,9 @@
+---
+name: validate_user_credentials_and_get_user_code
+title: Validate user credentials and get user code
+date: 01/12/2020
+---
+
 # Validate user credentials and get user code
 - The web service is at: https://app.geosamples.org/webservices/credentials_service_v2.php.
 - It will check the user's credentials. If valid, it will return user code(s). If not valid, it will return error messages. It only accepts POST requests from the client program. GET, PUT and DELETE are not supported.

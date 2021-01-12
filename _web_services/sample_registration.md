@@ -1,3 +1,9 @@
+---
+name: sample_registration
+title: Sample Registration
+date: 01/12/2020
+---
+
 # Sample Registration
 - The web service https://app.geosamples.org/webservices/upload.php allows the client program to register a single sample or multiple samples.
 - It only accepts POST requests from the client program. GET, PUT and DELETE are not supported.

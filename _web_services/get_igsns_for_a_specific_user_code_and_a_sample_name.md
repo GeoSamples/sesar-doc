@@ -1,3 +1,9 @@
+---
+name: get_igsns_for_a_specific_user_code_and_a_sample_name
+title: Get IGSN(s) for a specific user code and a sample name (NEW)
+date: 01/12/2020
+---
+
 # Get IGSN(s) for a specific user code and a sample name (NEW)
 - The endpoint is https://app.geosamples.org/samples/user_code.
 - E.G. https://app.geosamples.org/samples/user_code/ODP?sample_name=test

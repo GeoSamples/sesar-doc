@@ -1,3 +1,9 @@
+---
+name: igsn_list_for_specific_user_code
+title: IGSN list for specific user code
+date: 01/12/2020
+---
+
 # IGSN list for specific user code
 - The end point is https://app.geosamples.org/samples/user_code.
   - E.G. https://app.geosamples.org/samples/user_code/IEUHM
