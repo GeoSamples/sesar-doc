@@ -2,6 +2,7 @@
 name: igsn_list_for_geospatial_polygon
 title: IGSN list for a geospatial polygon
 date: 01/12/2020
+layout: default
 ---
 
 # IGSN list for a geospatial polygon

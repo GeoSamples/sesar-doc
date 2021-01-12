@@ -2,6 +2,7 @@
 name: delete_a_related_url_for_a_specific_igsn
 title: Delete a related URL for a specific IGSN (NEW)
 date: 01/12/2020
+layout: default
 ---
 
 # Delete a related URL for a specific IGSN (NEW)

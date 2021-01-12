@@ -2,6 +2,7 @@
 name: validate_user_credentials_and_get_user_code
 title: Validate user credentials and get user code
 date: 01/12/2020
+layout: default
 ---
 
 # Validate user credentials and get user code

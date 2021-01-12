@@ -2,6 +2,7 @@
 name: get_igsns_for_a_specific_user_code_and_a_sample_name
 title: Get IGSN(s) for a specific user code and a sample name (NEW)
 date: 01/12/2020
+layout: default
 ---
 
 # Get IGSN(s) for a specific user code and a sample name (NEW)

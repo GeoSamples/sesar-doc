@@ -1,5 +1,9 @@
 theme: jekyll-theme-slate
 
+title: SESAR Documentation
+url: https://www.geosamples.org
+description: Documentation for SESAR as of January 12, 2020
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
