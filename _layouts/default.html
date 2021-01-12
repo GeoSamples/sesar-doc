@@ -74,23 +74,23 @@ body {
                   {% endfor %} -->
                 
                   <!-- <ul class="list-group list-group-horizontal"> -->
-                  <div class="accordion" id="accordion{{ collection.label }}">
-                    {% for collection in site.collections %}
+                  <div class="accordion" id="sidebar_accordions">
+                    {% for col in site.collections %}
                       <div class="accordion-item">                    
-                        <h2 class="accordion-header" id="headingOne">
-                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ collection.label }}" aria-expanded="true" aria-controls="collapse{{ collection.label }}">
-                            {{ collection.label }}
+                        <h2 class="accordion-header" id="accordion_item_{{ col.label }}">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ col.label }}" aria-expanded="true" aria-controls="collapse_{{ col.label }}">
+                            {{ col.title }}
                           </button>
                         </h2>
                       
-                        <div id="collapse{{ collection.label }}" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion{{ collection.label }}">
+                        <div id="collapse_{{ col.label }}" class="accordion-collapse collapse" aria-labelledby="accordion_item_{{ col.label }}" data-bs-parent="#sidebar_accordion">
                           <div class="accordion-body list-group">
                         
-                            {% for item in site[collection.label] %}
-                              <a href="{{ item.url }}" class="list-group-item text-white">
+                            {% for item in site[col.label] %}
+                              <a href="/sesar-doc/{{ item.url }}" class="list-group-item">
                                 {{ item.title }}
                               </a>
-                              {% endfor %}
+                            {% endfor %}
 
                           </div>
                         </div>

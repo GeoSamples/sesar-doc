@@ -1,9 +1,10 @@
 theme: jekyll-theme-slate
-
 title: SESAR Documentation
-url: https://www.geosamples.org
+email: jdf@ldeo.columbia.edu
+github_username:  earthchem 
+url: ""
+baseurl: "" # the subpath of your site, e.g. /blog
 description: Documentation for SESAR as of January 12, 2020
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -11,24 +12,29 @@ plugins:
 
 collections: 
   arch_design:
+    title: Architecture and Design
     output: true
     sort_by: title
     order: 
       - overview
   ogc_wxs:
+    title: Open Geospatial Consortium (OGC)
     output: true
   rest_services:
+    title: REST Services
     output: true
   user_communities:
+    title: User Communities
     output: true
   web_services:
+    title: Web Services
     output: false
     sort_by: title
     order: 
       - overview
   release_notes:
+    title: Release Notes
     output: true
     sort_by: title
     order: 
       - overview
-      
