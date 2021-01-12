@@ -2,6 +2,7 @@
 name: install_install_SESAR_app_as_a_container
 title: Install SESAR App as a container
 date: 01/12/2020
+layout: default
 ---
 
 # Install SESAR App as a container

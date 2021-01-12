@@ -2,6 +2,7 @@
 name: overview
 title: SESAR Architecture Overview
 date: 01/12/2020
+layout: default
 ---
 
 # SESAR server architecture
