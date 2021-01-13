@@ -47,36 +47,31 @@ body {
             <div class="col-sm-3">
               <aside id="sidebar" class="">
                 <div id="main_left_sidebar" class="list-group">
-                
-                  <!-- {% for link in site.data.sidebar.left_sidebar %}
-                  <a href="{{ link.page }}" class="list-group-item list-group-item-action">
-                    {{ link.title }}
-                  </a>
-                  {% endfor %} -->
-                
-                  <!-- <ul class="list-group list-group-horizontal"> -->
                   <div class="accordion accordion-flush bg-white border border-light" id="sidebar_accordion">
                     {% for col in site.collections %}
-                      <div class="accordion-item">                    
-                        <h2 class="accordion-header m-0" id="accordion_item_{{ col.label }}">
-                          <button class="accordion-button btn text-left w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ col.label }}" aria-expanded="true" aria-controls="collapse_{{ col.label }}">
-                            {{ col.title }}
-                          </button>
-                        </h2>
-                      
-                        <div id="collapse_{{ col.label }}" class="accordion-collapse collapse" aria-labelledby="accordion_item_{{ col.label }}" data-bs-parent="#sidebar_accordion">
-                          <div class="accordion-body list-group">
-                        
-                            {% for item in site[col.label] %}
-                              <a href="/sesar-doc/{{ item.url }}" class="list-group-item list-group-item-action border-0">
-                                {{ item.title }}
-                              </a>
-                            {% endfor %}
+                      {% if col.title != "posts" %}
 
+                        <div class="accordion-item">                    
+                          <h2 class="accordion-header m-0" id="accordion_item_{{ col.label }}">
+                            <button class="accordion-button btn text-left w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ col.label }}" aria-expanded="true" aria-controls="collapse_{{ col.label }}">
+                              {{ col.title }}
+                            </button>
+                          </h2>
+
+                          <div id="collapse_{{ col.label }}" class="accordion-collapse collapse" aria-labelledby="accordion_item_{{ col.label }}" data-bs-parent="#sidebar_accordion">
+                            <div class="accordion-body list-group">
+
+                              {% for item in site[col.label] %}
+                                <a href="/sesar-doc/{{ item.url }}" class="list-group-item list-group-item-action border-0">
+                                  {{ item.title }}
+                                </a>
+                              {% endfor %}
+
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      
+                    
+                      {% endif %}  
                     {% endfor %}
                   </div>
                 </div>
@@ -96,6 +91,13 @@ body {
     <div id="footer_wrap" class="outer">
       <footer class="inner">
           
+         <!-- {% for link in site.data.sidebar.left_sidebar %}
+          <a href="{{ link.page }}" class="list-group-item list-group-item-action">
+            {{ link.title }}
+          </a>
+          {% endfor %} -->
+
+        <!-- <ul class="list-group list-group-horizontal"> -->
         {% for page in site.pages %}            
           <a href="{{ page.url }}">{{ page.title }}</a>
         {% endfor %}
