@@ -33,9 +33,9 @@ collections:
     sort_by: title
     order: 
       - overview
-  release_notes:
-    title: Release Notes
-    output: true
-    sort_by: title
-    order: 
-      - overview
+  # release_notes:
+  #   title: Release Notes
+  #   output: true
+  #   sort_by: title
+  #   order: 
+  #     - overview
