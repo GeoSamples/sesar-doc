@@ -6,33 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 <style>
+
 body {
   font-family: "Lato", sans-serif;
-}   
-.sidenav {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 20px;
-  left: 10px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #064579;
-}
+} 
+  
 {% seo %}
   </style>
   </head>
@@ -74,7 +55,7 @@ body {
                   {% endfor %} -->
                 
                   <!-- <ul class="list-group list-group-horizontal"> -->
-                  <div class="accordion" id="sidebar_accordions">
+                  <div class="accordion" id="sidebar_accordion">
                     {% for col in site.collections %}
                       <div class="accordion-item">                    
                         <h2 class="accordion-header" id="accordion_item_{{ col.label }}">
