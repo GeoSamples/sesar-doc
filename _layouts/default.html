@@ -55,11 +55,11 @@ body {
                   {% endfor %} -->
                 
                   <!-- <ul class="list-group list-group-horizontal"> -->
-                  <div class="accordion" id="sidebar_accordion">
+                  <div class="accordion accordion-flush bg-white border border-light" id="sidebar_accordion">
                     {% for col in site.collections %}
                       <div class="accordion-item">                    
                         <h2 class="accordion-header" id="accordion_item_{{ col.label }}">
-                          <button class="accordion-button btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ col.label }}" aria-expanded="true" aria-controls="collapse_{{ col.label }}">
+                          <button class="accordion-button btn text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ col.label }}" aria-expanded="true" aria-controls="collapse_{{ col.label }}">
                             {{ col.title }}
                           </button>
                         </h2>
@@ -68,7 +68,7 @@ body {
                           <div class="accordion-body list-group">
                         
                             {% for item in site[col.label] %}
-                              <a href="/sesar-doc/{{ item.url }}" class="list-group-item">
+                              <a href="/sesar-doc/{{ item.url }}" class="list-group-item list-group-item-action border-0">
                                 {{ item.title }}
                               </a>
                             {% endfor %}
