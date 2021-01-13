@@ -7,7 +7,7 @@ layout: default
 
 # SESAR server architecture
 ## SESAR Infrastructure Architecture
-![SESAR Server Architecture Diagram](https://github.com/earthchem/sesar-doc/blob/gh-pages/_arch_design/SESARServerArchitectureDesign.png)
+![SESAR Server Architecture Diagram](https://github.com/earthchem/sesar-doc/blob/gh-pages/assets/images/SESARServerArchitectureDesign.png)
 
 ## SESAR System Data Flow
 ![SESAR Data Flow Diagram](https://github.com/iedadata/sesar/blob/master/htmldocs/SESARRegistrationDataFlowDiagram0.png?raw=true)
