@@ -1,10 +1,18 @@
 theme: jekyll-theme-slate
-title: SESAR Documentation
+title: Documentation
 email: jdf@ldeo.columbia.edu
-github_username:  earthchem 
+
+github_username: earthchem 
+twitter_username: earthchem
+sesar_login: https://app.geosamples.org/
+sesar_search: http://www-staging.geosamples.org/?s=
+
 # url: ""
 # baseurl: "" # the subpath of your site, e.g. /blog
 description: Documentation for SESAR as of January 12, 2020
+
+logo_desktop: assets/images/sesar_vertical_website_logo_black.png
+logo_mobile: assets/images/sesar_website_logo_bnw.png
 
 plugins:
   - jekyll-feed
@@ -39,3 +47,14 @@ collections:
   #   sort_by: title
   #   order: 
   #     - overview
+
+funder:
+  name: nsf
+  logo: assets/images/nsf-all-color.png
+  description: Hosted at the Lamont-Doherty Earth Observatory of Columbia University and funded by National Science Foundation
+
+webpages:
+  about:
+    name: about
+    title: About
+    url: /about
