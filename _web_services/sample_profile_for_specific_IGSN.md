@@ -6,7 +6,7 @@ layout: default
 ---
 
 # Sample Profile for specific IGSN
-- The end point is https://app.geosamples.org/sample/igsn or The old end point is https://app.geosamples.org/webservices/display.php
+- The end point is [https://app.geosamples.org/sample/igsn](https://app.geosamples.org/sample/igsn) or The old end point is [https://app.geosamples.org/webservices/display.php](https://app.geosamples.org/webservices/display.php)
 - Usage: https://app.geosamples.org/sample/igsn/XXXXXXXXX
   - https://app.geosamples.org/webservices/display.php?igsn=XXXXXXXXX
   - XXXXXXXX is the IGSN of a sample. e.g., GEE0000O4, ODP000002
@@ -16,9 +16,11 @@ layout: default
 ### Request Headers
 - Accept: text/xml, application/xml, application/json, text/json
 ### Request Body
+
 ```
 igsn={igsn} username={yourusername} (optional) password={yourpassword} (optional)
 ```
+
 ### Response Body
 **HTTP status codes:**
 - **400** Bad Request -  IGSN is not valid.
@@ -28,9 +30,11 @@ igsn={igsn} username={yourusername} (optional) password={yourpassword} (optional
 
 **Output format when request is successful ( status code = 200 )**
 - **XML Format:**
+
 <pre>
 <b>(NEW)</b> The returned xml file uses the following xml schema. https://app.geosamples.org/4.0/downloadSample.xsd
 </pre>
+
 <pre>
 <b>Notes:</b> To be backward compatible, the old end point (https://app.geosamples.org/webservices/display.php?igsn=XXXXXXXXX)
 will return the old XML format if the user executes from the browser or sends ACCEPT header with 'text/html'. The old
@@ -40,6 +44,7 @@ standards such as relying on HTTP status code, you need to adjust them according
 </pre>
 
 - **JSON Format:**
+
 ```
 { "sample": { "qrcode_img_src": "app.geosamples.org/barcode/image.php?igsn=ODP000002&sample_id=Core 1-1*-1M",
 "user_code": "ODP", "igsn": "ODP000002", "name": "Core 1-1*-1M", "sample_type": "Core", "sample_subtype": "Thin
@@ -62,13 +67,17 @@ University, Integrated Ocean Drilling Program, College Station, TX, 77845, USA",
 }, { "igsn": "ODP01134A", "name": "Section 1-1*-1M-5" }, { "igsn": "ODP01134E", "name": "Section 1-1*-1M-6" }, {
 "igsn": "ODP01134I", "name": "Section 1-1*-1M-7" } ] } } } }
 ```
+
 **Example**
+
 ```
 curl -X GET -H "accept: application/xml" "https://app.geosamples.org/webservices/display.php?igsn=ODP000002"
 ```
+
 ```
 curl -X GET -H "accept: application/xml" "https://app.geosamples.org/sample/igsn/ODP000002" -L
 ```
+
 ```
 curl -X GET -H "accept: application/xml" "https://app.geosamples.org/sample/igsn/ODP000002" -L -u yourusername
 ```
