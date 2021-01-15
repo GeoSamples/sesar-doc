@@ -2,7 +2,7 @@ theme: jekyll-theme-slate
 title: Documentation
 email: jdf@ldeo.columbia.edu
 
-github_username: earthchem 
+github_username: geosamples
 sesar_login: https://app.geosamples.org
 sesar_website: http://www.geosamples.org
 sesar_search: http://www-staging.geosamples.org/?s=
@@ -26,17 +26,17 @@ collections:
     sort_by: title
     order: 
       - overview
-  ogc_wxs:
-    title: Open Geospatial Consortium (OGC)
-    output: true
+  web_services:
+    title: Web Services
+    output: true 
   rest_services:
     title: REST Services
     output: true
+      ogc_wxs:
+    title: Open Geospatial Consortium (OGC)
+    output: true 
   user_communities:
     title: User Communities
-    output: true
-  web_services:
-    title: Web Services
     output: true
     sort_by: title
     order: 
