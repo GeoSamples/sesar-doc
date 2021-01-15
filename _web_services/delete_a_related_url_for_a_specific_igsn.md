@@ -36,7 +36,9 @@ username={your_username} password={your_password} igsn={your_igsn} puburl={url_t
 <results> <valid code="InvalidAuth">no</valid> <error>Invalid login, username not known or password not matched</error> 
 </results>
 ```
+
 **Example:**
+
 ```
 curl -X POST -H "accept: application/xml" -d
 "username=yourusername&puburl=http://www.earthchem.org&password=yourpassword&igsn=SES000001";
