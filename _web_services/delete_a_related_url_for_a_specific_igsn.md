@@ -6,16 +6,16 @@ layout: default
 ---
 
 # Delete a related URL for a specific IGSN (NEW)
-- The web service https://app.geosamples.org/webservices/deletePutURL.php allows the client program to delete a URL that is associated with an IGSN.
+- The web service [https://app.geosamples.org/webservices/deletePutURL.php](https://app.geosamples.org/webservices/deletePutURL.php) allows the client program to delete a URL that is associated with an IGSN.
 - It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.
 - <ins>Notes:</ins>
   - <ins>The user should use the following test URI during client program testing, so production sample profiles are not accidentally edited.</ins>
-  - [Delete Publication URL](http://sesardev.geosamples.org/webservices/deletePubURL.php)
+  - [http://sesardev.geosamples.org/webservices/deletePubURL.php](http://sesardev.geosamples.org/webservices/deletePubURL.php)
 
 # POST API
-**URI:** https://app.geosamples.org/webservices/deletePubURL.php **TEST URI:** https://sesardev.geosamples.org/webservices/deletePubURL.php
+**URI:** [https://app.geosamples.org/webservices/deletePubURL.php](https://app.geosamples.org/webservices/deletePubURL.php) **TEST URI:** [https://sesardev.geosamples.org/webservices/deletePubURL.php](https://sesardev.geosamples.org/webservices/deletePubURL.php)
 ### Request Headers
-- Requires HTTP Basic Authentication header. http://en.wikipedia.org/wiki/Basic_access_authentication
+- Requires HTTP Basic Authentication header. [http://en.wikipedia.org/wiki/Basic_access_authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 - Accept: text/xml, application/xml
 ### Request Body
 ```
