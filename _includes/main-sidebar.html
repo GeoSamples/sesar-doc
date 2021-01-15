@@ -15,7 +15,7 @@
           <div class="accordion-body list-group">
 
             {% for item in site[col.label] %}
-              <a href="{{ item.url }}" class="list-group-item list-group-item-action border-0">
+              <a href="{{ item.url | absolute_url }}" class="list-group-item list-group-item-action border-0">
                 {{ item.title }}
               </a>
             {% endfor %}
@@ -49,8 +49,12 @@
   </div>
 
   <div id="select_item_dbdocs">
+    
+    {% assign dbdocs = site.pages | where_exp: "item" , "item.path contains 'dbdocs'"| map: 'dir' | uniq %}
+    {% assign db = "dbdocs" %}
+
     <h4 class="m-0">
-      <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="/dbdocs/">
+      <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ db | absolute_url |  prepend: site.baseurl }}">
         DB Documentation
       </a>
     </h4>
