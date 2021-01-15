@@ -17,7 +17,7 @@ The first step is to separate the interwinded web services and application featu
 * Sample profile for a specific IGSN
 * Get IGSN(s) for a specific user code and a sample name (NEW)
 
-##### The swagger documentation can be reached here. https://api.geosamples.org/swagger-ui.html#/ 
+##### The swagger documentation can be reached here. [https://api.geosamples.org/swagger-ui.html#/](https://api.geosamples.org/swagger-ui.html#/)
 
 * It contains REST APIs which implement the various functions as below.
   * Classification
