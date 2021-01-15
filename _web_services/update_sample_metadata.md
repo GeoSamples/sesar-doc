@@ -6,29 +6,36 @@ layout: default
 ---
 
 # Update Sample Metadata
-- The web service https://app.geosamples.org/webservices/update.php allows the client program to update registered sample(s) metadata profile(s).
+- The web service [https://app.geosamples.org/webservices/update.php](https://app.geosamples.org/webservices/update.php) allows the client program to update registered sample(s) metadata profile(s).
 - It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.
 - <ins>Notes</ins>
   - <ins>The user should use the following test URI during client program testing, so production sample profiles are not accidentally edited.</ins>
-    - https://sesardev.geosamples.org/webservices/update.php
+    - [https://sesardev.geosamples.org/webservices/update.php](https://sesardev.geosamples.org/webservices/update.php)
   - <ins> New:</ins> The user can replace an existing URL using 'old_url' element. See document in updateSample.xsd schema file
+  
   ``` 
   E.G. <external_urls><external_url><old_url>http://oneurl.tobereplaced.org </old_url><url>http://oneurl.new.org</url>
   </external_url></external_urls>
   ```
+  
 # POST API
-**URI:** https://app.geosamples.org/webservices/update.php **TEST URI:** https://sesardev.geosamples.org/webservices/update.php
+**URI:** [https://app.geosamples.org/webservices/update.php](https://app.geosamples.org/webservices/update.php)  
+**TEST URI:** [https://sesardev.geosamples.org/webservices/update.php](https://sesardev.geosamples.org/webservices/update.php)  
+
 ### Request Headers
 - Requires HTTP Basic Authentication header. http://en.wikipedia.org/wiki/Basic_access_authentication
 - Accept: text/xml, application/xml
 ### Request Body
+
 ```
 username={yourusername} password={yourpassword} content={sampleinformation} 
 ```
+
 where {sampleinformation} is the xml text.
-- The text should use the following schema. https://app.geosamples.org/4.0/updateSample.xsd.
+- The text should use the following schema. [https://app.geosamples.org/4.0/updateSample.xsd](https://app.geosamples.org/4.0/updateSample.xsd).
 
 **Example XML format for updating one sample profile:**
+
 ```
 <?xml version="1.0" encoding="UTF-8"?> <samples xmlns="http://app.geosamples.org"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -47,11 +54,13 @@ Mountains, Mojave Desert, California </primary_location_name> <country>United St
 <collection_date_precision>time</collection_date_precision> <original_archive>University of Kansas</original_archive> 
 </sample> </samples>
 ```
+
 - You can update multiple samples by adding the <sample></sample> block nested into the <samples></samples> tag.
 
 ### Response Body
 **HTTP status codes:**
 - **200** Sample registered successfully. The response text is as follows:
+
 ```
 <results> <sample> <status>Sample [Lulin Update Status Sample test] was updated successfully with IGSN [LLS00009I].
 </status> <name>Lulin Update Status Sample test</name> <igsn>LLS00009I</igsn> </sample> </results>
@@ -59,19 +68,25 @@ Mountains, Mojave Desert, California </primary_location_name> <country>United St
 
 - **400** Bad Request - Request body either has syntax errors or xml content has errors. Error messages will look like the following.
   - <ins>*XML Syntax error:*</ins>
+  
   ```
   <results> <valid code="InvalidXML">no</valid> <error>Element '{http://app.geosamples.org}user_code':......</error> 
   </results>
   ```
+  
   - <ins>*XML Content error:*</ins>
+  
   ``` <results> <sample name="your sample name"> <valid code="InvalidSample">no</valid><status>Not Saved</status> <error>You 
   do not have permission to edit the sample metadata.</error> ...... </sample> </results>
   ```
+  
 - **401** Unauthorized - A login failure will return text as follows.
+
 ```
 <results> <valid code="InvalidAuth">no</valid> <error>Invalid login, username not known or password not matched</error> 
 </results>
 ```
+
 ***
 For more information, please visit the [IEDA web services page](https://www.iedadata.org/help/web-services/#rest) or its [technical API documentation](https://www.iedadata.org/help/web-services/).
 

@@ -6,10 +6,10 @@ layout: default
 ---
 
 # Validate user credentials and get user code
-- The web service is at: https://app.geosamples.org/webservices/credentials_service_v2.php.
+- The web service is at: [https://app.geosamples.org/webservices/credentials_service_v2.php](https://app.geosamples.org/webservices/credentials_service_v2.php).
 - It will check the user's credentials. If valid, it will return user code(s). If not valid, it will return error messages. It only accepts POST requests from the client program. GET, PUT and DELETE are not supported.
 - <ins>Notes</ins>
-  - (Deprecated) The older version v1 end point is https://app.geosamples.org/webservices/credentials_service.php
+  - (Deprecated) The older version v1 end point is [https://app.geosamples.org/webservices/credentials_service.php](https://app.geosamples.org/webservices/credentials_service.php)
   - Starting from version 2, the user is allowed to access other user's user code with different permissions. In v1 the user has to create a user code for his/her samples .
   
 **Before you use this web service, you need to do the following two steps:**
@@ -17,10 +17,10 @@ layout: default
 - Log in to the SESAR system to create your namespace or user code. If you would like to use other user's user code, you can login to the system and make a request. Follow this [link](https://geopass.iedadata.org/josso/).
 
 # POST API
-**URI:** https://app.geosamples.org/webservices/credentials_service_v2.php
+**URI:** [https://app.geosamples.org/webservices/credentials_service_v2.php](https://app.geosamples.org/webservices/credentials_service_v2.php)
 
 ### Request Headers
-- Requires HTTP Basic Authentication header. http://en.wikipedia.org/wiki/Basic_access_authentication
+- Requires HTTP Basic Authentication header. [http://en.wikipedia.org/wiki/Basic_access_authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 - Accept: text/xml, application/xml
 
 ### Request Body
@@ -52,6 +52,7 @@ https://app.geosamples.org/ webservices/credentials_service_v2.php
 ```
 
 **Example 2**
+
 ```
 <?php  function curl_http_post_request($requestdata) {     $ch = curl_init();   curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,
 false); curl_setopt($ch, CURLOPT_URL, $requestdata["url"]);   curl_setopt($ch,CURLOPT_POST,true); 
