@@ -1,0 +1,23 @@
+- page: about_igsn
+  title: About IGSN
+  url: igsnabout
+
+- page: about_us
+  title: About Us
+  url: about
+
+- page: services
+  title: Services
+  url: services
+
+- page: samples
+  title: Samples
+  url: samples
+
+- page: news
+  title: News
+  url: news
+
+- page: help
+  title: Help
+  url: help
