@@ -39,7 +39,7 @@
       <div class="accordion-body list-group">
 
         {% for post in site.posts %} 
-          <a href="{{ post.url }}" class="list-group-item list-group-item-action border-0">
+          <a href="{{ post.url | absolute_url }}" class="list-group-item list-group-item-action border-0">
             {{ post.title }}
           </a>
         {% endfor %}
@@ -54,7 +54,7 @@
     {% assign db = "dbdocs" %}
 
     <h4 class="m-0">
-      <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ db | absolute_url |  prepend: site.baseurl }}">
+      <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ db | absolute_url }}">
         DB Documentation
       </a>
     </h4>
