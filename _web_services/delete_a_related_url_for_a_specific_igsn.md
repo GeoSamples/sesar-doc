@@ -10,7 +10,7 @@ layout: default
 - It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.
 - <ins>Notes:</ins>
   - <ins>The user should use the following test URI during client program testing, so production sample profiles are not accidentally edited.</ins>
-  - [https://sesardev.geosamples.org/webservices/deletePubURL.php]
+  - https://sesardev.geosamples.org/webservices/deletePubURL.php
 
 # POST API
 **URI:** https://app.geosamples.org/webservices/deletePubURL.php **TEST URI:** https://sesardev.geosamples.org/webservices/deletePubURL.php
