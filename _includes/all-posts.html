@@ -1,0 +1,16 @@
+
+{% for release_note in site.posts %}
+    
+<div class="card text-center my-3 shadow-sm">
+    <div class="card-body">
+        <h2 class="card-text">
+            {{ release_note.title }}
+        </h2>
+        <a href="{{ release_note.url }}" class="btn btn-primary">See more</a>
+    </div>
+    <div class="card-footer text-muted">
+        {{ release_note.date | date_to_string: "ordinal", "US" }}
+    </div>
+</div>
+
+{% endfor %}

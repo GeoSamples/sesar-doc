@@ -8,7 +8,7 @@ sesar_website: http://www.geosamples.org
 sesar_search: http://www-staging.geosamples.org/?s=
 
 # url: ""
-baseurl: "sesar-doc" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 description: Documentation for SESAR as of January 12, 2020
 
 logo_desktop: assets/images/sesar_vertical_website_logo_black.png
@@ -24,23 +24,28 @@ collections:
     title: Architecture and Design
     output: true
     sort_by: title
+    display_order: 1
     order: 
-      - overview
+      - overview.md
   web_services:
     title: Web Services
-    output: true 
+    output: true
+    display_order: 2
   rest_services:
     title: REST Services
     output: true
-      ogc_wxs:
+    display_order: 3
+  ogc_wxs:
     title: Open Geospatial Consortium (OGC)
     output: true 
+    display_order: 4
   user_communities:
     title: User Communities
     output: true
     sort_by: title
+    display_order: 5
     order: 
-      - overview
+      - overview.md
   # dbdocs:
   #   title: Database Documentation
   #   output: true
