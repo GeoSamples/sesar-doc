@@ -1,16 +1,27 @@
 
-{% for release_note in site.posts %}
+<div class="accordion accordion-flush" id="release_notes_accordion">
     
-<div class="card text-center my-3 shadow-sm">
-    <div class="card-body">
-        <h2 class="card-text">
-            {{ release_note.title }}
-        </h2>
-        <a href="{{ release_note.url }}" class="btn btn-primary">See more</a>
-    </div>
-    <div class="card-footer text-muted">
-        {{ release_note.date | date_to_string: "ordinal", "US" }}
-    </div>
-</div>
+    {% for release_note in site.posts %}
+    
+    <div class="accordion-item">
+        
+            <button class="accordion-button collapsed list-group-item d-flex w-100 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#{{ release_note.name }}" aria-expanded="false" aria-controls="{{ release_note.name }}">
+                <h4 class="accordion-header flex-grow m-0" id="flush-headingOne">
+                    {{ release_note.title }}
+                </h4>
+                <small class="text-right flex-fill">
+                    {{  release_note.date | date_to_string: "ordinal", "US" }}
+                </small>
+                
+            </button>
 
-{% endfor %}
+        <div id="{{ release_note.name }}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#release_notes_accordion">
+            <div class="accordion-body p-3 bg-light">
+                {{ release_note.content }}
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>
