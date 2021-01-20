@@ -3,7 +3,7 @@ name: sample_registration
 title: Sample Registration
 date: 01/12/2020
 layout: default
-order =1
+order: 1
 ---
 
 # Sample Registration
