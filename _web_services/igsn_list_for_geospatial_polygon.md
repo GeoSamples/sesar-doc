@@ -3,7 +3,7 @@ name: igsn_list_for_geospatial_polygon
 title: IGSN list for a geospatial polygon
 date: 01/12/2020
 layout: default
-order:4
+order: 4
 ---
 
 # IGSN list for a geospatial polygon
