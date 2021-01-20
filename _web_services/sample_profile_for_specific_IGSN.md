@@ -3,7 +3,7 @@ name: sample_profile_for_specific_IGSN
 title: Sample Profile for specific IGSN
 date: 01/12/2020
 layout: default
-order:6
+order: 7
 ---
 
 # Sample Profile for specific IGSN
