@@ -40,7 +40,7 @@ collections:
     output: true 
     display_order: 4
   user_communities:
-    title: User Communities
+    title: Use Cases
     output: true
     sort_by: title
     display_order: 5
