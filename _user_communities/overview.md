@@ -1,6 +1,6 @@
 ---
 name: user_communities_overview
-title: User Communities Overview
+title: Use Cases
 date: 01/12/2020
 layout: default
 ---
