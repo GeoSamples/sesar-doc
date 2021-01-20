@@ -36,7 +36,7 @@ collections:
     output: true
     display_order: 3
   ogc_wxs:
-    title: Open Geospatial Consortium (OGC)
+    title: Open Geospatial Consortium (OGC) Services
     output: true 
     display_order: 4
   user_communities:
