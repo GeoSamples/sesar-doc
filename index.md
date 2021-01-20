@@ -3,7 +3,7 @@ SESAR, the System for Earth Sample Registration, operates a global digital index
 Our application was built in 2005. After two major re-implementation with architecture improvements, it is now implemented by PHP and Javascript programming languages. We offer a set of web services to allow the client programs to interact with SESAR systems. SESAR uses GeoPass as its single-sign-on for secure login. We will soon support ORCID as a second authentication method. GeoPass single-sign-on service is maintained by EarthChem organization.  
 SESAR implemented and released a Beta version of our web service REST API in 2020. In addition to our web services, SESAR also provides WMS and WFS for external application integration.   
 
-SESAR is part of the iSamples project. iSamples a multi-disciplinary and multi-institutional project funded by NSF to expand and integrate discipline-specific infrastructure for material samples and sample metadata (like SESAR).  Changes and advances in our application as we integrate with the iSamples system will be documented on this site Please contact us with any questions or suggestions: [info@geosamples.org](info@geosamples.org)  
+SESAR is part of the [iSamples project](http://isamples.org/). iSamples a multi-disciplinary and multi-institutional project funded by NSF to expand and integrate discipline-specific infrastructure for material samples and sample metadata (like SESAR).  Changes and advances in our application as we integrate with the iSamples system will be documented on this site Please contact us with any questions or suggestions: [info@geosamples.org](info@geosamples.org)  
 
 ### System Requirements:
 #### Database Server:  
