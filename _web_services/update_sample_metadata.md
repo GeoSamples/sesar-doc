@@ -3,7 +3,7 @@ name: update_sample_metadata
 title: Update Sample Metadata
 date: 01/12/2020
 layout: default
-order:7
+order: 8
 ---
 
 # Update Sample Metadata
