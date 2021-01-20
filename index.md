@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+SESAR, the System for Earth Sample Registration, operates a global digital index of samples, specimens, and related sampling features from our natural environment.  SESAR provides services to support the management and sharing of these materials which includes metadata registration and issuing IGSNs (globally unique identifiers for samples and specimens).  
 
-You can use the [editor on GitHub](https://github.com/earthchem/sesar-doc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Our application was built in 2005. After two major re-implementation with architecture improvements, it is now implemented by PHP and Javascript programming languages. We offer a set of web services to allow the client programs to interact with SESAR systems. SESAR uses GeoPass as its single-sign-on for secure login. We will soon support ORCID as a second authentication method. GeoPass single-sign-on service is maintained by EarthChem organization.  
+SESAR implemented and released a Beta version of our web service REST API in 2020. In addition to our web services, SESAR also provides WMS and WFS for external application integration.   
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+SESAR is part of the iSamples project. iSamples a multi-disciplinary and multi-institutional project funded by NSF to expand and integrate discipline-specific infrastructure for material samples and sample metadata (like SESAR).  Changes and advances in our application as we integrate with the iSamples system will be documented on this site Please contact us with any questions or suggestions: [info@geosamples.org](info@geosamples.org)  
 
-### Markdown
+### System Requirements:
+#### Database Server:  
+OS Version: Red Hat Enterprise Linux Server release 6.10 (Santiago)  
+PostgreSQL: version 9.0.3  
+PostGIS: version 1.5.1  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/earthchem/sesar-doc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Application Server:  
+PHP: version 5.4.45(cli) (built: Mar 1 2018)  
+OS Version: Red Hat Enterprise Linux Server release 7.4 (Maipo)  
+Apache: version 2.4.6  
