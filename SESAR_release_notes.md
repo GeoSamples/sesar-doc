@@ -4,8 +4,8 @@ Version | Release Date | Summary
 ------- | ------------ | ------- 
 [v 7.4.2](#version-742) | November 2020 | Update of security features, Bug fixes 
 [v 7.4.1](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-741) | July 2020 | Implementation of JSON-D, Bug fixes 
-[v 7.4.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-740) | February 2020 | New features including file upload, export to ECL templates; bug fixes 
-[v 7.3.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-730) | July 2019 | Improved validations in batch upload process, bug fixes
+[v 7.4.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-740) | February 2020 | New features including file upload, export to ECL templates, Bug fixes 
+[v 7.3.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-730) | July 2019 | Improved validations in batch upload process, Bug fixes
 [v 7.2.2](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-722) | November 2018 | New version of web service schema, Bug fixes
 [v 7.2.1](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-721) | October 2018 | Minor bug fixes  
 [v 7.2.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-720) | October 2018 | New object type, Bug fixes  
