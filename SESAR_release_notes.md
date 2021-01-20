@@ -21,7 +21,7 @@ Version | Release Date | Summary
 [v 6.2.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-620) | March 2015 | New web service features, Bug fixes 
 [v 6.1.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-610) | February 2015 | Improvements to metadata display, Bug fixes 
 [v 6.0.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-600) | November 2014 | Improved security, Bug fixes 
-[v 5.1.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-510) | October 2014 | New web service, Bug fixes 
+[v 5.1.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-510) | October 2014 | Improved web services, Bug fixes 
 [v 5.0.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-500) | July 2014 | New user code syntax, New web service 
 [v 4.6.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-460) | May 2014 | New sub-object types available, Bug fixes 
 [v 4.5.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-450) | February 2014 | IGSN deactiviation, Improvements to supplemental file uploads 
