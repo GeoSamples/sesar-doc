@@ -56,7 +56,7 @@
   
 - name: developer_discussions
   title: Developer Discussions
-  url: /sesar-doc/discussions/
+  url: /discussions/
   placement: github
   type: singular
   display_order: 9
