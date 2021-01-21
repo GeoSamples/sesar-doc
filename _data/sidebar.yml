@@ -1,0 +1,63 @@
+- name: home
+  title: Overview
+  url: /
+  placement: gh-pages
+  type: singular
+  display_order: 1
+
+- name: arch_design
+  title: Architecture and Design 
+  url: /arch_design
+  placement: gh-pages
+  type: multiple
+  display_order: 2
+
+- name: web_services
+  title: Web Services 
+  url: /web_services
+  placement: gh-pages
+  type: multiple
+  display_order: 3
+
+- name: rest_services
+  title: REST Services 
+  url: /rest_services/overview
+  placement: gh-pages
+  type: singular
+  display_order: 4
+
+- name: ogc_wxs
+  title: Open Geospatial Consortium (OGC) Services 
+  url: /ogc_wxs/overview
+  placement: gh-pages
+  type: singular
+  display_order: 5
+
+- name: user_communities
+  title: Use Cases 
+  url: /user_communities/overview
+  placement: gh-pages
+  type: singular
+  display_order: 6
+
+- name: release_notes
+  title: Release Notes
+  url: /release_notes/overview
+  placement: gh-pages
+  type: singular
+  display_order: 7
+
+- name: database_documentation
+  title: Database Documentation
+  url: /dbdocs/
+  placement: gh-pages
+  type: singular
+  display_order: 8
+  
+- name: developer_discussions
+  title: Developer Discussions
+  url: /discussions/
+  placement: github
+  type: singular
+  display_order: 9
+  

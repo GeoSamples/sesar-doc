@@ -1,34 +1,24 @@
 
 <div class="accordion bg-white shadow-sm" id="sidebar_accordion">
-  
-  <div id="select_item_dbdocs">
-    <h4 class="m-0">
 
-      {% assign home = "/" %}
-
-      <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ home | absolute_url }}">
-        Home
-      </a>
-    </h4>
-  </div>
-  <hr class="m-0">
-  {% assign sorted_collections = site.collections | sort:"display_order" %}
+  {% assign sorted_navitems = site.data.sidebar | sort: "display_order" %}
   
-  {% for col in sorted_collections %}
+  {%- for navitem in sorted_navitems -%}
     
-  {% if col.label != "posts" and col.label != "dbdocs" %}
+    {%- if navitem.type == "multiple" -%}
 
-      <div  id="accordion_item_{{ col.label }}" class="accordion-item">                    
+      <div  id="accordion_item_{{ navitem.name }}" class="accordion-item">                    
         <h4 class="m-0">
-          <button class="accordion-button btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ col.label }}" aria-expanded="true" aria-controls="collapse_{{ col.label }}">
-            {{ col.title }}
+          <button class="accordion-button btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ navitem.name }}" aria-expanded="true" aria-controls="collapse_{{ navitem.name }}">
+            {{ navitem.title }}
           </button>
         </h4>
         <hr class="m-0"> 
-        <div id="collapse_{{ col.label }}" class="accordion-collapse collapse" aria-labelledby="accordion_item_{{ col.label }}" data-bs-parent="#sidebar_accordion">
+        <div id="collapse_{{ navitem.name }}" class="accordion-collapse collapse" aria-labelledby="accordion_item_{{ navitem.name }}" data-bs-parent="#sidebar_accordion">
           <div class="accordion-body list-group">
 
-            {% assign sorted_collection_pages = site[col.label] | sort: "order" %}
+            {% assign sorted_collection_pages = site[navitem.name] | sort: "order" %}
+
             {% for item in sorted_collection_pages %}
               <a href="{{ item.url | absolute_url }}" class="list-group-item list-group-item-action border-0">
                 {{ item.title }}
@@ -39,29 +29,33 @@
         </div>
       </div>
 
-    {% endif %}  
+    {%- else -%}
+
+      <div id="select_item_{{ navitem.name }}">  
+        
+        <h4 class="m-0">
+          
+          {% if navitem.placement == "gh-pages" %}
+            <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ navitem.url | absolute_url }}">
+              {{ navitem.title }}
+            </a>
+          
+          {% endif %}
+          {% if navitem.placement == "github" %}
+
+            <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="https://github.com/{{ site.github_repo }}/{{ baseurl }}{{ navitem.url }}">
+              {{ navitem.title }}
+            </a>
+
+          {% endif %}
+
+        </h4>
+      </div>
+
+      <hr class="m-0">
+
+    {%- endif -%}
+
   {% endfor %}
 
-  <div id="select_item_release_notes">  
-    {% assign rn = "release_notes/overview" %}
-
-    <h4 class="m-0">
-      <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ rn | absolute_url }}">
-        Release Notes
-      </a>
-    </h4>
-  </div>
-
-  <hr class="m-0">
-
-  <div id="select_item_dbdocs">  
-    {% assign dbdocs = site.pages | where_exp: "item" , "item.path contains 'dbdocs'"| map: 'dir' | uniq %}
-    {% assign db = "dbdocs" %}
-
-    <h4 class="m-0">
-      <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ db | absolute_url }}">
-        Database Documentation
-      </a>
-    </h4>
-  </div>
 </div>
