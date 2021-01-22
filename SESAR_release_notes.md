@@ -12,7 +12,7 @@ Version | Release Date | Summary
 [v 7.1.2](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-712) | September 2018 | Improved web services, Bug fixes 
 [v 7.1.1](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-711) | April 2018 | New feature to view sample locations during upload  
 [v 7.1.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-710) | January 2018 | Sample release date implementation 
-[v 7.0.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#sesar-version-700) | July 2017 | Sample metadata batch update implementation, Bug fixes  
+[v 7.0.0](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#sesar-version-700) | July 2017 | IGSN Synatx improvements, Sample metadata batch update implementation, Bug fixes  
 [v 6.4.3](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-643) | September 2016 | Batch upload speed improvement, New IGSN searching feature 
 [v 6.4.2](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-642) | June 2016 | Improvements downloading files 
 [v 6.4.1](https://github.com/earthchem/sesar-doc/blob/gh-pages/release_notes/SESAR_release_notes.md#version-641) | April 2016 | Ability to view user permissions, Error message standardization 
