@@ -3,6 +3,7 @@ name: how_to_set_up_SESAR_development_environment
 title: How to Set Up SESAR Development Environment
 date: 01/12/2020
 layout: default
+order: 2
 ---
 
 This document describes how to set up SESAR on a developer's local system (Ubuntu 11.10 to 14.01 LTE) for development purpose.
