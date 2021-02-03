@@ -1,5 +1,5 @@
 #### SESAR REST API (Beta v1)
-SESAR is undergoing the architecture redesign. Currently it is a monolith application. It will transforme to web services oriented applications. 
+SESAR is undergoing the architecture redesign. Currently it is a monolith application. It will transform to web services oriented application. 
 The first step is to separate the interwinded web services and application features. The set of standalone REST APIs for interaction with SESAR database have been implemented. 
 
 ##### The following existing PHP web services are reimplemented.
