@@ -6,7 +6,7 @@ layout: default
 order: 3
 ---
 
-# Validate user credentials and get user code
+#### Validate user credentials and get user code
 - The web service is at: [https://app.geosamples.org/webservices/credentials_service_v2.php](https://app.geosamples.org/webservices/credentials_service_v2.php).
 - It will check the user's credentials. If valid, it will return user code(s). If not valid, it will return error messages. It only accepts POST requests from the client program. GET, PUT and DELETE are not supported.
 - <ins>Notes</ins>
@@ -17,20 +17,20 @@ order: 3
 - Create a free GeoPass account. Follow this [link](https://geopass.iedadata.org/josso/).
 - Log in to the SESAR system to create your namespace or user code. If you would like to use other user's user code, you can login to the system and make a request. Follow this [link](https://geopass.iedadata.org/josso/).
 
-# POST API
+##### POST API
 **URI:** [https://app.geosamples.org/webservices/credentials_service_v2.php](https://app.geosamples.org/webservices/credentials_service_v2.php)
 
-### Request Headers
+##### Request Headers
 - Requires HTTP Basic Authentication header. [http://en.wikipedia.org/wiki/Basic_access_authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 - Accept: text/xml, application/xml
 
-### Request Body
+##### Request Body
 
 ```
 username={yourusername} password={yourpassword}
 ```
 
-### Response Body
+##### Response Body
 - **200** Successful. User name and password are valid. It will return user code(s) as following.
 
 ```
