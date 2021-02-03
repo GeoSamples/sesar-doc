@@ -6,16 +6,16 @@ layout: default
 order: 5
 ---
 
-# IGSN list for a geospatial polygon
+#### IGSN list for a geospatial polygon
 - The end point is [https://app.geosamples.org/samples/polygon](https://app.geosamples.org/samples/polygon)
 - Usage: https://app.geosamples.org/samples/polygon/[lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1,lat1].
   - [lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1 lat1] are points of a concave polygon. Please note that the last point is the same as the first point.
 - The service will retrieve all IGSNs whose geo-coordinates are located within the user defined polygon. It only accepts GET requests from the client program. It does not require login and password and supports pagination. If `hide_private` flag is set to 1, it will not return IGSNs whose sample metadata are not public accessible. It supports spatial reference systems transformation.
 
-# GET API
-### Request Headers
+##### GET API
+##### Request Headers
 - Accept: application/xml, application/json, text/xml, text/json
-### Request Body
+##### Request Body
 
 <pre>
 <b>lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1 lat1</b> = longitudes, latitudes for a polygon <b>limit={limit}</b> maximum IGSN
@@ -33,7 +33,7 @@ If 1, it will not return IGSNs whose sample metadata are not public accessible.
 <b>srs={SRID number}</b> Spatial Reference System Identifier (SRID). If it is not specified, it will default to EPSG:4326.
 </pre>
 
-### Response Body
+##### Response Body
 **HTTP status codes:**
 - **400** Bad Request - User specified polygon is not valid.
 - **404** Not Found - No IGSNs associated with the given polygon
