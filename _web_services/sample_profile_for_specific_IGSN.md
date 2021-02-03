@@ -6,23 +6,23 @@ layout: default
 order: 7
 ---
 
-# Sample Profile for specific IGSN
+#### Sample Profile for specific IGSN
 - The end point is [https://app.geosamples.org/sample/igsn](https://app.geosamples.org/sample/igsn) or The old end point is [https://app.geosamples.org/webservices/display.php](https://app.geosamples.org/webservices/display.php)
 - Usage: https://app.geosamples.org/sample/igsn/XXXXXXXXX
   - https://app.geosamples.org/webservices/display.php?igsn=XXXXXXXXX
   - XXXXXXXX is the IGSN of a sample. e.g., GEE0000O4, ODP000002
 - The service will retrieve most metadata of the sample. It only accepts GET requests from the client program. User name and password are not required. If they are provided, none public accessible sample metadata will be returned also.
 
-# GET API
-### Request Headers
+##### GET API
+##### Request Headers
 - Accept: text/xml, application/xml, application/json, text/json
-### Request Body
+##### Request Body
 
 ```
 igsn={igsn} username={yourusername} (optional) password={yourpassword} (optional)
 ```
 
-### Response Body
+##### Response Body
 **HTTP status codes:**
 - **400** Bad Request -  IGSN is not valid.
 - **403** Forbidden - IGSN is either deactived or has no public metadata.
