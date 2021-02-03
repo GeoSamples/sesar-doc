@@ -6,7 +6,7 @@ layout: default
 order: 8
 ---
 
-# Update Sample Metadata
+#### Update Sample Metadata
 - The web service [https://app.geosamples.org/webservices/update.php](https://app.geosamples.org/webservices/update.php) allows the client program to update registered sample(s) metadata profile(s).
 - It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.
 - <ins>Notes</ins>
@@ -19,14 +19,14 @@ order: 8
   </external_url></external_urls>
   ```
   
-# POST API
+##### POST API
 **URI:** [https://app.geosamples.org/webservices/update.php](https://app.geosamples.org/webservices/update.php)  
 **TEST URI:** [https://sesardev.geosamples.org/webservices/update.php](https://sesardev.geosamples.org/webservices/update.php)  
 
-### Request Headers
+##### Request Headers
 - Requires HTTP Basic Authentication header. http://en.wikipedia.org/wiki/Basic_access_authentication
 - Accept: text/xml, application/xml
-### Request Body
+##### Request Body
 
 ```
 username={yourusername} password={yourpassword} content={sampleinformation} 
@@ -58,7 +58,7 @@ Mountains, Mojave Desert, California </primary_location_name> <country>United St
 
 - You can update multiple samples by adding the <sample></sample> block nested into the <samples></samples> tag.
 
-### Response Body
+##### Response Body
 **HTTP status codes:**
 - **200** Sample registered successfully. The response text is as follows:
 
