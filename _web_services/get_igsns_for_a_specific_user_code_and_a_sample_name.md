@@ -13,7 +13,7 @@ order: 9
   - Sample name examples: Section 90-588C-14R-3 or NMNH 125980-00 (MIN)
 - The service will retrieve all IGSNs matching with a specific user code and a sample name. It only accepts GET requests from client programs. The login is optional. If 'hide_private' flag is set to 1, it will not return IGSNs whose sample metadata are not publicly accessible.
 
-###### GET API
+##### GET API
 ##### Request Headers
 - Accept: application/xml, application/json, text/xml, text/json
 ##### Request Headers 
