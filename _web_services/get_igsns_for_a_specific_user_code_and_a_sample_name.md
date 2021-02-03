@@ -6,17 +6,17 @@ layout: default
 order: 9
 ---
 
-# Get IGSN(s) for a specific user code and a sample name (NEW)
+##### Get IGSN(s) for a specific user code and a sample name (NEW)
 - The endpoint is [https://app.geosamples.org/samples/user_code](https://app.geosamples.org/samples/user_code).
 - E.G. [https://app.geosamples.org/samples/user_code/ODP?sample_name=test](https://app.geosamples.org/samples/user_code/ODP?sample_name=test)
   - User code examples: IEUHM or IELCZ, ODP, NHB or HRV
   - Sample name examples: Section 90-588C-14R-3 or NMNH 125980-00 (MIN)
 - The service will retrieve all IGSNs matching with a specific user code and a sample name. It only accepts GET requests from client programs. The login is optional. If 'hide_private' flag is set to 1, it will not return IGSNs whose sample metadata are not publicly accessible.
 
-# GET API
-### Request Headers
+###### GET API
+##### Request Headers
 - Accept: application/xml, application/json, text/xml, text/json
-### Request Headers 
+##### Request Headers 
 
 <pre>
 <b>limit={limit}</b> maximum IGSN number for each page. If it is not specified, it will default to 100. <b>page_no={page_no}</b> page
@@ -29,7 +29,7 @@ number. If it is not specified, it will default to 1.
 
 If 1, it will not return IGSNs whose sample metadata are not publicly accessible.
 
-### Response Body
+##### Response Body
 **HTTP status codes:**
 - **400** Bad Request - User Code is not valid.
 - **404** Not Found - No IGSNs associated with the given user code.
