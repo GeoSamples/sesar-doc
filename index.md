@@ -1,3 +1,12 @@
+---
+name: index
+title: Documentation Overview
+date: 01/12/2020
+layout: default
+order: 1
+---
+
+
 SESAR, the System for Earth Sample Registration, operates a global digital index of samples, specimens, and related sampling features from our natural environment.  SESAR provides services to support the management and sharing of these materials which includes metadata registration and issuing IGSNs (globally unique identifiers for samples and specimens).  
 
 Our application was built in 2005. After two major re-implementation with architecture improvements, it is now implemented by PHP and Javascript programming languages. We offer a set of web services to allow the client programs to interact with SESAR systems. SESAR uses GeoPass as its single-sign-on for secure login. We will soon support ORCID as a second authentication method. GeoPass single-sign-on service is maintained by EarthChem organization.  

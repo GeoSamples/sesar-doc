@@ -1,4 +1,4 @@
-- name: home
+- name: index
   title: Overview
   url: /
   placement: gh-pages
@@ -47,7 +47,7 @@
   type: singular
   display_order: 7
 
-- name: database_documentation
+- name: dbdocs
   title: Database Documentation
   url: /dbdocs/
   placement: gh-pages

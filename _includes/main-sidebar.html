@@ -14,13 +14,14 @@
           </button>
         </h4>
         <hr class="m-0"> 
-        <div id="collapse_{{ navitem.name }}" class="accordion-collapse collapse" aria-labelledby="accordion_item_{{ navitem.name }}" data-bs-parent="#sidebar_accordion">
+
+        <div id="collapse_{{ navitem.name }}" class="accordion-collapse collapse {% if page.collection == navitem.name %} show {% endif %}" aria-labelledby="accordion_item_{{ navitem.name }}" data-bs-parent="#sidebar_accordion">
           <div class="accordion-body list-group">
 
             {% assign sorted_collection_pages = site[navitem.name] | sort: "order" %}
 
             {% for item in sorted_collection_pages %}
-              <a href="{{ item.url | absolute_url }}" class="list-group-item list-group-item-action border-0">
+              <a href="{{ item.url | absolute_url }}" id="{{ item.name }}" class="list-group-item list-group-item-action border-0 {% if page.name == item.name %} active {% endif %}">
                 {{ item.title }}
               </a>
             {% endfor %}
@@ -36,7 +37,11 @@
         <h4 class="m-0">
           
           {% if navitem.placement == "gh-pages" %}
-            <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ navitem.url | absolute_url }}">
+
+            {% assign current_dir = page.dir | replace: "/", "" %}
+            {% assign current_page = page.path | replace: ".md", "" %}
+
+            <a id="" class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100 {% if page.collection == navitem.name or current_dir == navitem.name or current_page == navitem.name %} active {% endif %}" type="button" href="{{ navitem.url | absolute_url }}">
               {{ navitem.title }}
             </a>
           
