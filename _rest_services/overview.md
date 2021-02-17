@@ -6,8 +6,8 @@ layout: default
 ---
 
 #### SESAR REST API (Beta v1)
-SESAR is undergoing the architecture redesign. Currently it is a monolith application. It will transforme to web services oriented applications. 
-The first step is to separate the interwinded web services and application features. The set of standalone REST APIs for interaction with SESAR database have been implemented. 
+SESAR is undergoing the architecture redesign. Currently it is a monolith application. It will transform to web services oriented applications. 
+The first step is to separate the intertwined web services and application features. The set of standalone REST APIs for interaction with SESAR database have been implemented. 
 
 ##### The following existing PHP web services are reimplemented.
 
@@ -19,7 +19,7 @@ The first step is to separate the interwinded web services and application featu
 
 ##### The swagger documentation can be reached here. [https://api.geosamples.org/swagger-ui.html#/](https://api.geosamples.org/swagger-ui.html#/)
 
-* It contains REST APIs which implement the various functions as below.
+* It contains REST APIs that implement the various functions as below.
   * Classification
   * Country
   * GroupSample
