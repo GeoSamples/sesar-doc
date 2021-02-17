@@ -7,7 +7,8 @@ order: 7
 ---
 
 #### Sample Profile for specific IGSN
-- The end point is [https://app.geosamples.org/sample/igsn](https://app.geosamples.org/sample/igsn) or The old end point is [https://app.geosamples.org/webservices/display.php](https://app.geosamples.org/webservices/display.php)
+- The end point is [https://app.geosamples.org/sample/igsn](https://app.geosamples.org/sample/igsn) 
+- The old end point is [https://app.geosamples.org/webservices/display.php](https://app.geosamples.org/webservices/display.php)
 - Usage: https://app.geosamples.org/sample/igsn/XXXXXXXXX
   - https://app.geosamples.org/webservices/display.php?igsn=XXXXXXXXX
   - XXXXXXXX is the IGSN of a sample. e.g., GEE0000O4, ODP000002
