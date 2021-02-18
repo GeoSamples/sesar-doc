@@ -30,20 +30,27 @@ username={your_username} password={your_password} igsn={your_igsn} puburl={url_t
 - **200** The URL is successfully deleted. The response text is as follows.
 
 ```
-<results> <sample> <status>Publication URL(http://www.earthchem.org) is deleted successfully.</status>
-<igsn>SES000001</igsn> </sample> </results>
+<results> 
+  <sample> 
+  <status>Publication URL(http://www.earthchem.org) is deleted successfully.</status>
+  <igsn>SES000001</igsn> 
+  </sample> 
+</results>
 ```
 
 **400** Bad Request - Request body contains invalid values. Error messages will look like the following.
 
 ```
-<results> <error> Error: Specified URL or IGSN not found. </error> </results>
+<results> 
+  <error> Error: Specified URL or IGSN not found. </error> 
+</results>
 ```
 
 **401** Unauthorized - A login failure will return text as follows.
 
 ```
-<results> <valid code="InvalidAuth">no</valid> <error>Invalid login, username not known or password not matched</error> 
+<results> 
+  <valid code="InvalidAuth">no</valid> <error>Invalid login, username not known or password not matched</error> 
 </results>
 ```
 
