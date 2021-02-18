@@ -40,15 +40,24 @@ If 1, it will not return IGSNs whose sample metadata are not public accessible.
 ```
 
 ```
-<sample> <igsn>LLS00000L</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=LLS00000L</url> </sample>
+  <sample> 
+    <igsn>LLS00000L</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=LLS00000L</url> 
+  </sample>
 ```
 
 ```
-<sample> <igsn>LLS00000M</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=LLS00000M</url> </sample>
+  <sample> 
+    <igsn>LLS00000M</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=LLS00000M</url> 
+  </sample>
 ```
 
 ```
-<sample> <igsn>LLS00000N</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=LLS00000N</url> </sample>
+  <sample> 
+    <igsn>LLS00000N</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=LLS00000N</url> 
+  </sample>
 ```
 
 ```
@@ -56,12 +65,13 @@ If 1, it will not return IGSNs whose sample metadata are not public accessible.
 ```
 
 ```
-<total_counts>320</total_counts>
+  <total_counts>320</total_counts>
 ```
 
 ```
-<previous_list>https://app.geosamples.org/samples/user_code/LLS?limit=20&page_no=1</previous_list>
-<next_list>https://app.geosamples.org/samples/user_code/LLS?limit=20&page_no=3</next_list> </samples>
+  <previous_list>https://app.geosamples.org/samples/user_code/LLS?limit=20&page_no=1</previous_list>
+  <next_list>https://app.geosamples.org/samples/user_code/LLS?limit=20&page_no=3</next_list> 
+</samples>
 ```
 
 **JSON format**
