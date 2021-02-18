@@ -38,7 +38,12 @@ If 1, it will not return IGSNs whose sample metadata are not publicly accessible
 **Output format when the request is successful ( status code = 200 ) XML format:**
 
 ```
-<samples><sample> <igsn>NHB001B2E</igsn> <url>http://igsn.org/NHB001B2E</url> </sample>
+<samples>
+  <sample> 
+    <igsn>NHB001B2E</igsn> 
+    <url>http://igsn.org/NHB001B2E</url> 
+  </sample>
+</samples>
 ```
 
 ```
