@@ -34,25 +34,31 @@ username={yourusername} password={yourpassword}
 - **200** Successful. User name and password are valid. It will return user code(s) as following.
 
 ```
-<results> <valid>yes</valid> <user_codes> <user_code>MOB</user_code> </user_codes> </results> 
+<results> 
+  <valid>yes</valid> 
+  <user_codes> <user_code>MOB</user_code> </user_codes> 
+</results> 
 ```
 
 - **401** Unauthorized - A login failure will return text as following.
 
 ```
-<results> <valid>no</valid> <error>Invalid login, username not known or password not matched</error> </results>
+<results> 
+  <valid>no</valid> 
+  <error>Invalid login, username not known or password not matched</error> 
+</results>
 ```
 
 **Usage Examples:**
 
-**Example 1:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example 1:**
 
 ```
 command line example curl --data " username=your_user_name& password=your_password"  
 https://app.geosamples.org/ webservices/credentials_service_v2.php
 ```
 
-**Example 2**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example 2**
 
 ```
 <?php  function curl_http_post_request($requestdata) {     $ch = curl_init();   curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,
