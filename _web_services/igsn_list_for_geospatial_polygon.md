@@ -42,15 +42,28 @@ If 1, it will not return IGSNs whose sample metadata are not public accessible.
 **Output format when request is successful ( status code = 200 ) XML format:**
 
 ```
-<samples><sample> <igsn>LCZ7700AN</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=LCZ7700AN</url>
-</sample> <sample> <igsn>LCZ7700AM</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=LCZ7700AM</url>
-</sample> <sample> <igsn>LCZ7700AL</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=LCZ7700AL</url>
-</sample> <sample> <igsn>LCZ7700AK</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=LCZ7700AK</url>
-</sample> <total_counts>1489</total_counts> <previous_list>https://app.geosamples.org/samples/polygon/-67.4156
-18.6972,-67.4968 17.6568,-65.4526 17.6865,-65.5252 18.5649,-67.4156 18.6972?
-limit=4&amp;page_no=1&amp;hide_private=1</previous_list> <next_list>https://app.geosamples.org/samples/polygon/-67.4156
-18.6972,-67.4968 17.6568,-65.4526 17.6865,-65.5252 18.5649,-67.4156 18.6972?
-limit=4&amp;page_no=3&amp;hide_private=1</next_list> </samples>
+<samples>
+  <sample> 
+    <igsn>LCZ7700AN</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=LCZ7700AN</url>
+  </sample> 
+  <sample> 
+    <igsn>LCZ7700AM</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=LCZ7700AM</url>
+  </sample> 
+  <sample> 
+    <igsn>LCZ7700AL</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=LCZ7700AL</url>
+  </sample> 
+  <sample> 
+    <igsn>LCZ7700AK</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=LCZ7700AK</url>
+  </sample> 
+  <total_counts>1489</total_counts> 
+  <previous_list>https://app.geosamples.org/samples/polygon/-67.4156 18.6972,-67.4968 17.6568,-65.4526 17.6865,-65.5252 18.5649,-67.4156 18.6972   limit=4&amp;page_no=1&amp;hide_private=1</previous_list> 
+  <next_list>https://app.geosamples.org/samples/polygon/-67.4156 18.6972,-67.4968 17.6568,-65.4526 17.6865,-65.5252 18.5649,-67.4156 18.6972?
+limit=4&amp;page_no=3&amp;hide_private=1</next_list> 
+</samples>
 ```
 
 **JSON format:**
