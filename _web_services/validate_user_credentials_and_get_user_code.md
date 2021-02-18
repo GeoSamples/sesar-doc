@@ -51,14 +51,14 @@ username={yourusername} password={yourpassword}
 
 **Usage Examples:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example 1:**
+**Example 1:**
 
 ```
 command line example curl --data " username=your_user_name& password=your_password"  
 https://app.geosamples.org/ webservices/credentials_service_v2.php
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example 2**
+**Example 2**
 
 ```
 <?php  function curl_http_post_request($requestdata) {     $ch = curl_init();   curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,
