@@ -12,7 +12,7 @@ order: 7
 - Usage: https://app.geosamples.org/sample/igsn/XXXXXXXXX
   - https://app.geosamples.org/webservices/display.php?igsn=XXXXXXXXX
   - XXXXXXXX is the IGSN of a sample. e.g., GEE0000O4, ODP000002
-- The service will retrieve most metadata of the sample. It only accepts GET requests from the client program. User name and password are not required. If they are provided, none public accessible sample metadata will be returned also.
+- The service will retrieve most metadata of the sample. It only accepts GET requests from the client program. User name and password are not required. If they are provided, none public accessible sample metadata will be returned also. 
 
 ##### GET API
 ##### Request Headers
