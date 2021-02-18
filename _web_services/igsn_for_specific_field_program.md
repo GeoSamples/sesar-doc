@@ -38,14 +38,28 @@ If 1, it will not return IGSNs whose sample metadata are not public accessible.
 **Output format when request is successful ( status code = 200 ) XML format:**
 
 ```
-<samples><sample> <igsn>SSH0002V6</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=SSH0002V6</url>
-</sample> <sample> <igsn>SSH0002V5</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=SSH0002V5</url>
-</sample> <sample> <igsn>SSH0002V4</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=SSH0002V4</url>
-</sample> <sample> <igsn>SSH0002V3</igsn> <url>https://app.geosamples.org/webservices/display.php?igsn=SSH0002V3</url>
-</sample> <total_counts>4339</total_counts> <previous_list>https://app.geosamples.org/samples/field_program/Susquehanna
-Shale Hills Critical Zone Observatory (CZO)?limit=4&amp;page_no=99&amp;hide_private=0</previous_list>
+<samples>
+  <sample> 
+    <igsn>SSH0002V6</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=SSH0002V6</url>
+  </sample> 
+  <sample> 
+    <igsn>SSH0002V5</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=SSH0002V5</url>
+  </sample> 
+  <sample> 
+    <igsn>SSH0002V4</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=SSH0002V4</url>
+  </sample> 
+  <sample> 
+    <igsn>SSH0002V3</igsn> 
+    <url>https://app.geosamples.org/webservices/display.php?igsn=SSH0002V3</url>
+  </sample> 
+  <total_counts>4339</total_counts> 
+  <previous_list>https://app.geosamples.org/samples/field_program/Susquehanna Shale Hills Critical Zone Observatory (CZO)?limit=4&amp;page_no=99&amp;hide_private=0</previous_list>
 <next_list>https://app.geosamples.org/samples/field_program/Susquehanna Shale Hills Critical Zone Observatory (CZO)?
-limit=4&amp;page_no=101&amp;hide_private=0</next_list> </samples>
+limit=4&amp;page_no=101&amp;hide_private=0</next_list> 
+  </samples>
 ```
 
 **JSON format:**
