@@ -57,6 +57,5 @@ username={your_username} password={your_password} igsn={your_igsn} puburl={url_t
 **Example:**
 
 ```
-curl -X POST -H "accept: application/xml" -d
-"username=yourusername&puburl=http://www.earthchem.org&password=yourpassword&igsn=SES000001";
+curl -X POST -H "accept: application/xml" -d "username=yourusername&puburl=http://www.earthchem.org&password=yourpassword&igsn=SES000001";
 ```
