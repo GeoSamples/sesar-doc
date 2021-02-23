@@ -17,21 +17,13 @@ order: 5
 - Accept: application/xml, application/json, text/xml, text/json
 ##### Request Body
 
-<pre>
-<b>lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1 lat1</b> = longitudes, latitudes for a polygon <b>limit={limit}</b> maximum IGSN
-number for each page. If it is not specified, it will default to 100. <b>page_no={page_no}</b> page number. If it is not
-specified, it will default to 1.
-</pre>
-
-<pre>
-<b> hide_private={1 or 0 or none} default to 0</b>
-</pre>
-
-If 1, it will not return IGSNs whose sample metadata are not public accessible.
-
-<pre>
-<b>srs={SRID number}</b> Spatial Reference System Identifier (SRID). If it is not specified, it will default to EPSG:4326.
-</pre>
+```
+lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1 lat1: longitudes, latitudes for a polygon
+limit={limit}: maximum IGSN number for each page. If it is not specified, it will default to 100.
+page_no={page_no}: page number. If it is not specified, it will default to 1.
+hide_private={1 or 0 or none}: default to 0. If 1, it will not return IGSNs whose sample metadata are not public accessible.
+srs={SRID number}: Spatial Reference System Identifier (SRID). If it is not specified, it will default to EPSG:4326.
+```
 
 ##### Response Body
 **HTTP status codes:**
@@ -69,30 +61,24 @@ limit=4&amp;page_no=3&amp;hide_private=1</next_list>
 **JSON format:**
 
 ```
-{ "igsn_list": [ "LCZ7700AN", "LCZ7700AM", "LCZ7700AL", "LCZ7700AK" ], "total_counts": 1489, "previous_list":
-"https://app.geosamples.org/samples/polygon/-67.4156 18.6972,-67.4968 17.6568,-65.4526 17.6865,-65.5252
-18.5649,-67.4156 18.6972?limit=4&page_no=1&hide_private=1", "next_list":
-"https://app.geosamples.org/samples/polygon/-67.4156 18.6972,-67.4968 17.6568,-65.4526 17.6865,-65.5252
-18.5649,-67.4156 18.6972?limit=4&page_no=3&hide_private=1" }
+{ "igsn_list": [ "LCZ7700AN", "LCZ7700AM", "LCZ7700AL", "LCZ7700AK" ],
+  "total_counts": 1489,
+  "previous_list": "https://app.geosamples.org/samples/polygon/-67.4156 18.6972,-67.4968 17.6568,-65.4526 17.6865,-65.5252 18.5649,-67.4156 18.6972?limit=4&page_no=1&hide_private=1",
+  "next_list": "https://app.geosamples.org/samples/polygon/-67.4156 18.6972,-67.4968 17.6568,-65.4526 17.6865,-65.5252 18.5649,-67.4156 18.6972?limit=4&page_no=3&
+  hide_private=1"
+}
 ```
 
 ***Please note: Total count of IGSNs is tagged as "total_counts" in the returned content. If limits, page numbers, etc. are specified, the returned content will have <previous_list> and <next_list> tags when there are more than one page of IGSNs.***
 
 ```
-curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/
-polygon/-67.4156%2018.6972,-67.4968%2017.6568, -65.4526%2017.6865,-65.5252%2018.5649, -67.4156%2018.6972&
-hide_private=1&limit=4&page_no=2"
+curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568, -65.4526%2017.6865,-65.5252%2018.5649, -67.4156%2018.6972&hide_private=1&limit=4&page_no=2"
 ```
 
 ```
-curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/
-polygon/-67.4156%2018.6972,-67.4968%2017.6568, -65.4526%2017.6865,-65.5252%2018.5649, -67.4156%2018.6972&
-hide_private=1&limit=4&page_no=2"
+curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568, -65.4526%2017.6865,-65.5252%2018.5649, -67.4156%2018.6972&hide_private=1&limit=4&page_no=2"
 ```
 
 ```
-NEW curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/
-polygon/-43096291.5430165%20223829530.742031, -53338557.3468762%20277024863.02079,
-87260142.0817049%20268278668.61794,70504128. 9133862%20216762812.731158,-43096291.5430165%20223829530.742031
-&srs=3031&hide_private=1& limit=4&page_no=2"
+curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/polygon/-43096291.5430165%20223829530.742031,53338557.3468762%20277024863.02079,87260142.0817049%20268278668.61794,70504128. 9133862%20216762812.731158,-43096291.5430165%20223829530.742031&srs=3031&hide_private=1& limit=4&page_no=2"
 ```
