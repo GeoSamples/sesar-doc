@@ -17,18 +17,12 @@ order: 6
 - Accept: application/xml, application/json, text/xml, text/json
 ##### Request Body
 
-<pre>
-<b>field program name</b> = exact name of the field program (case sensitive) <b>limit={limit}</b> maximum number of IGSNs for each
-page. If it is not specified, it will default to 100. page_no={page_no} page number. If it is not specified, it will
-default to 1.
-</pre>
-
-<pre>
-<b>hide_private={1 or 0 or none} default to 0</b>
-</pre>
-
-If 1, it will not return IGSNs whose sample metadata are not public accessible.
-
+```
+field_program_name={name of field program}: exact name of the field program (case sensitive)
+limit={limit}: maximum number of IGSNs for each page. If it is not specified, it will default to 100. page_no={page_no} page number. If it is not specified, it will
+default to 100.
+hide_private={1 or 0 or none} default to 0. If 1, it will not return IGSNs whose sample metadata are not public accessible.
+```
 ##### Response Body
 **HTTP status codes:**
 - **400** Bad Request - Field program name is not valid.
@@ -65,16 +59,16 @@ limit=4&amp;page_no=101&amp;hide_private=0</next_list>
 **JSON format:**
 
 ```
-{ "igsn_list": [ "SSH0002V6", "SSH0002V5", "SSH0002V4", "SSH0002V3" ], "total_counts": 4339, "previous_list":
-"https://app.geosamples.org/samples/field_program/Susquehanna Shale Hills Critical Zone Observatory (CZO)?
-limit=4&page_no=99&hide_private=0", "next_list": "https://app.geosamples.org/samples/field_program/Susquehanna Shale
-Hills Critical Zone Observatory (CZO)?limit=4&page_no=101&hide_private=0" }
+{ "igsn_list": [ "SSH0002V6", "SSH0002V5", "SSH0002V4", "SSH0002V3" ], 
+  "total_counts": 4339,
+  "previous_list":"https://app.geosamples.org/samples/field_program/Susquehanna Shale Hills Critical Zone Observatory (CZO)?limit=4&page_no=99&hide_private=0",     
+  "next_list": "https://app.geosamples.org/samples/field_program/Susquehanna Shale Hills Critical Zone Observatory (CZO)?limit=4&page_no=101&hide_private=0"
+}
 ```
 
 ***Please note: Total count of IGSNs is tagged as "total_counts" in the returned content. If limits, page numbers, etc. are specified, the returned content will have <previous_list> and <next_list> tags when there are more than one page of IGSNs.***
 **Example:**
 
 ```
-curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/field_program
-/Susquehanna%20Shale%20Hills%20Critical %20Zone%20Observatory%20(CZO)& limit=4&page_no=100";
+curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/field_program/Susquehanna%20Shale%20Hills%20Critical %20Zone%20Observatory%20(CZO)& limit=4&page_no=100";
 ```
