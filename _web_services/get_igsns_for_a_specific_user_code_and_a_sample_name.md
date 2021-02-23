@@ -17,18 +17,11 @@ order: 9
 ##### Request Headers
 - Accept: application/xml, application/json, text/xml, text/json
 ##### Request Headers 
-
-<pre>
-<b>limit={limit}</b> maximum IGSN number for each page. If it is not specified, it will default to 100. <b>page_no={page_no}</b> page
-number. If it is not specified, it will default to 1.
-</pre>
-
-<pre>
-<b>hide_private={1 or 0 or none} default to 0</b>
-</pre>
-
-If 1, it will not return IGSNs whose sample metadata are not publicly accessible.
-
+```
+limit={limit}: maximum IGSN number for each page. If it is not specified, it will default to 100.
+page_no={page_no}: page number. If it is not specified, it will default to 1.
+hide_private={1 or 0 or none}: default to 0. If 1, it will not return IGSNs whose sample metadata are not publicly accessible.
+```
 ##### Response Body
 **HTTP status codes:**
 - **400** Bad Request - User Code is not valid.
