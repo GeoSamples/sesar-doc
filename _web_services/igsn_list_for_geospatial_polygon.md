@@ -17,13 +17,12 @@ order: 5
 - Accept: application/xml, application/json, text/xml, text/json
 ##### Request Body
 
-```
-lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1 lat1: longitudes, latitudes for a polygon
-limit={limit}: maximum IGSN number for each page. If it is not specified, it will default to 100.
-page_no={page_no}: page number. If it is not specified, it will default to 1.
-hide_private={1 or 0 or none}: default to 0. If 1, it will not return IGSNs whose sample metadata are not public accessible.
-srs={SRID number}: Spatial Reference System Identifier (SRID). If it is not specified, it will default to EPSG:4326.
-```
+
+- **lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1 lat1**: longitudes, latitudes for a polygon
+- **limit={limit}**: maximum IGSN number for each page. If it is not specified, it will default to 100.
+- **page_no={page_no}**: page number. If it is not specified, it will default to 1.
+- **hide_private={1 or 0 or none}**: default to 0. If 1, it will not return IGSNs whose sample metadata are not public accessible.
+
 
 ##### Response Body
 **HTTP status codes:**
