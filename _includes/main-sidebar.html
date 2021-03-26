@@ -53,6 +53,13 @@
             </a>
 
           {% endif %}
+          {% if navitem.placement == "external" %}
+
+            <a class="btn btn-outline-primary border-0 border-light rounded-0 py-3 px-2 text-left w-100" type="button" href="{{ navitem.url }}">
+              {{ navitem.title }}
+            </a>
+
+          {% endif %}
 
         </h4>
       </div>

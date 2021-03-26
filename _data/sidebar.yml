@@ -49,8 +49,8 @@
 
 - name: dbdocs
   title: Database Documentation
-  url: /dbdocs/
-  placement: gh-pages
+  url: https://app.geosamples.org/dbdoc/index.html
+  placement: external
   type: singular
   display_order: 8
   

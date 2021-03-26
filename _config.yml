@@ -5,6 +5,8 @@ email: jdf@ldeo.columbia.edu
 
 github_username: geosamples
 github_repo: geosamples
+
+sesar_team: SESAR team
 sesar_login: https://app.geosamples.org
 sesar_website: http://www.geosamples.org
 sesar_search: http://www-staging.geosamples.org/?s=
@@ -86,4 +88,4 @@ dbdocs:
 funder:
   name: nsf
   logo: assets/images/nsf-all-color.png
-  description: Hosted at the Lamont-Doherty Earth Observatory of Columbia University and funded by National Science Foundation
+  description: Hosted at the Lamont-Doherty Earth Observatory of Columbia University and funded by the National Science Foundation
