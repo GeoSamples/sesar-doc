@@ -24,3 +24,4 @@ The end point is [https://app.geosamples.org/webservices/](https://app.geosample
   
 1. Create a free GeoPass account. Follow [this link](https://geopass.iedadata.org/josso/).
 2. Create your namespace(s) or user code(s). Or gain access to other user's namespace(s). Follow [this link](https://geopass.iedadata.org/josso/).
+3. Fill out [this request form](https://test-sesar.geosamples.org/views/webservice_request.php)
