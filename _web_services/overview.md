@@ -6,8 +6,10 @@ layout: default
 order: 1
 ---
 
+### Accessing SESAR's REST web services
+SESAR's REST web services will have restricted access after release v7.5 becasue of the introduction of MARS (Middleware for Assisting the Registration of Samples) provides a possible pathway where individuls can register samples through REST web services with no metadata quality checks. Therefore, access to REST web services will be restricted to ensure quality of registered sample metedata. If you used REST web services before the release of v7.5, you will be grandfathered into accessing SESAR's REST web services. If you wish to be a new user of SESAR's REST web services you must fill out [this request form](https://test-sesar.geosamples.org/views/webservice_request.php). SESAR curators will work with you to ensure that your use of SESAR's web services results in the registration of good, quality metadata.
 
-### SESAR provides following REST web services.
+### SESAR provides following REST web services
 1. [Sample registration](https://geosamples.github.io/sesar-doc/web_services/sample_registration.html)
 2. [Validate user credentials and get user codes](https://geosamples.github.io/sesar-doc/web_services/validate_user_credentials_and_get_user_code.html)
 3. [IGSN list for a specific user code](https://geosamples.github.io/sesar-doc/web_services/igsn_list_for_specific_user_code.html)
