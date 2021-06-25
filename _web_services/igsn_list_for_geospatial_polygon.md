@@ -8,7 +8,7 @@ order: 5
 
 #### IGSN list for a geospatial polygon
 - The end point is [https://app.geosamples.org/samples/polygon](https://app.geosamples.org/samples/polygon)
-- Usage: https://app.geosamples.org/samples/polygon/[lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1,lat1].
+- Usage: https://app.geosamples.org/samples/polygon/lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1,lat1 .
   - [lon1 lat1, lon2 lat2, lon3 lat3, lon4 lat4, lon1 lat1] are points of a concave polygon. Please note that the last point is the same as the first point.
 - The service will retrieve all IGSNs whose geo-coordinates are located within the user defined polygon. It only accepts GET requests from the client program. It does not require login and password and supports pagination. If `hide_private` flag is set to 1, it will not return IGSNs whose sample metadata are not public accessible. It supports spatial reference systems transformation.
 
@@ -71,11 +71,11 @@ limit=4&amp;page_no=3&amp;hide_private=1</next_list>
 ***Please note: Total count of IGSNs is tagged as "total_counts" in the returned content. If limits, page numbers, etc. are specified, the returned content will have <previous_list> and <next_list> tags when there are more than one page of IGSNs.***
 
 ```
-curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568, -65.4526%2017.6865,-65.5252%2018.5649, -67.4156%2018.6972&hide_private=1&limit=4&page_no=2"
+curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568,-65.4526%2017.6865,-65.5252%2018.5649,-67.4156%2018.6972&hide_private=1&limit=4&page_no=2"
 ```
 
 ```
-curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568, -65.4526%2017.6865,-65.5252%2018.5649, -67.4156%2018.6972&hide_private=1&limit=4&page_no=2"
+curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568,-65.4526%2017.6865,-65.5252%2018.5649,-67.4156%2018.6972&hide_private=1&limit=4&page_no=2"
 ```
 
 ```
