@@ -70,5 +70,5 @@ limit=4&amp;page_no=101&amp;hide_private=0</next_list>
 **Example:**
 
 ```
-curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/field_program/Susquehanna%20Shale%20Hills%20Critical%20Zone%20Observatory%20(CZO)& limit=4&page_no=100";
+curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/field_program/Susquehanna%20Shale%20Hills%20Critical%20Zone%20Observatory%20(CZO)&limit=4&page_no=100";
 ```
