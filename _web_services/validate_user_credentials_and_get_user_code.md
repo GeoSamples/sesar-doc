@@ -55,7 +55,7 @@ username={yourusername} password={yourpassword}
 
 ```
 command line example: curl --data "username=your_user_name&password=your_password"  
-https://app.geosamples.org/ webservices/credentials_service_v2.php
+https://app.geosamples.org/webservices/credentials_service_v2.php
 ```
 
 **Example 2**
