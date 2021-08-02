@@ -14,7 +14,7 @@ sesar_search: http://www-staging.geosamples.org/?s=
 
 # url: ""
 baseurl: "sesar-doc" # the subpath of your site, e.g. /blog
-description: Documentation for SESAR as of January 12, 2021
+description: Documentation for SESAR as of July 22, 2021
 
 logo_desktop: assets/images/sesar_vertical_website_logo_black.png
 logo_mobile: assets/images/sesar_website_logo_bnw.png
