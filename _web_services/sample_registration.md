@@ -16,8 +16,10 @@ order: 2
      - ``` https://sesardev.geosamples.org/webservices/upload.php ```  
     
 ##### POST API
-**URI** ``` https://app.geosamples.org/webservices/upload.php ``` 
+**URI** ``` https://app.geosamples.org/webservices/upload.php ```
+
 **TEST URI** ``` https://sesardev.geosamples.org/webservices/upload.php ```
+
 **GeoPass Account:**
 - Before you use this web service, you need to create a free GeoPass account. Here is the link to register for a GeoPass account: [https://geopass.iedadata.org/josso/](https://geopass.iedadata.org/josso/).
 - After the GeoPass account is created, you need to log in to the SESAR system at least once to create your namespace (user code). Here is the link to log in to SESAR: [https://app.geosamples.org/](https://app.geosamples.org).
