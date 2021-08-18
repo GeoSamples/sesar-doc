@@ -15,7 +15,7 @@ order: 2
   - <ins>The user should use the following test URI during client program testing, so that the production server will not be populated with test samples:</ins>
      - ``` https://sesardev.geosamples.org/webservices/upload.php ```  
     
-##### POST API
+#### POST API
 **URI** ``` https://app.geosamples.org/webservices/upload.php ```
 
 **TEST URI** ``` https://sesardev.geosamples.org/webservices/upload.php ```
@@ -26,11 +26,11 @@ order: 2
 - Or the user can request permissions from other user by providing the geopass login to the granter. The granter can set up his or her user code permission on the user profile page.
 - The user can only register samples with user codes or namespaces that they own or have write permission to.
 
-##### Request Headers
+#### Request Headers
 - Requires HTTP Basic Authentication header. [http://en.wikipedia.org/wiki/Basic_access_authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 - Accept: text/xml, application/xml, application/json
 
-##### Request Body
+#### Request Body
 
 ```
 username={yourusername} password={yourpassword} content={sampleinformation}
@@ -84,7 +84,7 @@ username={yourusername} password={yourpassword} content={sampleinformation}
 
 - You can upload multiple samples by adding the <sample></sample> block nested within the <samples></samples> tag. You can find the XML sample template at this [link](https://app.geosamples.org/4.0/sample.xml).
 
-##### Response Body  
+#### Response Body  
 **HTTP status codes:**  
 - **200** Sample registered successfully. The response text is like the following.
 
