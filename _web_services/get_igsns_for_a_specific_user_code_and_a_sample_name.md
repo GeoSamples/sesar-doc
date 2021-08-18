@@ -7,8 +7,8 @@ order: 9
 ---
 
 ##### Get IGSN(s) for a specific user code and a sample name (NEW)
-- The endpoint is [https://app.geosamples.org/samples/user_code](https://app.geosamples.org/samples/user_code).
-- E.G. [https://app.geosamples.org/samples/user_code/ODP?sample_name=test](https://app.geosamples.org/samples/user_code/ODP?sample_name=test)
+- The endpoint is ```https://app.geosamples.org/samples/user_code```.
+- E.G. ```https://app.geosamples.org/samples/user_code/ODP?sample_name=test```
   - User code examples: IEUHM or IELCZ, ODP, NHB or HRV
   - Sample name examples: Section 90-588C-14R-3 or NMNH 125980-00 (MIN)
 - The service will retrieve all IGSNs matching with a specific user code and a sample name. It only accepts GET requests from client programs. The login is optional. If 'hide_private' flag is set to 1, it will not return IGSNs whose sample metadata are not publicly accessible.
@@ -46,8 +46,7 @@ hide_private={1 or 0 or none}: default to 0. If 1, it will not return IGSNs whos
 **Example**
 
 ```
-curl -v -X GET -H "accept:application/xml" "https://app.geosamples.org/samples/user_code/NHB?sample_name=NMNH+148841-
-00+(MIN)";
+curl -v -X GET -H "accept:application/xml" "https://app.geosamples.org/samples/user_code/NHB?sample_name=NMNH+148841-00+(MIN)";
 ```
 
 **JSON format:**
@@ -59,8 +58,7 @@ curl -v -X GET -H "accept:application/xml" "https://app.geosamples.org/samples/u
 **Example:**
 
 ```
-curl -v -X GET -H "accept:application/json" "https://app.geosamples.org/samples/user_code/NHB?sample_name=NMNH+148841-
-00+(MIN)";
+curl -v -X GET -H "accept:application/json" "https://app.geosamples.org/samples/user_code/NHB?sample_name=NMNH+148841-00+(MIN)";
 ```
 
 
