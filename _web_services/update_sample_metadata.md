@@ -7,11 +7,11 @@ order: 8
 ---
 
 #### Update Sample Metadata
-- The web service [https://app.geosamples.org/webservices/update.php](https://app.geosamples.org/webservices/update.php) allows the client program to update registered sample(s) metadata profile(s).
+- The web service ``` https://app.geosamples.org/webservices/update.php ``` allows the client program to update registered sample(s) metadata profile(s).
 - It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.
 - <ins>Notes</ins>
   - <ins>The user should use the following test URI during client program testing, so production sample profiles are not accidentally edited.</ins>
-    - [https://sesardev.geosamples.org/webservices/update.php](https://sesardev.geosamples.org/webservices/update.php)
+    - ``` https://sesardev.geosamples.org/webservices/update.php ```
   - <ins> New:</ins> The user can replace an existing URL using 'old_url' element. See document in updateSample.xsd schema file
   
   ``` 
@@ -24,8 +24,9 @@ order: 8
   ```
   
 ##### POST API
-**URI:** [https://app.geosamples.org/webservices/update.php](https://app.geosamples.org/webservices/update.php)  
-**TEST URI:** [https://sesardev.geosamples.org/webservices/update.php](https://sesardev.geosamples.org/webservices/update.php)  
+**URI:** ``` https://app.geosamples.org/webservices/update.php ```
+
+**TEST URI:** ``` https://sesardev.geosamples.org/webservices/update.php ```
 
 ##### Request Headers
 - Requires HTTP Basic Authentication header. http://en.wikipedia.org/wiki/Basic_access_authentication
@@ -126,10 +127,3 @@ xsi:schemaLocation="http://app.geosamples.org/classifications.xsd">
   <error>Invalid login, username not known or password not matched</error> 
 </results>
 ```
-
-***
-For more information, please visit the [IEDA web services page](https://www.iedadata.org/help/web-services/#rest) or its [technical API documentation](https://www.iedadata.org/help/web-services/).
-
-Currently, web services are used for sample registration or update by the GEOCHRON data system, Smithsonian Institution, etc.
-
-If you are interested in establishing interoperability with SESAR, please contact info@geosamples.org.
