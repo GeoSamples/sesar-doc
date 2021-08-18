@@ -8,8 +8,8 @@ order: 6
 
 
 #### IGSN list for a specific field program
-- The end point is [https://app.geosamples.org/samples/field_program](https://app.geosamples.org/samples/field_program)
-  - Usage: https://app.geosamples.org/samples/field_program/[field program name].
+- The end point is ```https://app.geosamples.org/samples/field_program```
+  - Usage: ```https://app.geosamples.org/samples/field_program/[field program name```.
 - The service will retrieve all IGSNs for a user defined field program. It only accepts GET requests from client programs. It does not require login and password and supports pagination. If `hide_private` flag is set to 1, it will not return IGSNs whose sample metadata are not public accessible.
 
 ##### GET API
@@ -70,5 +70,5 @@ limit=4&amp;page_no=101&amp;hide_private=0</next_list>
 **Example:**
 
 ```
-curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/field_program/Susquehanna%20Shale%20Hills%20Critical%20Zone%20Observatory%20(CZO)&limit=4&page_no=100";
+curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/field_program/Susquehanna%20Shale%20Hills%20Critical%20Zone%20Observatory%20(CZO)&limit=4&page_no=100"
 ```
