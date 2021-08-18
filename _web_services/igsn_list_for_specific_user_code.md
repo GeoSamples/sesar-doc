@@ -7,8 +7,8 @@ order: 4
 ---
 
 #### IGSN list for specific user code
-- The end point is [https://app.geosamples.org/samples/user_code](https://app.geosamples.org/samples/user_code).
-  - E.G. [https://app.geosamples.org/samples/user_code/IEUHM](https://app.geosamples.org/samples/user_code/IEUHM)
+- The end point is ``` https://app.geosamples.org/samples/user_code ```.
+  - E.G. ``` https://app.geosamples.org/samples/user_code/IEUHM ```
     - User code examples: IEUHM or IELCZ, ODP, NHB or HRV
 - The service will retrieve all IGSNs for a specific user code. It only accepts GET requests from client programs. It does not require login and password and supports pagination. If `hide_private` flag is set to 1, it will not return IGSNs whose sample metadata are not public accessible.
 
