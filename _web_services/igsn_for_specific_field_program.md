@@ -9,7 +9,7 @@ order: 6
 
 #### IGSN list for a specific field program
 - The end point is ```https://app.geosamples.org/samples/field_program```
-  - Usage: ```https://app.geosamples.org/samples/field_program/[field program name```.
+  - Usage: ```https://app.geosamples.org/samples/field_program/[field program name]```.
 - The service will retrieve all IGSNs for a user defined field program. It only accepts GET requests from client programs. It does not require login and password and supports pagination. If `hide_private` flag is set to 1, it will not return IGSNs whose sample metadata are not public accessible.
 
 ##### GET API
