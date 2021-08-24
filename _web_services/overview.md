@@ -6,8 +6,8 @@ layout: default
 order: 1
 ---
 
-## Attention: SESAR will be undergoing a server maintenance on Thursday August 26th 2021 from 10:00am ET to 1:00pm ET. This will cause interruptions in our web services. Please refrain from uploading new samples or conducting updates using web services during this time. We apologize for any inconvenience this may cause. Thanks, SESAR Team. 
-
+## Attention: 
+``` SESAR will be undergoing a server maintenance on Thursday August 26th 2021 from 10:00am ET to 1:00pm ET. This will cause interruptions in our web services. Please refrain from uploading new samples or conducting updates using web services during this time. We apologize for any inconvenience this may cause. Thanks, SESAR Team. ```
 
 ### Accessing SESAR's PHP web services
 SESAR's web services will have restricted access after release v8.0 (22 July 2021). SESAR's web services provides a possible pathway where individuls can register samples directly through web services without undergoing curatorial review. Therefore, access to SESAR's web services will be restricted to ensure quality of registered sample metedata. If you had a MySESAR account prior to the release of v8.0, you will be grandfathered into accessing SESAR's web services. New user of SESAR's web services must fill out [this request form](https://app.geosamples.org/views/webservice_request.php). SESAR curators will work with you to ensure that your use of SESAR's web services results in the registration of good, quality metadata. If you want to test usecases of SESAR's web services you can do so with the test endpoint ``` https://sesardev.geosamples.org/webservices ```
