@@ -1,0 +1,21 @@
++ ---
++ name: SESAR_v8_1_0
++ title: SESAR v8.1.0
++ date: 2022/09/08
++ layout: posts
++ categories: release_notes
++ tags:
++ summary: Migration to AWS cloud infastructure, enhancements to SESAR metadata fields, and ›minor bug fixes
++ ---
++
++ 1. Server Migrartion: SESAR, SESARDB, SESAR-Rest-API to AWS cloud infastructure
++ 2. Enhancement: Updated mantenance mode for MySESAR
++ 3. Enhancement: Updated list of countries and sort countries by name in dropdown selections 
++ 4. Enhancement: Convert and support TIFF images as JPG on sample landing pages
++ 5. Enhancement: Improved clarity of webservices error message
++ 6. Enhancement: Increased speed of sample transfer query that caused home page to load slowly
++ 7. Bug Fix: Adjusted year intervals for activating and deactivating user codes
++ 8. Bug Fix: Name case sensitivity when checking for existing user during account creation
++ 9. Bug Fix: Issues in duplicate accounts with the same ORCID
++ 10. Bug Fix: ORCID login error
++ 11. Bug Fix: Site crash with user without user code
