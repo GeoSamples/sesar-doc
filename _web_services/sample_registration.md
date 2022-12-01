@@ -13,12 +13,12 @@ order: 2
   - The older version (v1) [uploadservice.php](https://app.geosamples.org/webservices/uploadservice.php) is deprecated and its bugs will not be fixed. The v1 only supports the [schema v1.0](https://app.geosamples.org/sample.xsd). It does not support later version of the schema ([schema v2.0](https://app.geosamples.org/samplev2.xsd), [schema 3.0](https://app.geosamples.org/3.0/sample.xsd), or [schema 4.0](https://app.geosamples.org/4.0/sample.xsd)). It will not be supported in the future release.
   - **<ins>The current</ins>** [upload web service](https://app.geosamples.org/webservices/upload.php) **<ins>(upload.php) only supports</ins>** [schema 3.0](https://app.geosamples.org/3.0/sample.xsd) **<ins>and</ins>** [schema 4.0](https://app.geosamples.org/4.0/sample.xsd). **<ins>Please update your sample registration XML accordingly.</ins>**
   - <ins>The user should use the following test URI during client program testing, so that the production server will not be populated with test samples:</ins>
-     - ``` https://sesardev.geosamples.org/webservices/upload.php ```  
+     - ``` https://app-sandbox.geosamples.org/webservices/upload.php ```  
     
 #### POST API
 **URI** ``` https://app.geosamples.org/webservices/upload.php ```
 
-**TEST URI** ``` https://sesardev.geosamples.org/webservices/upload.php ```
+**TEST URI** ``` https://app-sandbox.geosamples.org/webservices/upload.php ```
 
 **GeoPass Account:**
 - Before you use this web service, you need to create a free GeoPass account. Here is the link to register for a GeoPass account: [https://geopass.iedadata.org/josso/](https://geopass.iedadata.org/josso/).

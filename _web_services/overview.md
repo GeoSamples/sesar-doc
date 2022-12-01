@@ -25,7 +25,7 @@ order: 1
 
 
 ### Accessing SESAR's PHP web services
-SESAR's web services will have restricted access after release v8.0 (22 July 2021). SESAR's web services provides a possible pathway where individuls can register samples directly through web services without undergoing curatorial review. Therefore, access to SESAR's web services will be restricted to ensure quality of registered sample metedata. If you had a MySESAR account prior to the release of v8.0, you will be grandfathered into accessing SESAR's web services. New user of SESAR's web services must fill out [this request form](https://app.geosamples.org/views/webservice_request.php). SESAR curators will work with you to ensure that your use of SESAR's web services results in the registration of good, quality metadata. If you want to test usecases of SESAR's web services you can do so with the test endpoint ``` https://sesardev.geosamples.org/webservices ```
+SESAR's web services will have restricted access after release v8.0 (22 July 2021). SESAR's web services provides a possible pathway where individuls can register samples directly through web services without undergoing curatorial review. Therefore, access to SESAR's web services will be restricted to ensure quality of registered sample metedata. If you had a MySESAR account prior to the release of v8.0, you will be grandfathered into accessing SESAR's web services. New user of SESAR's web services must fill out [this request form](https://app.geosamples.org/views/webservice_request.php). SESAR curators will work with you to ensure that your use of SESAR's web services results in the registration of good, quality metadata. If you want to test usecases of SESAR's web services you can do so with the test endpoint ``` https://app-sandbox.geosamples.org/webservices ```
 
 ### SESAR provides following PHP web services
 1. [Sample registration](https://geosamples.github.io/sesar-doc/web_services/sample_registration.html)
@@ -38,7 +38,7 @@ SESAR's web services will have restricted access after release v8.0 (22 July 202
 8. [Get IGSN(s) for a specific user code and a sample name (NEW)](https://geosamples.github.io/sesar-doc/web_services/get_igsns_for_a_specific_user_code_and_a_sample_name.html)
 9. [Delete a related URL for a specific IGSN (NEW)](https://geosamples.github.io/sesar-doc/web_services/delete_a_related_url_for_a_specific_igsn.html)  
 
-The production end point is ```https://app.geosamples.org/webservices/```. The test end point is ```https://sesardev.geosamples.org/webservices/```. Before you start to use web services 1, 2, 7, you need to do the following three steps.
+The production end point is ```https://app.geosamples.org/webservices/```. The test end point is ```https://app-sandbox.geosamples.org/webservices/```. Before you start to use web services 1, 2, 7, you need to do the following three steps.
   
 1. Create a free GeoPass account. Follow [this link](https://geopass.iedadata.org/josso/).
 2. Create your namespace(s) or user code(s). Or gain access to other user's namespace(s). Follow [this link](https://app.geosamples.org/index.php).
