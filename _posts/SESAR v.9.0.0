@@ -1,0 +1,17 @@
+---
+name: SESAR_v9_0_0
+title: SESAR v9.0.0
+date: 2023/02/16
+layout: posts
+categories: release_notes
+tags: 
+summary: Update to IGSN and sample registrations following DataCite membership
+---
+1. New Feature: IGSN minting is handled by DataCite.
+2. New Feature: IGSN registrations follow DOI infrastructure. This includes new repository prefix 10.58052 included in the IGSN format for samples registered starting January 2023.
+3. New Feature: QR code update and generation. QR codes and sample landing pages now resolve through doi.org.
+4. Enhancement: CI/CD pipeline to streamline development and deployments.
+5. Enhancement: Continued support for the old format of the IGSN. Grandfathered samples will undergo re-registration to DataCite by March 31st. 
+6. Bug Fix: Fixed bug causing pages to crash if user did own their own user code
+7. Bug fix: Fixed bug impacting IGSN minting.
+8. Bug fix: Fix bug impacting parent IGSN editing.
