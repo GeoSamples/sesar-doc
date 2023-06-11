@@ -3,40 +3,35 @@ name: public_sesar_get_odp_count_IN_text_IN_text_
 title: DB Docs | procedures | public_sesar_get_odp_count_IN_text_IN_text_
 date: 2020/02/15
 parent: procedures
-layout: default
+layout: dbdocs
 ---
 
- <HTML>
+<HTML>
 <Header>
-<Title>sesar_get_odp_count(IN  text, IN  text) - Procedure</Title>
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<Link href="../css/doc.css" rel="stylesheet" type="text/css">
+  <Title>sesar_get_odp_count(IN text, IN text) - Procedure</Title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <Link href="../css/doc.css" rel="stylesheet" type="text/css">
 </Header>
+
 <Body>
-<table class="logo">
-<tr>
-<td class="logo">sesardb</td>
-</tr>
-</table>
-<table class="horzMenu">
-<tr>
-<td class="horzMenu"><a class="horzMenu" href="../index.html"> Home</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../tables/index.html">Tables</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../schemas/index.html">Schemas</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../diagrams/index.html">Diagrams</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../foreignKeys/index.html">Foreign Keys</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../indexes/index.html">Indexes</a></td><td class="horzMenuFiller"></td>
-</tr>
-</table>
-<hr>
-<table class="flat">
-<tr class="banner">
-<td class="title_nm">sesar_get_odp_count(IN  text, IN  text)</td><td class="watermark_right">(Procedure)</td>
-</tr>
-<tr>
-<td class="key">Name</td><td class="value">sesar_get_odp_count(IN  text, IN  text)</td>
-</tr>
-<tr>
-<td class="key">Comment</td><td class="value"> </td>
-</tr>
-<tr>
-<td class="key">Src</td><td class="value">
-<pre>CREATE OR REPLACE FUNCTION sesar_get_odp_count(IN "" text, IN "" text) 
+  
+  <table class="flat table table-hover">
+    <tr class="banner">
+      <td class="title_nm">sesar_get_odp_count(IN text, IN text)</td>
+      <td class="watermark_right">(Procedure)</td>
+    </tr>
+    <tr>
+      <td class="key">Name</td>
+      <td class="value">sesar_get_odp_count(IN text, IN text)</td>
+    </tr>
+    <tr>
+      <td class="key">Comment</td>
+      <td class="value"> </td>
+    </tr>
+    <tr>
+      <td class="key">Src</td>
+      <td class="value">
+        <pre>CREATE OR REPLACE FUNCTION sesar_get_odp_count(IN "" text, IN "" text) 
   RETURNS TABLE(t_column_name text, t_count bigint) AS 
 $$
 DECLARE
@@ -69,8 +64,9 @@ $$
   LANGUAGE plpgsql VOLATILE 
   COST 100
   ROWS 1000;</pre>
-</td>
-</tr>
-</table>
+      </td>
+    </tr>
+  </table>
 </Body>
+
 </HTML>

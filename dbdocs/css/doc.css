@@ -1,0 +1,12 @@
+p.boolImg {
+    text-align: center;
+}
+
+p.boolImgHorz {
+    text-align: left;
+}
+
+td{
+    word-wrap: break-word;
+    max-width: 160px;
+}

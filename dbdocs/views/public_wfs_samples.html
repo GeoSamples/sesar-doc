@@ -3,37 +3,31 @@ name: public_wfs_samples
 title: DB Docs | views | public_wfs_samples
 date: 2020/02/15
 parent: views
-layout: default
+layout: dbdocs
 ---
 
- <HTML>
+<HTML>
 <Header>
-<Title>wfs_samples - View</Title>
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<Link href="../css/doc.css" rel="stylesheet" type="text/css">
+    <Title>wfs_samples - View</Title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <Link href="../css/doc.css" rel="stylesheet" type="text/css">
 </Header>
+
 <Body>
-<table class="logo">
-<tr>
-<td class="logo">sesardb</td>
-</tr>
-</table>
-<table class="horzMenu">
-<tr>
-<td class="horzMenu"><a class="horzMenu" href="../index.html"> Home</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../tables/index.html">Tables</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../schemas/index.html">Schemas</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../diagrams/index.html">Diagrams</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../foreignKeys/index.html">Foreign Keys</a></td><td class="horzMenu">|</td><td class="horzMenu"><a class="horzMenu" href="../indexes/index.html">Indexes</a></td><td class="horzMenuFiller"></td>
-</tr>
-</table>
-<hr>
-<table class="flat">
-<tr class="banner">
-<td class="title_nm">wfs_samples</td><td class="watermark_right">(View)</td>
-</tr>
-<tr>
-<td class="key">Name</td><td class="value">wfs_samples</td>
-</tr>
-<tr>
-<td class="key">SQL</td><td class="value">
-<pre>SELECT
+    
+    <table class="flat table table-hover">
+        <tr class="banner">
+            <td class="title_nm">wfs_samples</td>
+            <td class="watermark_right">(View)</td>
+        </tr>
+        <tr>
+            <td class="key">Name</td>
+            <td class="value">wfs_samples</td>
+        </tr>
+        <tr>
+            <td class="key">SQL</td>
+            <td class="value">
+                <pre>SELECT
     s.igsn,
     s.name AS object_name,
     st.name AS object_type,
@@ -62,8 +56,9 @@ WHERE sesar_user.fname::text ~~ '%Kelsey%'::text
         AND sesar_user.lname::text ~~ '%Carter%'::text
         OR sesar_user.fname::text ~~ '%Lulin%'::text
         AND sesar_user.lname::text ~~ '%Song%'::text))))</pre>
-</td>
-</tr>
-</table>
+            </td>
+        </tr>
+    </table>
 </Body>
+
 </HTML>
