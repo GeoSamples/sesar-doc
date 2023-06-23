@@ -53,11 +53,18 @@
   placement: gh-pages
   type: single
   display_order: 8
+
+- name: igsn_id
+  title: IGSN ID Overview
+  url: /igsn_id/overview
+  placement: gh-pages
+  type: singular
+  display_order: 9
   
 - name: developer_discussions
   title: Developer Discussions
   url: /discussions/
   placement: github
   type: singular
-  display_order: 9
+  display_order: 10
   
