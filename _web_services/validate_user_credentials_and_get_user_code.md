@@ -61,27 +61,28 @@ curl --data "username=your_user_name&password=your_password" https://app.geosamp
 ```
 <?php  
 function curl_http_post_request($requestdata) 
-{     $ch = curl_init();   
-      curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,false);
-      curl_setopt($ch, CURLOPT_URL, $requestdata["url"]);
-      curl_setopt($ch,CURLOPT_POST,true); 
-      curl_setopt($ch,CURLOPT_POSTFIELDS, $requestdata["data"]);
-      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  
-      $result["content"]= curl_exec($ch);
-      $result["errno"]= curl_errno($ch);
-      $result["errmsg"] = curl_error($ch);  
-      $result["header"] = curl_getinfo($ch);
-      curl_close($ch);
+{     
+  $ch = curl_init();   
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+  curl_setopt($ch, CURLOPT_URL, $requestdata["url"]);
+  curl_setopt($ch, CURLOPT_POST, true); 
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $requestdata["data"]);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  
+  $result["content"]= curl_exec($ch);
+  $result["errno"]= curl_errno($ch);
+  $result["errmsg"] = curl_error($ch);  
+  $result["header"] = curl_getinfo($ch);
+  curl_close($ch);
       
-    return $result;
+  return $result;
 }
 
 //initialize the parameters
-$baseurl=" https://app.geosamples.org/ webservices/credentials_service_v2.php";
+$baseurl="https://app.geosamples.org/webservices/credentials_service_v2.php";
 $username="your_user_name"; 
 $password="your_password";
 $requestinfo["url"]=$baseurl;
-requestinfo["data"]=array ("username"=>$username, "password"=>$password);
+$requestinfo["data"]=array("username"=>$username, "password"=>$password);
 
 //call function curl_http_post_request
 $result=curl_http_post_request($requestinfo);
