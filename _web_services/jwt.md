@@ -1,7 +1,6 @@
 ---
 name: jwt
 title: How to use JWTs with SESAR
-date: 09/20/2024
 layout: default
 order: 3
 ---

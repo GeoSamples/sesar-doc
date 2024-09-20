@@ -1,7 +1,6 @@
 ---
-name: sesar_registration
+name: sesar_account
 title: SESAR Account Registration
-date: 09/20/2024
 layout: default
 order: 2
 ---
