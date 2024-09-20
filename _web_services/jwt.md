@@ -23,7 +23,7 @@ In order to generate and use JSON Web Tokens with the SESAR webservices, you **m
 - Visit Developer Settings in your [MySESAR profile page](https://app.geosamples.org/views/my_profile.php)
 - Select "Generate a New Token" and you should see the following: 
 
-![Image](/images/jwt.png)
+![Image](../assets/images/jwt.png)
 
 **NOTE: NEVER SHOW YOUR JSON WEB TOKEN LIKE THIS. A JWT allows whoever holds it to access the SESAR system as you**
 
