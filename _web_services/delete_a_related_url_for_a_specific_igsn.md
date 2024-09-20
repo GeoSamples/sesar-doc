@@ -3,10 +3,10 @@ name: delete_a_related_url_for_a_specific_igsn
 title: Delete a related URL for a specific IGSN (NEW)
 date: 01/12/2020
 layout: default
-order: 10
+order: 12
 ---
 
-#### Delete a related URL for a specific IGSN (NEW)
+# Delete a related URL for a specific IGSN (NEW)
 - The web service ```https://app.geosamples.org/webservices/deletePubURL.php``` allows the client program to delete a URL that is associated with an IGSN.
 - It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.
 - <ins>Notes:</ins>
@@ -17,13 +17,35 @@ order: 10
 **URI:** ```https://app.geosamples.org/webservices/deletePubURL.php```
 
 **TEST URI:** ```https://app-sandbox.geosamples.org/webservices/deletePubURL.php```
-##### Request Headers
-- Requires HTTP Basic Authentication header. [http://en.wikipedia.org/wiki/Basic_access_authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
-- Accept: text/xml, application/xml
-##### Request Body
+
+## Usage
+
+**JSON Web Token (preferred)**
+
+##### Request Headers for JWT
+- Requires a JWT access token in the authorization header of your request
+- - Click here for more information: [How to use JWT with SESAR](https://geosamples.github.io/sesar-doc/web_services/how_to_use_jwts.html)
+
 
 ```
-username={your_username} password={your_password} igsn={your_igsn} puburl={url_to_be_deleted}
+curl \
+-X POST \
+-H "Content-Type: application/xml" \
+-H "Authorization: Bearer YOUR_JWT_ACCESS_TOKEN" \
+-d "igsn=your_igsn&puburl=url_to_be_deleted" \
+https://app.geosamples.org/webservices/credentials_service_v2.php
+```
+
+**Geopass (to be deprecated)**
+##### Request Headers for Geopass
+- Requires HTTP Basic Authentication header. [http://en.wikipedia.org/wiki/Basic_access_authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
+
+```
+curl \
+-X POST \
+-H "Content-Type: application/xml" \
+-d "username=your_user_name&password=your_password&igsn=your_igsn&puburl=url_to_be_deleted" \
+https://app.geosamples.org/webservices/credentials_service_v2.php
 ```
 
 ##### Response Body

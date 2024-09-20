@@ -3,44 +3,56 @@ name: sample_registration
 title: Sample Registration
 date: 01/12/2020
 layout: default
-order: 2
+order: 4
 ---
 
-#### Sample Registration
-- The web service ``` https://app.geosamples.org/webservices/upload.php ``` allows the client program to register a single sample or multiple samples.This service will automatically create an IGSN or accept user specified IGSN. It will store sample metadata in the system.
-- It only accepts POST requests from the client program. GET, PUT and DELETE are not supported.
+# Sample Registration
+- Register a single sample or multiple samples. This service will automatically create an IGSN or accept user specified IGSN. Sample metadat will be stored the SESAR database.
+- Requires POST requests
+- **<ins>The current</ins>** [upload web service](https://app.geosamples.org/webservices/upload.php) **<ins>(upload.php) only supports</ins>** [schema 3.0](https://app.geosamples.org/3.0/sample.xsd) **<ins>and</ins>** [schema 4.0](https://app.geosamples.org/4.0/sample.xsd). **<ins>Please update your sample registration XML accordingly.</ins>**
 - <ins>Notes</ins>
   - The older version (v1) [uploadservice.php](https://app.geosamples.org/webservices/uploadservice.php) is deprecated and its bugs will not be fixed. The v1 only supports the [schema v1.0](https://app.geosamples.org/sample.xsd). It does not support later version of the schema ([schema v2.0](https://app.geosamples.org/samplev2.xsd), [schema 3.0](https://app.geosamples.org/3.0/sample.xsd), or [schema 4.0](https://app.geosamples.org/4.0/sample.xsd)). It will not be supported in the future release.
-  - **<ins>The current</ins>** [upload web service](https://app.geosamples.org/webservices/upload.php) **<ins>(upload.php) only supports</ins>** [schema 3.0](https://app.geosamples.org/3.0/sample.xsd) **<ins>and</ins>** [schema 4.0](https://app.geosamples.org/4.0/sample.xsd). **<ins>Please update your sample registration XML accordingly.</ins>**
-  - <ins>The user should use the following test URI during client program testing, so that the production server will not be populated with test samples:</ins>
-     - ``` https://app-sandbox.geosamples.org/webservices/upload.php ```  
     
 #### POST API
 **URI** ``` https://app.geosamples.org/webservices/upload.php ```
 
 **TEST URI** ``` https://app-sandbox.geosamples.org/webservices/upload.php ```
 
-**GeoPass Account:**
-- Before you use this web service, you need to create a free GeoPass account. Here is the link to register for a GeoPass account: [https://geopass.iedadata.org/josso/](https://geopass.iedadata.org/josso/).
-- After the GeoPass account is created, you need to log in to the SESAR system at least once to create your namespace (user code). Here is the link to log in to SESAR: [https://app.geosamples.org/](https://app.geosamples.org).
-- Or the user can request permissions from other user by providing the geopass login to the granter. The granter can set up his or her user code permission on the user profile page.
-- The user can only register samples with user codes or namespaces that they own or have write permission to.
+## Usage
 
-#### Request Headers
+**JSON Web Token (preferred)**
+
+##### Request Headers for JWT
+- Requires a JWT access token in the authorization header of your request
+- - Click here for more information: [How to use JWT with SESAR](https://geosamples.github.io/sesar-doc/web_services/how_to_use_jwts.html)
+
+
+```
+curl \
+-X POST \
+-H "Content-Type: application/xml" \
+-H "Authorization: Bearer YOUR_JWT_ACCESS_TOKEN" \
+-d "content={sampleinformation}" \
+https://app.geosamples.org/webservices/credentials_service_v2.php
+```
+
+**Geopass (to be deprecated)**
+##### Request Headers for Geopass
 - Requires HTTP Basic Authentication header. [http://en.wikipedia.org/wiki/Basic_access_authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
-- Accept: text/xml, application/xml, application/json
-
-#### Request Body
 
 ```
-username={yourusername} password={yourpassword} content={sampleinformation}
+curl \
+-X POST \
+-H "Content-Type: application/xml" \
+-d "username=your_user_name&password=your_password&content={sampleinformation}" \
+https://app.geosamples.org/webservices/credentials_service_v2.php
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where {sample information} is the XML text about sample metadata.
+**{sample information}** is the XML text about sample metadata.
 
 - The XML text should use the following schema. [http://app.geosamples.org/4.0/sample.xsd](http://app.geosamples.org/4.0/sample.xsd).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example XML format for registering one sample:**
+**Example XML format for registering one sample:**
 
 ```
 <?xml version="1.0" encoding="UTF-8"?> 

@@ -3,10 +3,10 @@ name: sample_profile_for_specific_IGSN
 title: Sample Profile for specific IGSN
 date: 01/12/2020
 layout: default
-order: 7
+order: 9
 ---
 
-#### Sample Profile for specific IGSN
+# Sample Profile for specific IGSN
 - The end point is ``` https://app.geosamples.org/sample/igsn ```
 - The old end point is ``` https://app.geosamples.org/webservices/display.php ```
 - Usage: ``` https://app.geosamples.org/sample/igsn/XXXXXXXXX ```
@@ -17,6 +17,8 @@ order: 7
 ##### GET API
 ##### Request Headers
 - Accept: text/xml, application/xml, application/json, text/json
+- Authorization: Bearer YOUR_JWT_ACCESS_TOKEN (optional)
+
 ##### Request Body
 
 ```

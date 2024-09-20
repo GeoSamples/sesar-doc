@@ -3,15 +3,13 @@ name: update_sample_metadata
 title: Update Sample Metadata
 date: 01/12/2020
 layout: default
-order: 8
+order: 10
 ---
 
-#### Update Sample Metadata
-- The web service ``` https://app.geosamples.org/webservices/update.php ``` allows the client program to update registered sample(s) metadata profile(s).
-- It only accepts POST requests from client programs. GET, PUT and DELETE are not supported.
+# Update Sample Metadata
+- Used to update registered sample(s) metadata profile(s).
+- Requires POST request
 - <ins>Notes</ins>
-  - <ins>The user should use the following test URI during client program testing, so production sample profiles are not accidentally edited.</ins>
-    - ``` https://app-sandbox.geosamples.org/webservices/update.php ```
   - <ins> New:</ins> The user can replace an existing URL using 'old_url' element. See document in updateSample.xsd schema file
   
   ``` 
@@ -28,16 +26,37 @@ order: 8
 
 **TEST URI:** ``` https://app-sandbox.geosamples.org/webservices/update.php ```
 
-##### Request Headers
-- Requires HTTP Basic Authentication header. http://en.wikipedia.org/wiki/Basic_access_authentication
-- Accept: text/xml, application/xml
-##### Request Body
+## Usage
+
+**JSON Web Token (preferred)**
+
+##### Request Headers for JWT
+- Requires a JWT access token in the authorization header of your request
+- - Click here for more information: [How to use JWT with SESAR](https://geosamples.github.io/sesar-doc/web_services/how_to_use_jwts.html)
+
 
 ```
-username={yourusername} password={yourpassword} content={sampleinformation} 
+curl \
+-X POST \
+-H "Content-Type: application/xml" \
+-H "Authorization: Bearer YOUR_JWT_ACCESS_TOKEN" \
+-d "content={sampleinformation}" \
+https://app.geosamples.org/webservices/credentials_service_v2.php
 ```
 
-where {sampleinformation} is the xml text.
+**Geopass (to be deprecated)**
+##### Request Headers for Geopass
+- Requires HTTP Basic Authentication header. [http://en.wikipedia.org/wiki/Basic_access_authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
+
+```
+curl \
+-X POST \
+-H "Content-Type: application/xml" \
+-d "username=your_user_name&password=your_password&content={sampleinformation}" \
+https://app.geosamples.org/webservices/credentials_service_v2.php
+```
+
+**{sampleinformation}** is the xml text about sample metadata.
 - The text should use the following schema. [https://app.geosamples.org/4.0/updateSample.xsd](https://app.geosamples.org/4.0/updateSample.xsd).
 
 **Example XML format for updating one sample profile:**
