@@ -36,10 +36,10 @@ collections:
     title: Web Services
     output: true
     display_order: 2
-  rest_services:
-    title: REST Services
-    output: true
-    display_order: 3
+  # rest_services:
+  #   title: REST Services
+  #   output: true
+  #   display_order: 3
   ogc_wxs:
     title: Open Geospatial Consortium (OGC) Services
     output: true 

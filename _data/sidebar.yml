@@ -19,12 +19,12 @@
   type: multiple
   display_order: 3
 
-- name: rest_services
-  title: REST Services 
-  url: /rest_services/overview
-  placement: gh-pages
-  type: singular
-  display_order: 4
+# - name: rest_services
+#   title: REST Services 
+#   url: /rest_services/overview
+#   placement: gh-pages
+#   type: singular
+#   display_order: 4
 
 - name: ogc_wxs
   title: Open Geospatial Consortium (OGC) Services 
