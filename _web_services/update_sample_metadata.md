@@ -41,7 +41,7 @@ curl \
 -H "Content-Type: application/xml" \
 -H "Authorization: Bearer YOUR_JWT_ACCESS_TOKEN" \
 -d "content={sampleinformation}" \
-https://app.geosamples.org/webservices/credentials_service_v2.php
+https://app.geosamples.org/webservices/update.php
 ```
 
 **Geopass (to be deprecated)**
@@ -53,7 +53,7 @@ curl \
 -X POST \
 -H "Content-Type: application/xml" \
 -d "username=your_user_name&password=your_password&content={sampleinformation}" \
-https://app.geosamples.org/webservices/credentials_service_v2.php
+https://app.geosamples.org/webservices/update.php
 ```
 
 **{sampleinformation}** is the xml text about sample metadata.
