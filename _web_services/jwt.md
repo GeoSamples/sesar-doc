@@ -42,8 +42,8 @@ When your short-lived access token expires, you can use the longer-lived refresh
 ```
 curl \
   -X POST \
-  -H "Content-Type: application/json" \
-  -d '{"refresh":"YOUR_JWT_REFRESH_TOKEN"}' \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "refresh=YOUR_JWT_REFRESH_TOKEN" \
   https://app.geosamples.org/webservices/refresh_token.php
 ```
 
