@@ -13,8 +13,8 @@ There are 2 different tokens created when you request a JWT:
 - **Access Token**: A short lived token used to authenticate during API calls.
 - - Access tokens will be **valid for 1 day** before needing to be refreshed.
 - **Refresh Token**: A longer lived token used to create a new access token when the previous token has expired.
-- - Refresh tokens will be **valid for 30 days**.
-- - Refresh tokens will be **rotated upon use**, meaning using a refresh token to retrieve a new access token will also give you a new refresh token. This new refresh token will have a reset expiration period (30 days), while the original refresh token will be revoked and no longer valid.
+- - Refresh tokens will be **valid for 1 year**.
+- - Refresh tokens will be **rotated upon use**, meaning using a refresh token to retrieve a new access token will also give you a new refresh token. This new refresh token will have a reset expiration period (1 year), while the original refresh token will be revoked and no longer valid.
 
 
 ## Generating your Token Pair
