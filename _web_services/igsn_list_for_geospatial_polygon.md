@@ -71,13 +71,13 @@ limit=4&amp;page_no=3&amp;hide_private=1</next_list>
 ***Please note: Total count of IGSNs is tagged as "total_counts" in the returned content. If limits, page numbers, etc. are specified, the returned content will have <previous_list> and <next_list> tags when there are more than one page of IGSNs.***
 
 ```
-curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568,-65.4526%2017.6865,-65.5252%2018.5649,-67.4156%2018.6972&hide_private=1&limit=4&page_no=2"
+curl -X GET -H "accept: application/xml" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568,-65.4526%2017.6865,-65.5252%2018.5649,-67.4156%2018.6972?hide_private=1&limit=4&page_no=2"
 ```
 
 ```
-curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568,-65.4526%2017.6865,-65.5252%2018.5649,-67.4156%2018.6972&hide_private=1&limit=4&page_no=2"
+curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568,-65.4526%2017.6865,-65.5252%2018.5649,-67.4156%2018.6972?hide_private=1&limit=4&page_no=2"
 ```
 
 ```
-curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/polygon/-43096291.5430165%20223829530.742031,53338557.3468762%20277024863.02079,87260142.0817049%20268278668.61794,70504128.%9133862%20216762812.731158,-43096291.5430165%20223829530.742031&srs=3031&hide_private=1&limit=4&page_no=2"
+curl -X GET -H " accept: application/json" "https://app.geosamples.org/samples/polygon/-67.4156%2018.6972,-67.4968%2017.6568,-65.4526%2017.6865,-65.5252%2018.5649,-67.4156%2018.6972?srs=4326&hide_private=1&limit=4&page_no=2"
 ```
