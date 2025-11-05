@@ -16,6 +16,8 @@ There are 2 different tokens created when you request a JWT:
 - - Refresh tokens will be **valid for 1 year**.
 - - Refresh tokens will be **rotated upon use**, meaning using a refresh token to retrieve a new access token will also give you a new refresh token. This new refresh token will have a reset expiration period (1 year), while the original refresh token will be revoked and no longer valid.
 
+## Requesting Webservice Permission
+Use of SESAR web services is restricted to authorized accounts only. [Submit a request for permissions here.](https://app.geosamples.org/views/webservice_request.php)
 
 ## Generating your Token Pair
 In order to generate and use JSON Web Tokens with the SESAR webservices, you **must use ORCID** when logging into MySESAR. Geopass is being deprecated and will not be supported for new features.
