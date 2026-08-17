@@ -11,7 +11,7 @@ Leave it blank for samples that were not collected in a country — for example 
 
 The web form is a dropdown of these names. Sample registration, batch upload, and other API writes expect the **country name** exactly as listed below.
 
-If a name you need is missing, [request a term](../request-a-term.md).
+If a name you need is missing, [request a term](request-a-term.md).
 
 | Country | ISO 3166 code |
 | ------- | ------------- |

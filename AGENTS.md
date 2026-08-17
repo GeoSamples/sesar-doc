@@ -16,6 +16,8 @@ If `npx` is unavailable, load the skill from:
 
 https://gitbook.com/docs/skill.md
 
-When making changes, preserve GitBook sync metadata such as frontmatter, `SUMMARY.md`, `docs.yaml`, `.gitbook/`, and asset links unless the requested edit explicitly requires changing them.
+When making changes, preserve GitBook sync metadata such as frontmatter, section-level `SUMMARY.md`, `.gitbook.yaml`, `.gitbook/`, and asset links unless the requested edit explicitly requires changing them.
+
+This repo is a GitBook monorepo: each site section syncs from its own directory (`get-started/`, `for-researchers/`, `metadata-schema/`, `api-reference/`, `vocabularies/`). Edit the `SUMMARY.md` inside the section you are changing — never add a root-level `SUMMARY.md`.
 
 <!-- gitbook-agent-instructions:end -->
