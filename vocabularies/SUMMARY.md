@@ -7,12 +7,11 @@
 
 * [Object Type](object-type.md)
 * [Material Type](material-type.md)
-* [Sample Feature Type](sample-feature-type.md)
 * [Sampling Method](sampling-method.md)
 * [Location Method](location-method.md)
 * [Platform Type](platform-type.md)
 * [Launch Type](launch-type.md)
-* [Geologic Time Scale](geologic-time-scale.md)
+* [Geologic Time Scale](vocabularies/geologic-time-scale.md)
 * [Country](country.md)
 
 ***
