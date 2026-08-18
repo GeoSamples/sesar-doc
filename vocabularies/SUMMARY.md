@@ -11,7 +11,6 @@
 * [Location Method](location-method.md)
 * [Platform Type](platform-type.md)
 * [Launch Type](launch-type.md)
-* [Geologic Time Scale](vocabularies/geologic-time-scale.md)
 * [Country](country.md)
 
 ***
