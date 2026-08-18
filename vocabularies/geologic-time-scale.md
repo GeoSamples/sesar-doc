@@ -1,2 +1,0 @@
-# Geologic Time Scale
-
