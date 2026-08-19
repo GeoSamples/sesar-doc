@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Authentication](authentication.md)
 * ```yaml
   props:
     models: true
@@ -13,7 +14,6 @@
         kind: openapi
         spec: sesar2-api
   ```
-* [Authentication](authentication.md)
 * [Register a sample](register-a-sample.md)
 * [Find or fetch a sample](find-or-fetch-a-sample.md)
 * [Update a sample](update-a-sample.md)
