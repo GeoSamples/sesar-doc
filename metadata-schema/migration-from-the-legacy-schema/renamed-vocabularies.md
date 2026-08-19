@@ -28,7 +28,7 @@ SESAR 1.0 used **sample type** and optional **sample subtype** as a pair (for ex
 
 - Prefer the most specific term that fits. The form shows the full path; API registration uses the leaf label.
 - If both type and subtype were set, subtype is the object type.
-- Legacy sample-type names that are not current object-type labels may still resolve through a mapping. Check the saved sample: the catalog can show `object type (previously legacy sample type)`.
+- Legacy sample-type names that are not current object-type labels may still resolve through a mapping. The value pairs are on [Sample type → object type](sample-type-to-object-type.md). The catalog can show `object type (previously legacy sample type)`.
 - Object type is required to register. The list is controlled; request a term in **Vocabularies** if you need a new one.
 
 ## Material types (was material and classification)
