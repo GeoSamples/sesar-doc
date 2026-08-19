@@ -2,11 +2,11 @@
 
 * [Overview](README.md)
 * ```yaml
-  type: builtin:openapi
   props:
     models: true
     downloadLink: true
     grouping: by-tag
+  type: builtin:openapi
   dependencies:
     spec:
       ref:

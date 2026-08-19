@@ -15,11 +15,15 @@ You need **upload permission** on your SESAR account to generate tokens.
 {% step %}
 ### Open Developer Settings
 
+<figure><img src=".gitbook/assets/Developer-Settings.png" alt=""><figcaption></figcaption></figure>
+
 Open your user menu and choose **Developer Settings**, or go directly to [Developer Settings](https://app.geosamples.org/profile/developer-settings).
 {% endstep %}
 
 {% step %}
 ### Generate a token pair
+
+<figure><img src=".gitbook/assets/JWT-Generated.png" alt=""><figcaption></figcaption></figure>
 
 Choose **Generate New Token**. SESAR shows an **access token** and a **refresh token** once. Copy both now — they are not shown again.
 {% endstep %}
