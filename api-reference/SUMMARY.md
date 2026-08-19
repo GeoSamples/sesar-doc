@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Authentication](authentication.md)
 * ```yaml
   props:
     models: true
@@ -13,5 +14,4 @@
         kind: openapi
         spec: sesar2-api
   ```
-* [Authentication](authentication.md)
 * [Migrating from v1 web services](migrating-from-v1-web-services.md)
