@@ -13,6 +13,7 @@
 * [Field crosswalk (old -> new)](migration-from-the-legacy-schema/field-crosswalk-old-greater-than-new.md)
 * [Renamed vocabularies](migration-from-the-legacy-schema/renamed-vocabularies.md)
 * [Sample type to object type](migration-from-the-legacy-schema/sample-type-to-object-type.md)
+* [Classification to material type](migration-from-the-legacy-schema/classification-to-material-type.md)
 * [Legacy tables explained](migration-from-the-legacy-schema/legacy-tables-explained.md)
 
 ## Crosswalks

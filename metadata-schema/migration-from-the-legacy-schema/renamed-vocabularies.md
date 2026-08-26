@@ -40,7 +40,7 @@ Now:
 - **General material type** is that top-level class.
 - **Material types** are more specific terms. A sample can have more than one. A `>` string is still **one** label, not a split into several types. If the classification started with `{material}>`, that prefix is dropped.
 
-Migrated samples can still show the old classification next to the new labels. Use the current material-type list for new registration.
+Migrated samples can still show the old classification next to the new labels. The value pairs are on [Classification → material type](classification-to-material-type.md). Use the current material-type list for new registration.
 
 ## Sampling method (was collection method)
 
