@@ -18,8 +18,6 @@
 
 ## Crosswalks
 
-***
-
 * [DataCite](datacite.md)
 * [Darwin Core](darwin-core.md)
 * [iSamples](isamples.md)
