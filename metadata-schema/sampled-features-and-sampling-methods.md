@@ -1,2 +1,0 @@
-# Sampled features & sampling methods
-

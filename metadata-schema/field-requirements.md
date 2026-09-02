@@ -3,7 +3,7 @@
 ## description: Fields SESAR requires to register a sample.
 icon: list-check
 
-# Field obligations
+# Field requirements
 
 To **register** (publish) a sample, SESAR requires three things: **object type**, **sample name**, and **latitude and longitude**. Everything else is optional.
 

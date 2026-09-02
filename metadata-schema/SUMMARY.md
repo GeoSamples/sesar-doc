@@ -1,12 +1,8 @@
 # Table of contents
 
 * [Overview & data model](README.md)
-* [Sample field reference](sample-field-reference.md)
-* [Field obligations](field-obligations.md)
-* [Sampled features & sampling methods](sampled-features-and-sampling-methods.md)
-* [Relationships](relationships.md)
-* [Spatial metadata](spatial-metadata.md)
-* [Temporal metadata](temporal-metadata.md)
+* [Field requirements](field-requirements.md)
+* [Database schema](database-schema.md)
 
 ## Migration from the legacy schema
 
@@ -14,7 +10,6 @@
 * [Renamed vocabularies](migration-from-the-legacy-schema/renamed-vocabularies.md)
 * [Sample type to object type](migration-from-the-legacy-schema/sample-type-to-object-type.md)
 * [Classification to material type](migration-from-the-legacy-schema/classification-to-material-type.md)
-* [Legacy tables explained](migration-from-the-legacy-schema/legacy-tables-explained.md)
 
 ## Crosswalks
 
