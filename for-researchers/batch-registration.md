@@ -1,9 +1,6 @@
 # Batch Sample Registration
 
-#### Batch Registration - New Guide
-
-Batch registrations are used for registering multiple samples. There are two parts to batch registrations in SESAR. Each step is outlined below.&#x20;
-
+Batch registrations are used for registering multiple samples. There are two parts to batch registrations in SESAR. Each step is outlined below. \
 \
 **Step 1: Creating a Batch Template**
 
@@ -27,7 +24,7 @@ Batch registrations are used for registering multiple samples. There are two par
 
 Each batch submission needs to have its own unique template. The new template features the ability to keep the content of ‘collectors’, ‘archive’, ‘institution’, ‘launch, ‘launch platform’ etc. specific to the template you downloaded. Editing the cover page will not pass validation during upload. You can always edit the saved template and download it again.&#x20;
 
-**Step 2: Batch Upload**
+#### **Step 2: Batch Upload**
 
 1. Under the ‘Sample Registration’ section on the lefthand panel, click ‘Upload Batch Spreadsheet’.
 2. Upload your batch file. Please note, only batch files of unique names will be accepted, you cannot add the same file with the same name if it has been uploaded previously. This is because each template is now unique and is used to prevent confusion on duplicate batches being saved on your completed and pending batches.&#x20;
@@ -48,8 +45,5 @@ Each batch submission needs to have its own unique template. The new template fe
 
 There is a max limit of 5000 rows per batch file. This means you can add up to 4999 samples as the first row is the heading. If a batch with more rows is uploaded, you will get an error.&#x20;
 
-<br>
-
 <img src=".gitbook/assets/unknown (14).png" alt="" height="327" width="624">
 
-<br>
