@@ -4,7 +4,7 @@
 
 Individual edits can be made on 'Samples'. Scroll to the 'Edit' button on the right side of your sample list. Update the metadata and then click 'Update sample'.
 
-## Batch (Bulk) Update
+## Batch (Bulk) Sample Update
 
 Batch update for your samples is accessible by going to your 'Your Samples' or 'Team Samples' page. Navigate to this page under 'Samples' on the left hand panel.&#x20;
 

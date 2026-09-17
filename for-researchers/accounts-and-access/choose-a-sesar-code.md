@@ -2,7 +2,7 @@
 description: To register samples, all users must have a SESAR Code.
 ---
 
-# Choose a SESAR code
+# Choose a SESAR Code
 
 ## Selecting a SESAR Code (IGSN namespace)
 
@@ -20,7 +20,7 @@ SESAR Codes belong to the user account or the team that created the code. Permis
 
 1. To create a SESAR Code, navigate to the left hand panel and click 'SESAR Codes'.
 2. Click 'Create New Code' on the upper right hand menu.
-3. Under the 'Create New SESAR Code' popup, add three alphanumeric digits and click 'Create,.
+3. Under the 'Create New SESAR Code' popup, add three alphanumeric digits and click 'Create'.
 
 If the code is already in use, the system will not allow you to create the code and flag it. Please try again until your code is successfully added. Your personal or team code will be displayed in 'SESAR Code' of your personal or team account.&#x20;
 

@@ -12,7 +12,7 @@ The labels are sized for a 10 row, 2 column, portrait layout of 4″x1″ labels
 
 * More information about [label layout OL75](https://www.onlinelabels.com/OL75.htm) and [Laser Cyro-Tags](https://www.labtag.com/shop/category/labels/cryogenic-labels/laser-cryogenic-labels/?srsltid=AfmBOoqX8yEjI3hHAz3TWBA8jOyICWR5bgIV-tGaN6qu_rfzJqk1yno4).
 
-### **How to print IGSN labels**
+### **How to Print IGSN Labels**
 
 1. In MySESAR, select the labels you want to print by clicking the box next to the sample under ‘Your Sample’ or ‘Team Sample’. To select all samples for print, click the box next to the IGSN header.&#x20;
 2. Click the 'Print Label' button on the top.&#x20;
