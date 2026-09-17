@@ -10,7 +10,7 @@
 
 ## Register Samples
 
-* [Choose a registration method](choose-a-registration-method.md)
+* [Choose a Registration Method](choose-a-registration-method.md)
 * [Individual Sample Registration](individual-registration.md)
 * [Batch Sample Registration](batch-registration.md)
 * [Adding Initiative, Platform, and Launch Platform](register-samples/adding-initiative-platform-and-launch-platform.md)
@@ -22,7 +22,7 @@
 
 ## Manage Samples
 
-* [Update Sample Metadata](manage-samples/update-sample-metadata.md)
+* [Updating Sample Metadata](manage-samples/update-sample-metadata.md)
 * [Transfer Ownership](manage-samples/transfer-ownership.md)
 * [Embargo samples](manage-samples/embargo-samples.md)
 * [Deactivating Samples](manage-samples/deactivate-samples.md)

@@ -1,18 +1,18 @@
 # Print Labels & QR Codes
 
-### Labeling Samples
+## Labeling Samples
 
 The IGSN can be used as a label for samples that allows for unambiguous naming and persistent access to information about the sample. [MySESAR](https://app.geosamples.org/index.php) provides label printing services that contain the sample name, IGSN, QR code linking to the sample metadata profile page and customizable additional metadata fields. Information on how to print labels can be found [here](https://www.geosamples.org/resources/label-printing).
 
-### Printing Labels
+## Printing Labels
 
-#### **Label Template**
+### **Label Template**
 
 The labels are sized for a 10 row, 2 column, portrait layout of 4″x1″ labels.
 
 * More information about [label layout OL75](https://www.onlinelabels.com/OL75.htm) and [Laser Cyro-Tags](https://www.labtag.com/shop/category/labels/cryogenic-labels/laser-cryogenic-labels/?srsltid=AfmBOoqX8yEjI3hHAz3TWBA8jOyICWR5bgIV-tGaN6qu_rfzJqk1yno4).
 
-#### **How to print IGSN labels**
+### **How to print IGSN labels**
 
 1. In MySESAR, select the labels you want to print by clicking the box next to the sample under ‘Your Sample’ or ‘Team Sample’. To select all samples for print, click the box next to the IGSN header.&#x20;
 2. Click the 'Print Label' button on the top.&#x20;
