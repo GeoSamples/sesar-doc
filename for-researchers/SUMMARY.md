@@ -24,7 +24,7 @@
 
 * [Updating Sample Metadata](manage-samples/update-sample-metadata.md)
 * [Transfer Ownership](manage-samples/transfer-ownership.md)
-* [Embargo samples](manage-samples/embargo-samples.md)
+* [Embargo Samples](manage-samples/embargo-samples.md)
 * [Deactivating Samples](manage-samples/deactivate-samples.md)
 * [Print Labels & QR Codes](manage-samples/print-labels-and-qr-codes.md)
 

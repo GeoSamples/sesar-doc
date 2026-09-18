@@ -2,21 +2,17 @@
 
 SESAR asks its users to include IGSNs in their manuscripts. This allows publishers to link the IGSN sample metadata profile pages to the manuscript. Tagging IGSNs in manuscripts aligns with the National Science Foundation's [commitment to FAIR data](https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp) as well as publishers such as [AGU](https://www.agu.org/Publish-with-AGU/Publish/Author-Resources/Text-requirements), [GSA](https://www.geosociety.org/gsa/positions/position7.aspx), [Wiley](https://rmets.onlinelibrary.wiley.com/hub/journal/20496060/features/guidelines-for-reviewers), [Elsevier](https://www.elsevier.com/journals/palaeogeography-palaeoclimatology-palaeoecology/00310182/guide-for-authors#89003), [Copernicus](https://www.copernicus.org/news_and_press/2017-05-19-igsn-now-includable-in-article-assets.html).
 
-#### **Use the following syntax to tag an IGSN**
+All data obtained from SESAR should be adequately cited following license-specific requirements and/or the following structure from DataCite's guidelines for citing IGSNs:
 
-IGSN: \<SSH000SUA>\
-IGSN: <10.58052/SHH00UA>\*
+**Creator (Year of Registration). Sample Name/Title \[Internet]. Publisher (e.g., SESAR). IGSN: \[identifier].**
 
-#### **In the published manuscript the IGSN may look like**
+**Example:**
 
-[IGSN:SSH000SUA](https://app.geosamples.org/sample/igsn/SSH000SUA)
+Smith, J. (2023). Basalt sample from Kilauea flank \[Internet]. San Diego, CA (USA): System for Earth Sample Registration (SESAR). IGSN: 10.58052/IEJSM0001.
 
-[IGSN:http://doi.org/10.58052/SSH000SUA](https://app.geosamples.org/sample/igsn/10.58052/SSH000SUA) (full display)\*
+A few notes to include alongside this guidance:
 
-[IGSN:10.58052/SSH000SUA](https://app.geosamples.org/sample/igsn/SSH000SUA) (short display)\*
-
-#### **Below is an example of a published manuscript with IGSNs**
-
-Dere, A. L., T. S. White, R. H. April, B. Reynolds, T. E. Miller, E. P. Knapp, L. D. McKay, and S. L. Brantley (2013), Climate dependence of feldspar weathering in shale soils along a latitudinal gradient, Geochimica et Cosmochimica Acta, 122, 101-126,[ http://dx.doi.org/10.1016/j.gca.2013.08.001](http://dx.doi.org/10.1016/j.gca.2013.08.001).<br>
-
-\*Starting January 2023, samples registered in SESAR follow the DOI format. This includes the addition of a prefix in addition to the syntax. The SESAR shared prefix is 10.58052.
+* **Register the IGSN as a resolvable identifier.** Where possible, express the IGSN as an actionable link (e.g., https://doi.org/10.58052/IEJSM0001 or https://igsn.org/IEJSM0001) rather than plain text, so it resolves to the sample's landing page.
+* **Follow journal/discipline style where one exists.** Many geoscience journals and repositories now request IGSNs be included in data availability statements or sample tables — check your target journal's author guidelines, since exact placement and formatting can vary.
+* **Note that PID citation is not full metadata citation.** The DataCite style citation above supports discovery and attribution; it's not a substitute for describing sample context (collection method, location, etc.) in the body of a publication.
+* **Cite the registering repository, not just the sample.** Since SESAR is the "Publisher" of record for the IGSN, it should appear in the citation regardless of who physically collected or curated the sample.

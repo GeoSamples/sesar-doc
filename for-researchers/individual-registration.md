@@ -19,6 +19,3 @@ Individual registrations are used for registering a single sample. For multiple 
 7. Once you fill out the sample metadata, click 'Submit'.
 8. After submission your sample will be 'pending review' until a curator reviews and approves your sample registration.
 9. Once your sample is approved, it will show up in 'Your Samples' (personal) or 'Team Samples' (team) without any tags.
-
-\
-<br>

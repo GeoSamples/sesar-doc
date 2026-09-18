@@ -11,7 +11,7 @@ description: >-
 
 Our previous landing pages were static. Sample landing pages have been revamped with better UI with the previous metadata fields and ability to contact sample owner(s). The new landing pages are better aligned with the needs of our community.
 
-### Updates:
+### Updates
 
 1. QR codes are removed as these are usually used internally, and therefore users can access them by printing and labeling.
 2. Metadata Field Groups (ex. General Identifiers and Descriptions) are now expandable.&#x20;

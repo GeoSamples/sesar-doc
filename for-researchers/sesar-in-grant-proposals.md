@@ -5,5 +5,3 @@ Registering your samples with SESAR contributes to the National Science Foundati
 Below is sample language on registering and managing samples with SESAR that can be incorporated into your grant proposals:
 
 “Samples will be registered in SESAR with International Generic Sample Numbers (IGSNs) to ensure the preservation of sample metadata and to promote open access of data. Registering the samples in SESAR also provides an easy way to share sample metadata with my collaborators and contributes to a culture of sample sharing, which can help me discover new, relevant samples and promote new collaborations.”
-
-<br>
