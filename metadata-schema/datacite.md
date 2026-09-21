@@ -1,7 +1,7 @@
 ---
-
-## description: How SESAR sample metadata maps to DataCite DOI records.
+description: How SESAR sample metadata maps to DataCite DOI records.
 icon: barcode
+---
 
 # DataCite
 

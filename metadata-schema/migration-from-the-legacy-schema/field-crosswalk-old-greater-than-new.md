@@ -1,7 +1,7 @@
 ---
-
-## description: How SESAR 1.0 sample fields map to the current schema.
+description: How SESAR 1.0 sample fields map to the current schema.
 icon: table
+---
 
 # Field crosswalk (old → new)
 

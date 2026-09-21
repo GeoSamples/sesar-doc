@@ -1,7 +1,7 @@
 ---
-
-## description: Fields SESAR requires to register a sample.
+description: Fields SESAR requires to register a sample.
 icon: list-check
+---
 
 # Field requirements
 
