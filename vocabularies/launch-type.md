@@ -1,6 +1,6 @@
 ---
 description: Kind of launch used for sampling.
-icon: submarine
+icon: rocket
 ---
 
 # Launch Type

@@ -1,3 +1,8 @@
+---
+description: Tables, columns, relationships, and ER diagrams for the SESAR database.
+icon: sitemap
+---
+
 # Database schema
 
 Interactive SchemaSpy documentation for the SESAR database (tables, columns, relationships, and ER diagrams):
