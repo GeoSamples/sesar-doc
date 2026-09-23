@@ -32,7 +32,7 @@ Use your ORCiD credentials at [MySESAR](https://app.geosamples.org/) and complet
 
 This is your namespace — it identifies you as the registrant and forms part of every IGSN ID you mint. Codes look like `IEXXX0001`.
 
-It's worth thirty seconds of thought: see **Choose a SESAR Code**.
+It's worth thirty seconds of thought: see [**Choose a SESAR Code**](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/accounts-and-access/choose-a-sesar-code).
 {% endstep %}
 
 {% step %}
@@ -55,5 +55,5 @@ Your sample now has a globally unique, persistent identifier and a public page t
 ### What next
 
 * **More than a few samples?** **Batch registration** is faster and gets your metadata a curator's review.
-* **Going into the field?** **Pre-register before fieldwork** so labels are ready before you collect.
-* **Publishing?** **Cite IGSN IDs in publications** so readers can find your sample.
+* **Going into the field?** [**Pre-register before fieldwork**](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/register-samples/pre-register-before-fieldwork) so labels are ready before you collect.
+* **Publishing?** [**Cite IGSN IDs in publications**](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/cite-and-credit/cite-igsn-ids-in-publications) so readers can find your sample.

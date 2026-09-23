@@ -7,7 +7,9 @@ icon: hand-wave
 
 SESAR is a community platform for managing and archiving metadata about scientific material samples, and for finding information about samples around the world.
 
-This site is the practical half: how to register samples, what every metadata field means, which terms are allowed in which field, and how to do all of it programmatically. For who we are, how we're funded, and what we're for, see [geosamples.org](https://www.geosamples.org).
+This site contains documentation and guidelines describing: how to register samples, what every metadata field means, which terms are allowed in which field, and how to do all of it programmatically.&#x20;
+
+For who we are, how we're funded, and what we're for, see [geosamples.org](https://www.geosamples.org).
 
 ### New here?
 
