@@ -11,18 +11,17 @@ This site is the practical half: how to register samples, what every metadata fi
 
 ### New here?
 
-**Register your first sample** — the ten-minute version, start to finish.
+[**Register your first sample**](register-your-first-sample.md) — the ten-minute version, start to finish.
 
 ### Know what you need?
 
-| Section                             | What's in it                                         |
-| ----------------------------------- | ---------------------------------------------------- |
-| **For Researchers**                 | Register, manage, and cite your samples.             |
-| **For Institutions & Repositories** | Onboard a collection and map your metadata.          |
-| **Metadata Schema**                 | Every field, what it means, what's required.         |
-| **Vocabularies**                    | Controlled term lists, and how to request additions. |
-| **API**                             | Register and retrieve metadata programmatically.     |
+| Section                                                                                       | What's in it                                         |
+| --------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [**For Researchers**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/td44sRg81erEWSwelkyG/) | Register, manage, and cite your samples.             |
+| [**Metadata Schema**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/2LSKTZUdmn3ddJ9cBWvW/) | Every field, what it means, what's required.         |
+| [**Vocabularies**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/EniiGcb4boFyc9oVYT1O/)    | Controlled term lists, and how to request additions. |
+| [**API**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/kuAfextNoBx3BNIgCEWG/)             | Register and retrieve metadata programmatically.     |
 
 ### Not sure?
 
-**Find your path** sorts you by what you're trying to do.
+[**Find your path** ](find-your-path.md)sorts you by what you're trying to do.

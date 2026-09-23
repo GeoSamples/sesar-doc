@@ -18,14 +18,14 @@ You'll get a faster answer if you include:
 
 ### Common requests, and where they go
 
-| I want to…                            | Go to                                             |
-| ------------------------------------- | ------------------------------------------------- |
-| Add a term to a controlled vocabulary | **Request a term**                                |
-| Get API access                        | **Request web services access**                   |
-| Remove a sample                       | **Deactivate samples**                            |
-| Hand samples to someone else          | **Transfer ownership**                            |
-| Onboard an institutional collection   | **For Institutions & Repositories**               |
-| Report a problem with these docs      | [info@geosamples.org](mailto:info@geosamples.org) |
+| I want to…                            | Go to                                                                                                                             |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Add a term to a controlled vocabulary | [**Request a term**](https://app.gitbook.com/s/EniiGcb4boFyc9oVYT1O/request-a-term)                                               |
+| Get API access                        | [**Request web services access**](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/accounts-and-access/request-web-services-access) |
+| Remove a sample                       | [**Deactivate samples**](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/manage-samples/deactivate-samples)                        |
+| Hand samples to someone else          | [**Transfer ownership**](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/manage-samples/transfer-ownership)                        |
+| Onboard an institutional collection   | **For Institutions & Repositories** <mark style="color:pink;">\[COMING SOON]</mark>                                               |
+| Report a problem with these docs      | [info@geosamples.org](mailto:info@geosamples.org)                                                                                 |
 
 ### Suggesting a metadata field
 
