@@ -2,7 +2,7 @@
 description: Here is the workflow for creating an individual researcher and Team account.
 ---
 
-# Create a SESAR account
+# Create a SESAR Account
 
 ## Setting up a SESAR User Account
 
@@ -31,5 +31,5 @@ description: Here is the workflow for creating an individual researcher and Team
 3. Accept the Team Invitation.
 4. Create a personal SESAR code only if they plan on registering personal samples.
 
-Once all team members have access to the Team group SESAR code, samples can be registered for the lab group from each individual’s MySESAR account. If the PI of the Team changes, the owner of the SESAR code can be updated.
+Once team members have access to the Team group SESAR code, samples can be registered for the lab group from each individual’s MySESAR account. If the PI of the Team changes, the owner of the SESAR code can be updated. See more information under Team Account.&#x20;
 

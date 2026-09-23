@@ -7,6 +7,7 @@
 * [Shared SESAR Code Permission](accounts-and-access/share-a-code-with-your-lab-group.md)
 * [Sample Landing Pages](accounts-and-access/sample-landing-pages.md)
 * [Request API Access](accounts-and-access/request-web-services-access.md)
+* [Team Account](accounts-and-access/team-account.md)
 
 ## Register Samples
 
