@@ -11,8 +11,12 @@ It is possible to pre-register samples and obtain IGSNs before collecting sample
 ### To Preregister Samples
 
 1. Follow the tutorial for Batch Registrations.
-2. [Print labels](https://www.geosamples.org/resources/label-printing) that contain the IGSNs to label samples as they are collected.&#x20;
-3. After collection, update the samples metadata via the Batch Update Method.
+2.  During [batch upload](https://docs.geosamples.org/for-researchers/register-samples/batch-registration) you have the option to 'Save all samples as draft'. This option allows you the create "draft IGSNs" that you can update and submit once you are ready. \
+    &#x20;
+
+    <figure><img src=".gitbook/assets/Screenshot 2026-09-23 at 5.43.16 PM (1).png" alt=""><figcaption></figcaption></figure>
+3. [Print labels](https://www.geosamples.org/resources/label-printing) that contain the IGSNs to label samples as they are collected.&#x20;
+4. After collection, update the samples metadata via the Batch Update Method.
 
 If you register more IGSNs than samples you collect in the field, you should save these IGSNs for your next field session.
 
