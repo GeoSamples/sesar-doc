@@ -1,8 +1,8 @@
-# Team Account
+# Using SESAR Teams
 
-Team accounts are now the point of access for sharing SESAR Codes and registering lab, group, and shared samples. Personal SESAR Code sharing and use is no longer available unless you have assigned or been assigned access prior to migration. For more information, please refer to the Shared Permissions section.&#x20;
+SESAR users can now set up a Team to share SESAR Codes and register lab, group, and shared samples. **Note that you can no longer share personal SESAR Codes  unless you have assigned or been assigned access prior to migration.** For more information, please refer to the [Shared Permissions section](share-a-code-with-your-lab-group.md).&#x20;
 
-You can toggle between personal and team accounts in the left side panel. Users may have multiple team accounts that they created or are invited to be a part of, all of which will be listed.&#x20;
+You can toggle between personal and team accounts in the left side panel of MySESAR. Users may have multiple team accounts that they created or are invited to be a part of, all of which will be listed.&#x20;
 
 ### **Creating a New Team**
 

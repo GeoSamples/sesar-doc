@@ -11,11 +11,13 @@ description: Here is the workflow for creating an individual researcher and Team
 1. Create an [ORCiD](https://orcid.org/) Account.&#x20;
 2. Login to [MySESAR](https://app.geosamples.org/index.php) with your ORCiD.
 3. Follow the instructions to complete your MySESAR Account.
-4. Create a SESAR Code.
+4. Create a [SESAR Code](https://app.gitbook.com/s/kuAfextNoBx3BNIgCEWG/sesar-codes).
 
-### Team Account
+### Using SESAR with a Team
 
-#### The P.I.
+If you are the lead of a research team and want to share sample registration, metadata editing, and other tasks with your staff or colleagues, you can do so through the following steps to set up a Team. See also [**Using SESAR Teams.**](./#using-sesar-with-a-team)
+
+#### Team Lead or PI
 
 1. Create an ORCiD account if they do not have one already.
 2. Login to MySESAR with their ORCiD and create a personal account.
