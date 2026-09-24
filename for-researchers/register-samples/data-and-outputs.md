@@ -17,3 +17,7 @@ Researchers and teams can add up to 5 GB per account. Each image has a maximum f
 5. When files are added, the 'Storage (for file uploads)' will automatically update.&#x20;
 
 You can drag and drop any of the resources you added under Data & Outputs within the three sections as needed.&#x20;
+
+**For more information on how to add related resources, please download our guide below.**
+
+{% file src="../.gitbook/assets/SESAR 2.0 User Guide_Related Resources.pptx" %}

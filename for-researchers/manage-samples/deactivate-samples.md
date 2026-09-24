@@ -8,3 +8,8 @@ Samples that have been registered with IGSNs in SESAR can be deactivated. We do 
 2. Under the edit sample page, click 'Request deactivation' (in red).
 3. Fill out the form and give reason for deactivating the sample.
 4. A notification will be sent to the curator who will approve your request.
+
+**For more information on deactivating your samples, please download the guide below.**&#x20;
+
+{% file src="../.gitbook/assets/SESAR 2.0 User Guide_Deactivating Sample.pptx" %}
+

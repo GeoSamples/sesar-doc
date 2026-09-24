@@ -14,7 +14,7 @@ You can always navigate to ‘Settings’ on the left panel to update your team 
 
 ### **Setting a Team SESAR Code**
 
-You can set a new SESAR Code under ‘SESAR Codes’. For more information please see ‘Choose a SESAR Code'.
+You can set a new SESAR Code under ‘SESAR Codes’. For more information please see ‘[Choose a SESAR Code](choose-a-sesar-code.md)'.
 
 ### **Invite Team Members**
 
@@ -34,6 +34,12 @@ Once members accept the invitation, you can view the samples under the team. Dep
 6. **Read, Create**: can view and create samples on all SESAR codes and add and remove samples to sample groups.
 7. **Read Only**: can view all samples, SESAR Codes, and sample groups in a team.&#x20;
 
-If you need to update your permission status, please contact your team owner or administrator to update your access. Multiple users can have the same permission status.&#x20;
+If you need to update your permission status, please contact your team owner or administrator to update your access. Multiple users can have the same permission status. <br>
+
+**For more information on how to set up a Team, download our guide below.**&#x20;
+
+{% file src="../.gitbook/assets/SESAR 2.0 User Guide Teams.pptx" %}
+
+<br>
 
 <br>

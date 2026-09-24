@@ -10,13 +10,13 @@ It is possible to pre-register samples and obtain IGSNs before collecting sample
 
 ### To Preregister Samples
 
-1. Follow the tutorial for Batch Registrations.
-2.  During [batch upload](https://docs.geosamples.org/for-researchers/register-samples/batch-registration) you have the option to 'Save all samples as draft'. This option allows you the create "draft IGSNs" that you can update and submit once you are ready. \
+1. Follow the tutorial for [Batch Registrations](batch-registration.md).
+2.  During batch upload you have the option to 'Save all samples as draft'. This option allows you the create "draft IGSNs" that you can update and submit once you are ready. \
     &#x20;
 
     <figure><img src=".gitbook/assets/Screenshot 2026-09-23 at 5.43.16 PM (1).png" alt=""><figcaption></figcaption></figure>
-3. [Print labels](https://www.geosamples.org/resources/label-printing) that contain the IGSNs to label samples as they are collected.&#x20;
-4. After collection, update the samples metadata via the Batch Update Method.
+3. [Print labels](manage-samples/print-labels-and-qr-codes.md) that contain the IGSNs to label samples as they are collected.&#x20;
+4. After collection, update the samples metadata via the [Batch Update Method](manage-samples/update-sample-metadata.md#batch-bulk-sample-update).
 
 If you register more IGSNs than samples you collect in the field, you should save these IGSNs for your next field session.
 
@@ -26,6 +26,6 @@ After you have collected samples in the field, you can register your samples’ 
 
 ### **Updating Sample Metadata**
 
-It is possible you will want to add or update sample metadata after registering them in SESAR (e.g., adding a publication DOI or updating classification). To update or add new metadata, use the 'Batch Update Method'.
+It is possible you will want to add or update sample metadata after registering them in SESAR (e.g., adding a publication DOI or updating classification). To update or add new metadata, use the '[Batch Update Method](manage-samples/update-sample-metadata.md#batch-bulk-sample-update)'.
 
-You have the ability to add up to 10 related resources to a sample’s metadata profile. For more information on adding related resources see the guide on 'Data and Outputs'.&#x20;
+You have the ability to add up to 10 related resources to a sample’s metadata profile. For more information on adding related resources see the guide on '[Data and Outputs](register-samples/data-and-outputs.md)'.&#x20;

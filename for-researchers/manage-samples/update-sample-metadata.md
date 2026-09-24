@@ -4,6 +4,10 @@
 
 Individual edits can be made on 'Samples'. Scroll to the 'Edit' button on the right side of your sample list. Update the metadata and then click 'Update sample'.
 
+**For more information on editing individual records, please download our guide below.**
+
+{% file src="../.gitbook/assets/SESAR 2.0 User Guide_Individual Sample Edit.pptx" %}
+
 ## Batch (Bulk) Sample Update
 
 Batch update for your samples is accessible by going to your 'Your Samples' or 'Team Samples' page. Navigate to this page under 'Samples' on the left hand panel.&#x20;
@@ -19,6 +23,10 @@ Batch update for your samples is accessible by going to your 'Your Samples' or '
 7. Confirm your update is successful by reviewing your samples.
 
 You can also bulk update samples for 'Sample Groups' by accessing the group you created and following the same process listed above.&#x20;
+
+**For more information on batch update, please download our guide below.**&#x20;
+
+{% file src="../.gitbook/assets/SESAR 2.0 User Guide_Batch Update.pptx" %}
 
 ### Updating Initiative, Platform, and Launch Platform
 

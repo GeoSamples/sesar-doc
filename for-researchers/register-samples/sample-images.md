@@ -28,5 +28,8 @@ Researchers and teams can add up to 5 GB of images per account. Each image has a
 
     <img src="../.gitbook/assets/unknown (39).png" alt="" height="524" width="624">
 
-    <img src="../.gitbook/assets/unknown (38).png" alt="" height="177" width="444">
+<img src="../.gitbook/assets/unknown (38).png" alt="" height="177" width="444">
 
+**For more information on adding, deleting, and accessing sample images, please download our guide below.**
+
+{% file src="../.gitbook/assets/SESAR 2.0 User Guide_Sample Images (1).pptx" %}

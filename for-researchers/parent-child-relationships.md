@@ -1,4 +1,4 @@
-# Parent-child Relationships
+# Parent-Child Relationships
 
 ## **Children Samples - Hierarchical Sample Relationships**
 
@@ -20,3 +20,7 @@ Now you can mint child IGSNs directly from a registered sample.
 6. Once you submit, the child sample will be sent to the SESAR curator for review. Until it is approved, your sample will be labeled 'pending'.&#x20;
 
 <img src=".gitbook/assets/unknown (15).png" alt="" height="539" width="624">
+
+**For more information on minting children samples, please download our guide below.**&#x20;
+
+{% file src=".gitbook/assets/SESAR 2.0 User Guide_Minting Children.pptx" %}

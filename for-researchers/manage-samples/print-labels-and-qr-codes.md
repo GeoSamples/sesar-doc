@@ -2,7 +2,7 @@
 
 ## Labeling Samples
 
-The IGSN can be used as a label for samples that allows for unambiguous naming and persistent access to information about the sample. [MySESAR](https://app.geosamples.org/index.php) provides label printing services that contain the sample name, IGSN, QR code linking to the sample metadata profile page and customizable additional metadata fields. Information on how to print labels can be found [here](https://www.geosamples.org/resources/label-printing).
+The IGSN can be used as a label for samples that allows for unambiguous naming and persistent access to information about the sample. [MySESAR](https://app.geosamples.org/index.php) provides label printing services that contain the sample name, IGSN, QR code linking to the sample metadata profile page and customizable additional metadata fields.&#x20;
 
 ## Printing Labels
 

@@ -43,7 +43,8 @@ Editing the cover page of a downloaded spreadsheet will not pass validation duri
 3. If you add a batch with the wrong SESAR Code, the system will automatically flag your batch and will not let you upload the batch. \
    \
    Please re-upload the correct one. If there are errors in the batch, validation check will indicate where the errors are. Scroll to the bottom of the page and ‘Try Again’.
-4. Once the batch spreadsheet is uploaded, you can 'View batch summary' to review the pending IGSNs for your samples.
+4. If you need IGSNs prior to field work you can set your samples as 'Draft'. For more information see the [Pre-registration Before Fieldwork](pre-register-before-fieldwork.md).
+5. Once the batch spreadsheet is uploaded, you can 'View batch summary' to review the pending IGSNs for your samples.
 
 <img src=".gitbook/assets/unknown (10).png" alt="" height="345" width="513">
 
@@ -55,7 +56,11 @@ Editing the cover page of a downloaded spreadsheet will not pass validation duri
 
 6. You can also check all your approved and pending batches that have been uploaded under 'Sample Registration' → 'Your Samples' (personal) or 'Team Samples' (team).&#x20;
 
-There is a max limit of 5000 rows per batch file. This means you can add up to 4999 samples. The first row is the heading and cannot be changed. If a batch with more that 5000 rows is uploaded, you will get an error.&#x20;
+There is a **max limit of 5000 rows per batch file**. This means you can add up to 4999 samples. The first row is the heading and cannot be changed. If a batch with more that 5000 rows is uploaded, you will get an error.&#x20;
 
 <img src=".gitbook/assets/unknown (14).png" alt="" height="327" width="624">
 
+\
+**For more information on batch registrations, please download our guide below.**&#x20;
+
+{% file src=".gitbook/assets/SESAR 2.0 User Guide_Batch Registration.pptx" %}

@@ -30,3 +30,7 @@ Users can transfer the ownership of their samples, SESAR Codes, and group sample
 <img src="../.gitbook/assets/unknown (19).png" alt="" height="376" width="624">
 
 <img src="../.gitbook/assets/unknown (20).png" alt="" height="544" width="624">
+
+**For more information on transferring ownership of samples or SESAR Code, please download our guide below.**
+
+{% file src="../.gitbook/assets/SESAR 2.0 User Guide_Transfer Requests.pptx" %}
