@@ -16,10 +16,13 @@ Individual registrations are used for registering a single sample. For multiple 
 4. Follow the form to enter your sample metadata.&#x20;
 5. You can decide to restrict your metadata up to 2 years. If you choose this route, please pick a date for release. This means that your sample IGSNs will be labeled 'Draft' under your samples until the release date.
 6. **Sample name**, **Longitude**, **Latitude**, and **Object Type** are **required fields**. You must fill these out to proceed.&#x20;
-7. Once you fill out the sample metadata, click 'Submit'.
-8. After submission your sample will be 'pending review' until a curator reviews and approves your sample registration.
-9. Once your sample is approved, it will show up in 'Your Samples' (personal) or 'Team Samples' (team) without any tags.
+7. 'Save draft' at any time if you want to keep your sample as 'Draft' until you are ready to register. You can access your sample under 'Samples' and 'Edit' to update and submit your sample.
+8. Once you fill out the sample metadata and are ready to register, click 'Submit'.
+9. After submission your sample will be 'pending review' until a curator reviews and approves your sample registration.
+10. Once your sample is approved, it will show up in 'Your Samples' (personal) or 'Team Samples' (team) without any tags.
 
 \
-For more information on individual sample registrations, please download our guide.
+**For more information on individual sample registrations, please download our guide.**
+
+{% file src=".gitbook/assets/SESAR 2.0 User Guide_ Individual Sample.pptx" %}
 

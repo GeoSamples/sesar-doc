@@ -16,7 +16,7 @@ When you create a SESAR Code, it is important to keep in mind what samples will 
 
 SESAR Codes belong to the user account or the team that created the code. Permissions can be granted to team members to share sample management (see section below). &#x20;
 
-## **Creating a SESAR Code:**
+## Creating a SESAR Code
 
 1. To create a SESAR Code, navigate to the left hand panel and click 'SESAR Codes'.
 2. Click 'Create New Code' on the upper right hand menu.
