@@ -17,7 +17,8 @@ Batch registrations are used for registering multiple samples. There are two par
 5. Input the Object Type for the whole batch or select 'I want to manually select an object type for each individual sample' for batches with multiple Object Types\*.\
    \
    \*For multiple Object Types, the downloaded batch file will have a designated field 'Object Type' where you can add per sample.
-6. Determine which metadata fields you want to include for your samples. Required metadata fields cannot be edited. Some fields like 'Size' and 'Size Unit' are related, and will require both fields.\
+6. Depending on the Object Type, the auto-populated/preassigned metadata fields will change.&#x20;
+7. Determine which metadata fields you want to include for your samples. Required metadata fields cannot be edited. Some fields like 'Size' and 'Size Unit' are related, and will require both fields.\
    \
    Users now have the option to include more than one 'Material Type' for samples. To do this, change the number of material types on the scroll down. You can add up to 10 material types. These will be additional fields on the downloaded spreadsheet labeled 'Material Type 1', 'Material Type 2', etc.
 

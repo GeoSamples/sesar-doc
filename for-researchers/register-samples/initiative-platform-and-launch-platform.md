@@ -6,7 +6,7 @@ description: >-
 
 # Initiative, Platform, and Launch Platform
 
-Initiative, Platform, and Launch Platforms can now be added as separate entries in MySESAR. You can add, edit, and delete\* them, and link them to your samples during registration. A maximum of 10 entries are possible for each section per registration.
+Initiative, Platform, and Launch Platforms can now be added as separate entries in MySESAR. You can add, edit, and delete\* them, and link them to your samples during registration. A maximum of 10 entries are possible for each metadata field per registration.
 
 \* Only initiatives, platforms, and launch platforms that are not linked to a sample can be deleted. &#x20;
 

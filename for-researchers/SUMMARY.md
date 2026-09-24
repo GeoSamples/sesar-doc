@@ -18,6 +18,7 @@
 * [Initiative, Platform, and Launch Platform](register-samples/initiative-platform-and-launch-platform.md)
 * [Sample Images](register-samples/sample-images.md)
 * [Data and Outputs](register-samples/data-and-outputs.md)
+* [Sample Groups](register-samples/sample-groups.md)
 * [Pre-registration Before Fieldwork](pre-register-before-fieldwork.md)
 * [Register a legacy collection](register-a-legacy-collection.md)
 * [Parent-Child Relationships](parent-child-relationships.md)
