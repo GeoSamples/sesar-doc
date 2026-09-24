@@ -15,6 +15,8 @@ For who we are, how we're funded, and what we're for, see [geosamples.org](https
 
 [**Register your first sample**](register-your-first-sample.md) — the ten-minute version, start to finish.
 
+Play around and practice registering test samples using our [sandbox](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/accounts-and-access/test-site-for-sesar).&#x20;
+
 ### Know what you need?
 
 | Section                                                                                       | What's in it                                         |
