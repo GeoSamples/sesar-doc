@@ -1,8 +1,9 @@
 # Table of contents
 
 * [Overview & data model](README.md)
+* [Schema quick guide](schema-quick-guide.md)
 * [Field requirements](field-requirements.md)
-* [Database schema](database-schema.md)
+* [Detailed database schema](database-schema.md)
 
 ## Migration from the legacy schema
 
