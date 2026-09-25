@@ -7,7 +7,14 @@ icon: code
 
 This section is for software that talks to SESAR. The **OpenAPI reference** (next in the sidebar) is the contract: every path, field, and status code. The pages after it are short how-tos for the workflows the spec does not spell out in order.
 
-The production API root is `https://api.geosamples.org/api/`. Send JSON. Writes and private reads need `Authorization: Bearer` plus an access token from [Authentication](authentication.md). Listing published samples does not.
+| Environment | Base URL |
+| ----------- | -------- |
+| **Production** | `https://api.geosamples.org/api/` |
+| **Sandbox** (for testing) | `https://api-sandbox.geosamples.org/api/` |
+
+Use the sandbox host while you develop and test. Use production only when you intend to create or change real sample records.
+
+Send JSON. Writes and private reads need `Authorization: Bearer` plus an access token from [Authentication](authentication.md). Listing published samples does not.
 
 | If you want to… | Start here |
 | --------------- | ---------- |
