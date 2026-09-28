@@ -24,6 +24,6 @@ Sample groups are used for organizing registered samples based on your needs. Th
 
 <img src="../.gitbook/assets/unknown (52).png" alt="" height="406" width="534">
 
-For more information on creating a group, please download our guide below.
+**For more information on creating a group, please download our guide below.**
 
-<br>
+{% file src="../.gitbook/assets/SESAR 2.0 User Guide _Sample Groups.pptx" %}

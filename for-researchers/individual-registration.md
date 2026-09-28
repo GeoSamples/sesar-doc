@@ -25,5 +25,4 @@ Individual registrations are used for registering a single sample. For multiple 
 \
 **For more information on individual sample registrations, please download our guide.**
 
-{% file src=".gitbook/assets/SESAR 2.0 User Guide_ Individual Sample.pptx" %}
-
+{% file src=".gitbook/assets/SESAR 2.0 User Guide_ Individual Sample (1).pptx" %}
