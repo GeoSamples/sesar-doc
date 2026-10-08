@@ -5,9 +5,9 @@ icon: signs-post
 
 # Find your path
 
-### I collect samples in my own research
+### I collect samples or manage a sample collection
 
-You want [**For Researchers**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/td44sRg81erEWSwelkyG/). Start with [**Create a SESAR account**](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/accounts-and-access/readme).
+You want [**the User Guide**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/td44sRg81erEWSwelkyG/). Start with [**Create a SESAR account**](https://app.gitbook.com/s/td44sRg81erEWSwelkyG/accounts-and-access/readme).
 
 ### I run a lab group
 

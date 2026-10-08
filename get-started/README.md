@@ -23,7 +23,7 @@ Play around and practice registering test samples using our [sandbox](https://ap
 
 | Section                                                                                       | What's in it                                         |
 | --------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| [**For Researchers**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/td44sRg81erEWSwelkyG/) | Register, manage, and cite your samples.             |
+| [**User Guide**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/td44sRg81erEWSwelkyG/)      | Register, manage, and cite your samples.             |
 | [**Metadata Schema**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/2LSKTZUdmn3ddJ9cBWvW/) | Every field, what it means, what's required.         |
 | [**Vocabularies**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/EniiGcb4boFyc9oVYT1O/)    | Controlled term lists, and how to request additions. |
 | [**API**](https://app.gitbook.com/o/kGnUCKqXIDfoijyR9mJD/s/kuAfextNoBx3BNIgCEWG/)             | Register and retrieve metadata programmatically.     |
